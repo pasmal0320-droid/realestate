@@ -4,6 +4,7 @@
   - 인증키: 'Key_Open API.env' 의 DATA_GO_KR_KEY
   - 조회 결과는 cache/ 에 지번별로 저장되어 재실행 시 API를 다시 부르지 않는다
     (새로 조회하려면 cache/ 폴더를 지우고 실행).
+  - 실거래가(단독/다가구 매매, 최근 10년)는 deals.py 로 받아 건물에 연결한다 (cache/rtms/).
   - 결과: elevator_data.json, 엘리베이터_현황.html, index.html(GitHub Pages용 동일본)
 """
 import json
@@ -253,8 +254,20 @@ def main():
     else:
         print("KAKAO_REST_KEY 없음 -> 지도 없이 생성")
 
+    print("실거래가 조회(단독/다가구 매매, 최근 10년)")
+    deal_stats = None
+    try:
+        import deals
+        deal_stats = deals.attach(rows, key, CACHE_DIR / "rtms", DONG_CODES)
+        print(f"  대상 동 거래 {deal_stats['deals']}건 중 건물 연결 {deal_stats['matched']}건"
+              f" (후보 여럿 {deal_stats["ambiguous"]}건, 오차 허용 추정 {deal_stats["approx"]}건), 거래 있는 건물 {sum(bool(r['deals']) for r in rows)}곳")
+    except RuntimeError as e:
+        print(f"  실거래 조회 실패 -> 거래 정보 없이 생성: {e}")
+        for r in rows:
+            r.setdefault("deals", [])
+
     payload = {"generated": date.today().isoformat(), "source": "국토교통부 건축HUB 건축물대장정보 서비스(표제부)",
-               "center": center, "rows": rows}
+               "deals": deal_stats, "center": center, "rows": rows}
     OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     data = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
     html = TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", data)

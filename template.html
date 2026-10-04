@@ -155,6 +155,7 @@ footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.
 }
 .leaflet-popup-content { font: 13px/1.5 "Malgun Gothic", system-ui, sans-serif; margin: 10px 12px; }
 .pop { cursor: pointer; }
+.pop-deal { margin-top: 4px; padding-top: 4px; border-top: 1px dashed #d0d4da; }
 .pop-more { margin-top: 6px; color: #2457c5; font-weight: 600; font-size: 12px; }
 .pop:hover .pop-more { text-decoration: underline; }
 .leaflet-popup-content b { font-size: 14px; }
@@ -199,6 +200,12 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
       <option value="yes">지하 있음 ★</option>
       <option value="no">지하 없음</option>
     </select>
+    <select id="dealSel" aria-label="실거래">
+      <option value="">거래: 전체</option>
+      <option value="any">10년 내 거래 있음</option>
+      <option value="3y">최근 3년 거래 있음</option>
+      <option value="1y">최근 1년 거래 있음</option>
+    </select>
     <label><input type="checkbox" id="warnOnly"> 6층 이상인데 승강기 0대만</label>
   </div>
 
@@ -215,6 +222,7 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
     판정 기준: 건축물대장 표제부의 승용 승강기 수 + 비상용 승강기 수가 1 이상이면 ‘있음’, 0이면 ‘없음’, 대장이 조회되지 않으면 ‘확인 불가’.<br>
     한 주소에 여러 동이 있으면 합산했다. 도로명주소가 대장과 일치하지 않으면 같은 지번의 대장 전체를 사용했다(‘지번 기준’ 표시).<br>
     건축물대장은 사용승인 당시 기준이므로 이후 증설·철거된 승강기는 반영되지 않을 수 있다. 행을 누르면 동별 상세가 열리고 지도가 해당 건물로 이동한다. 지도에서 건물을 누르면 정보 박스가 뜨고, 정보 박스를 누르면 목록의 상세로 이동한다.<br>
+    실거래: 국토교통부 단독/다가구 매매 실거래가(최근 10년, 해제 거래 제외). 공개 자료는 지번이 일부 가려져 있어 법정동·지번 앞자리·대지면적·연면적이 일치하는 건물에 연결했다. 면적이 정확히 일치하지 않고 근사한 경우는 후보가 한 곳일 때만 연결하고 ‘≈’로 표시했다. 상가·아파트 거래는 포함하지 않는다.<br>
     대지면적은 필지 기준(집합건물은 총괄표제부), 연면적은 해당 주소 모든 동의 합계다. 공원·학교 부지 안의 건물은 대지면적이 매우 크게 나올 수 있다.<br>
     지하 유무: 주건축물 중 지하 층수가 1 이상인 동이 있으면 ‘지하 있음’(★). 대장이 없는 곳은 지하 필터에서 제외된다.<br>
     좌표: 카카오 로컬 API(주소 검색) · 배경 지도: © OpenStreetMap contributors (타일 OSM France), 위성 © Esri
@@ -224,7 +232,7 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
 <script>
 const DATA = /*__DATA__*/null;
 const LABEL = { yes: "있음", no: "없음", unknown: "확인 불가", error: "조회 오류" };
-const state = { status: "", basement: "", q: "", group: "", warnOnly: false, open: new Set() };
+const state = { status: "", basement: "", deal: "", q: "", group: "", warnOnly: false, open: new Set() };
 const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8l3.1 6.6 7.2.9-5.3 5 1.4 7.1L12 17.9l-6.4 3.5 1.4-7.1-5.3-5 7.2-.9z"/></svg>';
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -232,6 +240,12 @@ const shortAddr = s => String(s).replace(/^경기도 성남시 \S+구 /, "");
 // "동판교로 91 (백현동, 백현마을4단지)" → 도로명 "동판교로 91", 단지명 "백현마을4단지"
 const roadOnly = r => shortAddr(r.doro).replace(/\s*\([^)]*\)$/, "");
 const parenName = r => { const m = String(r.doro).match(/\(([^)]*)\)$/); return m ? m[1].split(",").slice(1).join(",").trim() : ""; };
+// 금액(만원) → "19억 2,500만" / "9,800만"
+const fmtWon = v => { const e = Math.floor(v / 10000), m = v % 10000;
+  return e ? `${e}억${m ? ` ${m.toLocaleString("ko-KR")}만` : ""}` : `${m.toLocaleString("ko-KR")}만`; };
+const dealNote = d => [d.approx ? "면적 근사 추정" : "", d.cand > 1 ? `후보 ${d.cand}곳` : ""].filter(Boolean).join(" · ");
+const sinceYears = n => { const t = new Date(DATA.generated); t.setFullYear(t.getFullYear() - n);
+  return `${t.getFullYear()}.${String(t.getMonth() + 1).padStart(2, "0")}.${String(t.getDate()).padStart(2, "0")}`; };
 const fmtArea = v => v ? `${Number(v).toLocaleString("ko-KR", { maximumFractionDigits: 1 })}㎡` : "-";
 const fmtDay = d => d && d.length === 8 ? `${d.slice(0, 4)}.${d.slice(4, 6)}.${d.slice(6)}` : "";
 const isWarn = r => r.status === "no" && r.maxFloors >= 6;
@@ -249,6 +263,10 @@ function title(r) {
 
 function matches(r) {
   if (state.status && (state.status === "unknown" ? !["unknown", "error"].includes(r.status) : r.status !== state.status)) return false;
+  if (state.deal) {
+    const last = r.deals && r.deals[0];
+    if (!last || (state.deal !== "any" && last.date < sinceYears(state.deal === "1y" ? 1 : 3))) return false;
+  }
   if (state.basement && (!known(r) || hasBasement(r) !== (state.basement === "yes"))) return false;
   if (state.group && r.group !== state.group) return false;
   if (state.warnOnly && !isWarn(r)) return false;
@@ -263,6 +281,7 @@ function matches(r) {
 function syncControls() {
   document.getElementById("elevSel").value = state.status;
   document.getElementById("baseSel").value = state.basement;
+  document.getElementById("dealSel").value = state.deal;
 }
 
 function detailRow(r) {
@@ -273,9 +292,14 @@ function detailRow(r) {
       <td class="num">${b.ride}</td><td class="num">${b.emergency}</td>
       <td class="num">${Number(b.totArea).toLocaleString()}㎡</td>
       <td class="num">${fmtDay(b.useAprDay)}</td></tr>`).join("");
-  return `<tr class="detail"><td colspan="3">
+  return `<tr class="detail"><td colspan="4">
     <div class="muted" style="margin-bottom:4px">대장 매칭: ${esc(r.match)} · 지번 ${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))} · <a href="${esc(r.link)}" target="_blank" rel="noopener">주소 상세</a></div>
     ${rows ? `<table><thead><tr><th>동</th><th>용도</th><th class="num">지상/지하</th><th class="num">승용</th><th class="num">비상용</th><th class="num">연면적</th><th class="num">사용승인</th></tr></thead><tbody>${rows}</tbody></table>` : ""}
+    ${r.deals && r.deals.length ? `<div class="muted" style="margin:8px 0 4px">매매 실거래 (최근 10년, ${r.deals.length}건)</div>
+    <table><thead><tr><th>계약일</th><th class="num">거래금액</th><th>유형</th><th class="num">대지 / 연면적</th><th class="num">건축년도</th><th>거래 방식</th><th>비고</th></tr></thead><tbody>
+    ${r.deals.map(d => `<tr><td>${d.date}</td><td class="num"><b>${fmtWon(d.amount)}</b></td><td>${esc(d.type)}</td>
+      <td class="num">${fmtArea(d.plot)} / ${fmtArea(d.floor)}</td><td class="num">${d.year || "-"}</td><td>${esc(d.how)}</td>
+      <td class="muted">${dealNote(d) || "-"}</td></tr>`).join("")}</tbody></table>` : ""}
   </td></tr>`;
 }
 
@@ -288,7 +312,7 @@ function renderList() {
     const road = rows[0].road;
     const yes = rows.filter(r => r.status === "yes").length;
     html += `<section data-group="${esc(rows[0].group)}"><h2>${esc(road)} <small>${rows[0].group} · ${rows.length}건 · 있음 ${yes}</small></h2>
-    <table class="list"><thead><tr><th class="num">층수</th><th class="num">대지 / 연면적</th><th class="num">승강기 (사용승인)</th></tr></thead>`;
+    <table class="list"><thead><tr><th class="num">층수</th><th class="num">대지 / 연면적</th><th class="num">승강기 (사용승인)</th><th class="num">최근 거래</th></tr></thead>`;
     for (const r of rows) {
       const t = title(r), id = rid(r);
       const lift = ["yes", "no"].includes(r.status) ? `${r.ride + r.emergency}대${r.emergency ? ` <span class="muted">· 비상 ${r.emergency}</span>` : ""}` : "-";
@@ -296,7 +320,7 @@ function renderList() {
       const nm = parenName(r) || t.name;
       const bld = [nm ? `<b>${esc(nm)}</b>` : "", esc(t.purpose), t.dongs > 1 ? `${t.dongs}개 동` : ""].filter(Boolean).join(" · ");
       html += `<tbody class="entry" data-id="${esc(id)}" aria-expanded="${state.open.has(id)}">
-        <tr class="addr"><td colspan="3"><div class="addr-line">
+        <tr class="addr"><td colspan="4"><div class="addr-line">
           <span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? '<span class="badge basement">★ 지하</span>' : ""}${isWarn(r) ? '<span class="badge warn">확인 권장</span>' : ""}
           <span class="addr-name">${esc(roadOnly(r))} <span class="addr-jibun">(${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))})</span></span>
           ${bld ? `<span class="addr-bld">${bld}</span>` : ""}
@@ -304,7 +328,10 @@ function renderList() {
         <tr class="info">
         <td class="num" data-l="층수">${r.maxFloors ? `${r.maxFloors}층${r.maxBasement ? ` / B${r.maxBasement}` : ""}` : "-"}</td>
         <td class="num area" data-l="대지 / 연면적">${known(r) ? `${fmtArea(r.platArea)} <span class="muted">/</span> ${fmtArea(r.totArea)}` : "-"}</td>
-        <td class="num" data-l="승강기 (사용승인)">${lift}${fmtDay(day) ? ` <span class="muted">(${fmtDay(day)})</span>` : ""}</td></tr>
+        <td class="num" data-l="승강기 (사용승인)">${lift}${fmtDay(day) ? ` <span class="muted">(${fmtDay(day)})</span>` : ""}</td>
+        <td class="num" data-l="최근 거래">${r.deals && r.deals.length
+          ? `${r.deals[0].approx || r.deals[0].cand > 1 ? '<span class="muted" title="' + dealNote(r.deals[0]) + '">≈</span> ' : ""}${fmtWon(r.deals[0].amount)} <span class="muted">(${r.deals[0].date.slice(0, 7)}${r.deals.length > 1 ? ` · ${r.deals.length}건` : ""})</span>`
+          : '<span class="muted">-</span>'}</td></tr>
         ${state.open.has(id) ? detailRow(r) : ""}</tbody>`;
     }
     html += "</table></section>";
@@ -323,6 +350,7 @@ function popupHtml(r) {
     <div>${esc([parenName(r) || t.name, t.purpose].filter(Boolean).join(" · "))}</div>
     ${known(r) ? `<div>대지 ${fmtArea(r.platArea)} · 연면적 ${fmtArea(r.totArea)}</div>` : ""}
     <div>${r.maxFloors ? `지상 ${r.maxFloors}층${r.maxBasement ? ` / 지하 ${r.maxBasement}층` : ""} · ` : ""}${lift}</div>
+    ${r.deals && r.deals.length ? `<div class="pop-deal">최근 거래 <b>${fmtWon(r.deals[0].amount)}</b> · ${r.deals[0].date}${r.deals.length > 1 ? ` <span class="muted">(10년간 ${r.deals.length}건)</span>` : ""}${dealNote(r.deals[0]) ? ` <span class="muted">· ${dealNote(r.deals[0])}</span>` : ""}</div>` : ""}
     <div class="pop-more">목록에서 상세 보기 ›</div></div>`;
 }
 
@@ -427,13 +455,13 @@ function renderMarkers() {
     if (show && !map.hasLayer(m)) m.addTo(map);
     if (!show && map.hasLayer(m)) m.remove();
   }
-  const filtered = state.status || state.basement || state.q || state.group || state.warnOnly;
+  const filtered = state.status || state.basement || state.deal || state.q || state.group || state.warnOnly;
   document.getElementById("filterbar").hidden = !filtered;
   document.getElementById("fcount").textContent = DATA.rows.filter(r => r.latlng && matches(r)).length;
 }
 
 function resetFilters() {
-  Object.assign(state, { status: "", basement: "", q: "", group: "", warnOnly: false });
+  Object.assign(state, { status: "", basement: "", deal: "", q: "", group: "", warnOnly: false });
   document.getElementById("q").value = "";
   document.getElementById("group").value = "";
   document.getElementById("warnOnly").checked = false;
@@ -497,6 +525,7 @@ function render() { syncControls(); renderList(); renderMarkers(); }
 
 document.getElementById("sub").textContent = `${DATA.source} · 조회일 ${DATA.generated}`;
 document.getElementById("elevSel").addEventListener("change", e => { state.status = e.target.value; render(); });
+document.getElementById("dealSel").addEventListener("change", e => { state.deal = e.target.value; render(); });
 document.getElementById("baseSel").addEventListener("change", e => { state.basement = e.target.value; render();
 });
 document.getElementById("q").addEventListener("input", e => { state.q = e.target.value.trim(); renderList(); renderMarkers(); });
