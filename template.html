@@ -62,8 +62,18 @@ table {
 th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
 th { background: var(--surface-2); font-size: 12px; color: var(--muted); font-weight: 600; }
 tr:last-child td { border-bottom: 0; }
-tbody tr.main { cursor: pointer; }
-tbody tr.main:hover { background: var(--surface-2); }
+/* 목록: 한 건 = tbody.entry (1줄: 상태·도로명주소·건물명 가로 배치 / 2줄: 수치) */
+tbody.entry { cursor: pointer; }
+tbody.entry:hover > tr:not(.detail) { background: var(--surface-2); }
+tbody.entry > tr.addr > td { border-bottom: 0; padding: 10px 12px 0; }
+tbody.entry > tr.info > td { padding-top: 4px; }
+tbody.entry > tr:last-child > td { border-bottom: 1px solid var(--border); }
+table.list > tbody.entry:last-child > tr:last-child > td { border-bottom: 0; }
+.addr-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.addr-line .badge { margin-left: 0; }
+.addr-name { font-weight: 600; font-size: 15px; }
+.addr-bld { color: var(--muted); font-size: 13px; }
+.addr-bld b { color: var(--text); font-weight: 500; }
 .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .muted { color: var(--muted); font-size: 13px; }
 .badge {
@@ -100,8 +110,9 @@ footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.
 .zoombox span { font-size: 13px; color: var(--muted); padding-right: 4px; }
 .legend {
   position: absolute; z-index: 500; left: 10px; bottom: 22px; background: var(--surface); color: var(--text);
-  border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: 12px; display: flex; gap: 10px;
+  border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: 12px; display: flex; flex-wrap: wrap; gap: 4px 10px; max-width: calc(100% - 20px);
 }
+.legend span { white-space: nowrap; }
 .filterbar {
   position: absolute; z-index: 500; top: 10px; left: 50%; transform: translateX(-50%); white-space: nowrap; background: var(--warn-bg); color: var(--text);
   border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px 6px 10px; font-size: 13px;
@@ -144,7 +155,7 @@ footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.
 }
 .leaflet-popup-content { font: 13px/1.5 "Malgun Gothic", system-ui, sans-serif; margin: 10px 12px; }
 .leaflet-popup-content b { font-size: 14px; }
-tr.main.flash { background: var(--warn-bg) !important; }
+tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
 @media (max-width: 1000px) {
   .layout { display: block; }
   #mapBox { position: relative; top: 0; height: 52vh; min-height: 320px; margin-bottom: 18px; }
@@ -154,11 +165,13 @@ tr.main.flash { background: var(--warn-bg) !important; }
   .stat.basement { grid-column: span 2; }
   table.list > thead { display: none; }
   table.list, table.list > tbody, table.list > tbody > tr, table.list > tbody > tr > td { display: block; width: 100%; }
-  table.list > tbody > tr.main { padding: 10px 12px; border-bottom: 1px solid var(--border); }
-  table.list > tbody > tr.main > td { border: 0; padding: 2px 0; text-align: left; }
-  table.list > tbody > tr.main > td.area .muted { display: inline; }
-  table.list > tbody > tr.main > td.area .muted::before { content: " / "; }
-  table.list > tbody > tr.main > td[data-l]::before { content: attr(data-l) " · "; color: var(--muted); font-size: 12px; }
+  table.list > tbody.entry { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  table.list > tbody.entry:last-child { border-bottom: 0; }
+  table.list > tbody.entry > tr > td, table.list > tbody.entry > tr:last-child > td { border: 0; padding: 2px 0; text-align: left; }
+  table.list > tbody.entry > tr.addr > td { padding-bottom: 4px; }
+  table.list > tbody.entry > tr.info > td.area .muted { display: inline; }
+  table.list > tbody.entry > tr.info > td.area .muted::before { content: " / "; }
+  table.list > tbody.entry > tr.info > td[data-l]::before { content: attr(data-l) " · "; color: var(--muted); font-size: 12px; }
   tr.detail > td { overflow-x: auto; }
   tr.detail table { min-width: 560px; }
 }
@@ -264,7 +277,7 @@ function detailRow(r) {
       <td class="num">${b.ride}</td><td class="num">${b.emergency}</td>
       <td class="num">${Number(b.totArea).toLocaleString()}㎡</td>
       <td class="num">${fmtDay(b.useAprDay)}</td></tr>`).join("");
-  return `<tr class="detail"><td colspan="8">
+  return `<tr class="detail"><td colspan="5">
     <div class="muted" style="margin-bottom:4px">대장 매칭: ${esc(r.match)} · 지번 ${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))} · <a href="${esc(r.link)}" target="_blank" rel="noopener">주소 상세</a></div>
     ${rows ? `<table><thead><tr><th>동</th><th>용도</th><th class="num">지상/지하</th><th class="num">승용</th><th class="num">비상용</th><th class="num">연면적</th><th class="num">사용승인</th></tr></thead><tbody>${rows}</tbody></table>` : ""}
   </td></tr>`;
@@ -279,23 +292,27 @@ function renderList() {
     const road = rows[0].road;
     const yes = rows.filter(r => r.status === "yes").length;
     html += `<section><h2>${esc(road)} <small>${rows[0].group} · ${rows.length}건 · 있음 ${yes}</small></h2>
-    <table class="list"><thead><tr><th>상태</th><th>도로명주소</th><th>건물명 · 용도</th><th class="num">층수</th><th class="num">대지 / 연면적</th><th class="num">승강기</th><th class="num">사용승인</th><th>지번</th></tr></thead><tbody>`;
+    <table class="list"><thead><tr><th class="num">층수</th><th class="num">대지 / 연면적</th><th class="num">승강기</th><th class="num">사용승인</th><th>지번</th></tr></thead>`;
     for (const r of rows) {
       const t = title(r), id = rid(r);
       const lift = ["yes", "no"].includes(r.status) ? `${r.ride + r.emergency}대${r.emergency ? ` <span class="muted">(비상 ${r.emergency})</span>` : ""}` : "-";
       const day = (r.buildings || []).map(b => b.useAprDay).filter(Boolean).sort()[0];
-      html += `<tr class="main" data-id="${esc(id)}" aria-expanded="${state.open.has(id)}">
-        <td><span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? '<span class="badge basement">★ 지하</span>' : ""}${isWarn(r) ? '<span class="badge warn">확인 권장</span>' : ""}</td>
-        <td>${esc(shortAddr(r.doro).replace(/ \([가-힣]+동\)$/, ""))}</td>
-        <td data-l="건물">${esc(t.name || (t.purpose ? "" : "-"))}<div class="muted">${esc(t.purpose)}${t.dongs > 1 ? ` · ${t.dongs}개 동` : ""}</div></td>
+      const bld = [t.name ? `<b>${esc(t.name)}</b>` : "", esc(t.purpose), t.dongs > 1 ? `${t.dongs}개 동` : ""].filter(Boolean).join(" · ");
+      html += `<tbody class="entry" data-id="${esc(id)}" aria-expanded="${state.open.has(id)}">
+        <tr class="addr"><td colspan="5"><div class="addr-line">
+          <span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? '<span class="badge basement">★ 지하</span>' : ""}${isWarn(r) ? '<span class="badge warn">확인 권장</span>' : ""}
+          <span class="addr-name">${esc(shortAddr(r.doro).replace(/ \([가-힣]+동\)$/, ""))}</span>
+          ${bld ? `<span class="addr-bld">${bld}</span>` : ""}
+        </div></td></tr>
+        <tr class="info">
         <td class="num" data-l="층수">${r.maxFloors ? `${r.maxFloors}층${r.maxBasement ? ` / B${r.maxBasement}` : ""}` : "-"}</td>
         <td class="num area" data-l="대지 / 연면적">${known(r) ? `${fmtArea(r.platArea)}<div class="muted">${fmtArea(r.totArea)}</div>` : "-"}</td>
         <td class="num" data-l="승강기">${lift}</td>
         <td class="num" data-l="사용승인">${fmtDay(day) || "-"}</td>
-        <td class="muted" data-l="지번">${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))}</td></tr>`;
-      if (state.open.has(id)) html += detailRow(r);
+        <td class="muted" data-l="지번">${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))}</td></tr>
+        ${state.open.has(id) ? detailRow(r) : ""}</tbody>`;
     }
-    html += "</tbody></table></section>";
+    html += "</table></section>";
   }
   document.getElementById("list").innerHTML = html;
 }
@@ -427,7 +444,7 @@ function resetFilters() {
 function focusRow(id, moveMap) {
   state.open.add(id);
   renderList();
-  const tr = [...document.querySelectorAll("tr.main")].find(t => t.dataset.id === id);
+  const tr = [...document.querySelectorAll("tbody.entry")].find(t => t.dataset.id === id);
   if (tr) {
     tr.scrollIntoView({ block: "center", behavior: "smooth" });
     tr.classList.add("flash");
@@ -467,7 +484,7 @@ groupSel.addEventListener("change", e => {
 document.getElementById("warnOnly").addEventListener("change", e => { state.warnOnly = e.target.checked; renderList(); renderMarkers(); });
 document.getElementById("list").addEventListener("click", e => {
   if (e.target.closest("a")) return;
-  const tr = e.target.closest("tr.main"); if (!tr) return;
+  const tr = e.target.closest("tbody.entry"); if (!tr || e.target.closest("tr.detail")) return;
   const id = tr.dataset.id;
   if (state.open.has(id)) { state.open.delete(id); renderList(); }
   else focusRow(id, true);
