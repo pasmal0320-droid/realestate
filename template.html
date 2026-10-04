@@ -154,6 +154,9 @@ footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.
   background: #2457c5; color: #fff; padding: 6px 8px; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,.4);
 }
 .leaflet-popup-content { font: 13px/1.5 "Malgun Gothic", system-ui, sans-serif; margin: 10px 12px; }
+.pop { cursor: pointer; }
+.pop-more { margin-top: 6px; color: #2457c5; font-weight: 600; font-size: 12px; }
+.pop:hover .pop-more { text-decoration: underline; }
 .leaflet-popup-content b { font-size: 14px; }
 tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
 @media (max-width: 1000px) {
@@ -211,7 +214,7 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
   <footer>
     판정 기준: 건축물대장 표제부의 승용 승강기 수 + 비상용 승강기 수가 1 이상이면 ‘있음’, 0이면 ‘없음’, 대장이 조회되지 않으면 ‘확인 불가’.<br>
     한 주소에 여러 동이 있으면 합산했다. 도로명주소가 대장과 일치하지 않으면 같은 지번의 대장 전체를 사용했다(‘지번 기준’ 표시).<br>
-    건축물대장은 사용승인 당시 기준이므로 이후 증설·철거된 승강기는 반영되지 않을 수 있다. 행을 누르면 동별 상세가 열리고 지도가 해당 건물로 이동한다.<br>
+    건축물대장은 사용승인 당시 기준이므로 이후 증설·철거된 승강기는 반영되지 않을 수 있다. 행을 누르면 동별 상세가 열리고 지도가 해당 건물로 이동한다. 지도에서 건물을 누르면 정보 박스가 뜨고, 정보 박스를 누르면 목록의 상세로 이동한다.<br>
     대지면적은 필지 기준(집합건물은 총괄표제부), 연면적은 해당 주소 모든 동의 합계다. 공원·학교 부지 안의 건물은 대지면적이 매우 크게 나올 수 있다.<br>
     지하 유무: 주건축물 중 지하 층수가 1 이상인 동이 있으면 ‘지하 있음’(★). 대장이 없는 곳은 지하 필터에서 제외된다.<br>
     좌표: 카카오 로컬 API(주소 검색) · 배경 지도: © OpenStreetMap contributors (타일 OSM France), 위성 © Esri
@@ -315,11 +318,12 @@ const markers = new Map();
 function popupHtml(r) {
   const t = title(r);
   const lift = ["yes", "no"].includes(r.status) ? `승강기 ${r.ride + r.emergency}대 (승용 ${r.ride} · 비상 ${r.emergency})` : "건축물대장 없음";
-  return `<span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? `<span class="badge basement">★ 지하 ${r.maxBasement}층</span>` : ""}
+  return `<div class="pop" role="button" tabindex="0" title="눌러서 목록에서 상세 보기"><span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? `<span class="badge basement">★ 지하 ${r.maxBasement}층</span>` : ""}
     <div><b>${esc(roadOnly(r))}</b> <span class="muted">(${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))})</span></div>
     <div>${esc([parenName(r) || t.name, t.purpose].filter(Boolean).join(" · "))}</div>
     ${known(r) ? `<div>대지 ${fmtArea(r.platArea)} · 연면적 ${fmtArea(r.totArea)}</div>` : ""}
-    <div>${r.maxFloors ? `지상 ${r.maxFloors}층${r.maxBasement ? ` / 지하 ${r.maxBasement}층` : ""} · ` : ""}${lift}</div>`;
+    <div>${r.maxFloors ? `지상 ${r.maxFloors}층${r.maxBasement ? ` / 지하 ${r.maxBasement}층` : ""} · ` : ""}${lift}</div>
+    <div class="pop-more">목록에서 상세 보기 ›</div></div>`;
 }
 
 // 확대 비율(%): 줌 17 = 100%. 한 단계(줌 +1)마다 2배.
@@ -400,7 +404,12 @@ function initMap() {
         : `<div class="pin ${r.status}">${r.maxFloors || "?"}</div>` }),
       title: shortAddr(r.doro),
     }).bindPopup(() => popupHtml(r));
-    m.on("click", () => focusRow(rid(r), false));
+    m.on("popupopen", e => {
+      const box = e.popup.getElement().querySelector(".pop");
+      const go = () => focusRow(rid(r), false);
+      box.onclick = go;
+      box.onkeydown = ev => { if (ev.key === "Enter") go(); };
+    });
     markers.set(rid(r), m);
   }
   map.fitBounds(L.latLngBounds(rows.map(r => r.latlng)), { padding: [30, 30] });
