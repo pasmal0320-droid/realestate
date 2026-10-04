@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>분당 엘리베이터 지도</title>
+<title>성남 엘리베이터 지도</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
@@ -166,7 +166,7 @@ tr.main.flash { background: var(--warn-bg) !important; }
 </head>
 <body>
 <div class="wrap">
-  <h1>분당 단독주택가 엘리베이터 현황 <small class="muted" style="font-size:14px;font-weight:400">백현동·판교동·운중동·정자동·서현동</small></h1>
+  <h1>성남 단독주택가 엘리베이터 현황 <small class="muted" style="font-size:14px;font-weight:400">분당구 백현동·판교동·운중동·정자동·서현동 · 수정구 창곡동(위례)</small></h1>
   <p class="sub" id="sub"></p>
 
   <div class="stats" id="stats"></div>
@@ -216,7 +216,7 @@ const state = { status: "", basement: "", q: "", group: "", warnOnly: false, ope
 const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8l3.1 6.6 7.2.9-5.3 5 1.4 7.1L12 17.9l-6.4 3.5 1.4-7.1-5.3-5 7.2-.9z"/></svg>';
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const shortAddr = s => String(s).replace(/^경기도 성남시 분당구 /, "");
+const shortAddr = s => String(s).replace(/^경기도 성남시 \S+구 /, "");
 const fmtArea = v => v ? `${Number(v).toLocaleString("ko-KR", { maximumFractionDigits: 1 })}㎡` : "-";
 const fmtDay = d => d && d.length === 8 ? `${d.slice(0, 4)}.${d.slice(4, 6)}.${d.slice(6)}` : "";
 const isWarn = r => r.status === "no" && r.maxFloors >= 6;
@@ -265,7 +265,7 @@ function detailRow(r) {
       <td class="num">${Number(b.totArea).toLocaleString()}㎡</td>
       <td class="num">${fmtDay(b.useAprDay)}</td></tr>`).join("");
   return `<tr class="detail"><td colspan="8">
-    <div class="muted" style="margin-bottom:4px">대장 매칭: ${esc(r.match)} · 지번 ${esc(r.jibun.replace(/^경기도 성남시 분당구 /, ""))} · <a href="${esc(r.link)}" target="_blank" rel="noopener">주소 상세</a></div>
+    <div class="muted" style="margin-bottom:4px">대장 매칭: ${esc(r.match)} · 지번 ${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))} · <a href="${esc(r.link)}" target="_blank" rel="noopener">주소 상세</a></div>
     ${rows ? `<table><thead><tr><th>동</th><th>용도</th><th class="num">지상/지하</th><th class="num">승용</th><th class="num">비상용</th><th class="num">연면적</th><th class="num">사용승인</th></tr></thead><tbody>${rows}</tbody></table>` : ""}
   </td></tr>`;
 }
@@ -292,7 +292,7 @@ function renderList() {
         <td class="num area" data-l="대지 / 연면적">${known(r) ? `${fmtArea(r.platArea)}<div class="muted">${fmtArea(r.totArea)}</div>` : "-"}</td>
         <td class="num" data-l="승강기">${lift}</td>
         <td class="num" data-l="사용승인">${fmtDay(day) || "-"}</td>
-        <td class="muted" data-l="지번">${esc(r.jibun.replace(/^경기도 성남시 분당구 /, ""))}</td></tr>`;
+        <td class="muted" data-l="지번">${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))}</td></tr>`;
       if (state.open.has(id)) html += detailRow(r);
     }
     html += "</tbody></table></section>";
@@ -311,7 +311,7 @@ function popupHtml(r) {
     <div>${esc([t.name, t.purpose].filter(Boolean).join(" · "))}</div>
     ${known(r) ? `<div>대지 ${fmtArea(r.platArea)} · 연면적 ${fmtArea(r.totArea)}</div>` : ""}
     <div>${r.maxFloors ? `지상 ${r.maxFloors}층${r.maxBasement ? ` / 지하 ${r.maxBasement}층` : ""} · ` : ""}${lift}</div>
-    <div class="muted">${esc(r.jibun.replace(/^경기도 성남시 분당구 /, ""))}</div>`;
+    <div class="muted">${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))}</div>`;
 }
 
 // 확대 비율(%): 줌 17 = 100%. 한 단계(줌 +1)마다 2배.

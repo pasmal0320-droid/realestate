@@ -61148,6 +61148,7446 @@
     37.3852202,
     127.1344898
    ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 1,
+   "jibun": "경기도 성남시 수정구 창곡동 557-9",
+   "doro": "경기도 성남시 수정구 위례서일로1길 1 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%201",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 393.1,
+   "totArea": 626.23,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 393.1,
+     "totArea": 626.23,
+     "useAprDay": "20150923"
+    }
+   ],
+   "latlng": [
+    37.4659747,
+    127.1370281
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 2,
+   "jibun": "경기도 성남시 수정구 창곡동 550",
+   "doro": "경기도 성남시 수정구 위례서일로1길 2 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%202",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 257.5,
+   "totArea": 410.82,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 257.5,
+     "totArea": 410.82,
+     "useAprDay": "20150918"
+    }
+   ],
+   "latlng": [
+    37.4658471,
+    127.1373111
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 3,
+   "jibun": "경기도 성남시 수정구 창곡동 558-6",
+   "doro": "경기도 성남시 수정구 위례서일로1길 3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%203",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 304.6,
+   "totArea": 588.29,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택, 근린생활시설",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 304.6,
+     "totArea": 588.29,
+     "useAprDay": "20160923"
+    }
+   ],
+   "latlng": [
+    37.4661871,
+    127.1372099
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 4,
+   "jibun": "경기도 성남시 수정구 창곡동 558-7",
+   "doro": "경기도 성남시 수정구 위례서일로1길 3-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%203-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 305.4,
+   "totArea": 488.99,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 305.4,
+     "totArea": 488.99,
+     "useAprDay": "20151216"
+    }
+   ],
+   "latlng": [
+    37.4662713,
+    127.1370103
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 5,
+   "jibun": "경기도 성남시 수정구 창곡동 558-8",
+   "doro": "경기도 성남시 수정구 위례서일로1길 3-8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%203-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 300.4,
+   "totArea": 548.94,
+   "buildings": [
+    {
+     "name": "위례점포겸용주택",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 300.4,
+     "totArea": 548.94,
+     "useAprDay": "20160107"
+    }
+   ],
+   "latlng": [
+    37.4664305,
+    127.1371367
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 6,
+   "jibun": "경기도 성남시 수정구 창곡동 558-9",
+   "doro": "경기도 성남시 수정구 위례서일로1길 3-10 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%203-10",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 278.8,
+   "totArea": 446.74,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 278.8,
+     "totArea": 446.74,
+     "useAprDay": "20151106"
+    }
+   ],
+   "latlng": [
+    37.4665944,
+    127.1372423
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 7,
+   "jibun": "경기도 성남시 수정구 창곡동 558-10",
+   "doro": "경기도 성남시 수정구 위례서일로1길 3-12 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%203-12",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 280.0,
+   "totArea": 447.25,
+   "buildings": [
+    {
+     "name": "창곡동 위례신도시 D2-1 17-3 근린및다가구주택",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 280.0,
+     "totArea": 447.25,
+     "useAprDay": "20150617"
+    }
+   ],
+   "latlng": [
+    37.4667243,
+    127.1373315
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 8,
+   "jibun": "경기도 성남시 수정구 창곡동 558-11",
+   "doro": "경기도 성남시 수정구 위례서일로1길 3-14 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%203-14",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 279.4,
+   "totArea": 445.23,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택), 근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 279.4,
+     "totArea": 445.23,
+     "useAprDay": "20160318"
+    }
+   ],
+   "latlng": [
+    37.4668723,
+    127.1373695
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 9,
+   "jibun": "경기도 성남시 수정구 창곡동 557-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 3-15 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%203-15",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 284.2,
+   "totArea": 455.82,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 284.2,
+     "totArea": 455.82,
+     "useAprDay": "20150915"
+    }
+   ],
+   "latlng": [
+    37.4672067,
+    127.1373576
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 10,
+   "jibun": "경기도 성남시 수정구 창곡동 558",
+   "doro": "경기도 성남시 수정구 위례서일로1길 3-16 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%203-16",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 1,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 280.9,
+   "totArea": 447.7,
+   "buildings": [
+    {
+     "name": "위례17-1",
+     "dong": "1",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 1,
+     "households": 5,
+     "platArea": 280.9,
+     "totArea": 447.7,
+     "useAprDay": "20151203"
+    }
+   ],
+   "latlng": [
+    37.4669645,
+    127.1374254
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 11,
+   "jibun": "경기도 성남시 수정구 창곡동 557-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 3-17 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%203-17",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 283.5,
+   "totArea": 454.18,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 283.5,
+     "totArea": 454.18,
+     "useAprDay": "20150513"
+    }
+   ],
+   "latlng": [
+    37.4672058,
+    127.137535
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 12,
+   "jibun": "경기도 성남시 수정구 창곡동 551-15",
+   "doro": "경기도 성남시 수정구 위례서일로1길 4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%204",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 244.8,
+   "totArea": 469.79,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 8,
+     "platArea": 244.8,
+     "totArea": 469.79,
+     "useAprDay": "20150601"
+    }
+   ],
+   "latlng": [
+    37.4660859,
+    127.1374532
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 13,
+   "jibun": "경기도 성남시 수정구 창곡동 551-14",
+   "doro": "경기도 성남시 수정구 위례서일로1길 4-1 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%204-1",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 245.1,
+   "totArea": 389.49,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 245.1,
+     "totArea": 389.49,
+     "useAprDay": "20150901"
+    }
+   ],
+   "latlng": [
+    37.4660271,
+    127.1376153
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 14,
+   "jibun": "경기도 성남시 수정구 창곡동 550-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 4-2 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%204-2",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 258.0,
+   "totArea": 412.64,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 258.0,
+     "totArea": 412.64,
+     "useAprDay": "20151210"
+    }
+   ],
+   "latlng": [
+    37.4657842,
+    127.137461
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 15,
+   "jibun": "경기도 성남시 수정구 창곡동 551-13",
+   "doro": "경기도 성남시 수정구 위례서일로1길 4-3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%204-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 246.1,
+   "totArea": 479.59,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "1",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 246.1,
+     "totArea": 479.59,
+     "useAprDay": "20151208"
+    }
+   ],
+   "latlng": [
+    37.4659687,
+    127.137754
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 16,
+   "jibun": "경기도 성남시 수정구 창곡동 550-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 4-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%204-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 257.8,
+   "totArea": 482.89,
+   "buildings": [
+    {
+     "name": "큐빌",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 257.8,
+     "totArea": 482.89,
+     "useAprDay": "20151118"
+    }
+   ],
+   "latlng": [
+    37.4657171,
+    127.1376067
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 17,
+   "jibun": "경기도 성남시 수정구 창곡동 551-12",
+   "doro": "경기도 성남시 수정구 위례서일로1길 4-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%204-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 244.1,
+   "totArea": 475.66,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설 및 다가구주택(4가구)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 244.1,
+     "totArea": 475.66,
+     "useAprDay": "20160223"
+    }
+   ],
+   "latlng": [
+    37.4658965,
+    127.137917
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 18,
+   "jibun": "경기도 성남시 수정구 창곡동 550-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 4-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%204-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 257.7,
+   "totArea": 470.66,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 257.7,
+     "totArea": 470.66,
+     "useAprDay": "20151106"
+    }
+   ],
+   "latlng": [
+    37.4656606,
+    127.1377449
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 19,
+   "jibun": "경기도 성남시 수정구 창곡동 558-5",
+   "doro": "경기도 성남시 수정구 위례서일로1길 5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%205",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 300.5,
+   "totArea": 474.53,
+   "buildings": [
+    {
+     "name": "KHS house",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 300.5,
+     "totArea": 474.53,
+     "useAprDay": "20160608"
+    }
+   ],
+   "latlng": [
+    37.4663634,
+    127.1372962
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 20,
+   "jibun": "경기도 성남시 수정구 창곡동 551",
+   "doro": "경기도 성남시 수정구 위례서일로1길 6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%206",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 245.2,
+   "totArea": 391.5,
+   "buildings": [
+    {
+     "name": "옥전",
+     "dong": "1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택, 근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 245.2,
+     "totArea": 391.5,
+     "useAprDay": "20161110"
+    }
+   ],
+   "latlng": [
+    37.4662262,
+    127.1375575
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 21,
+   "jibun": "경기도 성남시 수정구 창곡동 558-4",
+   "doro": "경기도 성남시 수정구 위례서일로1길 7 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%207",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 273.4,
+   "totArea": 436.32,
+   "buildings": [
+    {
+     "name": "스타 존",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 273.4,
+     "totArea": 436.32,
+     "useAprDay": "20151006"
+    }
+   ],
+   "latlng": [
+    37.4665248,
+    127.1373951
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 22,
+   "jibun": "경기도 성남시 수정구 창곡동 552-6",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 261.6,
+   "totArea": 418.86,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 261.6,
+     "totArea": 418.86,
+     "useAprDay": "20160816"
+    }
+   ],
+   "latlng": [
+    37.4664129,
+    127.1377002
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 23,
+   "jibun": "경기도 성남시 수정구 창곡동 551-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 245.4,
+   "totArea": 391.9,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택(5가구),근린생활시설)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 245.4,
+     "totArea": 391.9,
+     "useAprDay": "20150907"
+    }
+   ],
+   "latlng": [
+    37.4661464,
+    127.1377003
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 24,
+   "jibun": "경기도 성남시 수정구 창곡동 552-5",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 261.0,
+   "totArea": 417.49,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 261.0,
+     "totArea": 417.49,
+     "useAprDay": "20150930"
+    }
+   ],
+   "latlng": [
+    37.4663554,
+    127.1378656
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 25,
+   "jibun": "경기도 성남시 수정구 창곡동 551-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 245.2,
+   "totArea": 496.71,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 245.2,
+     "totArea": 496.71,
+     "useAprDay": "20160523"
+    }
+   ],
+   "latlng": [
+    37.4661039,
+    127.1378524
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 26,
+   "jibun": "경기도 성남시 수정구 창곡동 552-4",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-7 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-7",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 261.2,
+   "totArea": 416.87,
+   "buildings": [
+    {
+     "name": "창곡동 위례택지개발지구 D2-1  22-7 단독주택 (이한원)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택및 근생)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 261.2,
+     "totArea": 416.87,
+     "useAprDay": "20160624"
+    }
+   ],
+   "latlng": [
+    37.4665169,
+    127.1379716
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 27,
+   "jibun": "경기도 성남시 수정구 창곡동 551-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 245.1,
+   "totArea": 478.2,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 245.1,
+     "totArea": 478.2,
+     "useAprDay": "20150917"
+    }
+   ],
+   "latlng": [
+    37.4660252,
+    127.1379973
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 28,
+   "jibun": "경기도 성남시 수정구 창곡동 552-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-9 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-9",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 262.0,
+   "totArea": 416.18,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 262.0,
+     "totArea": 416.18,
+     "useAprDay": "20160819"
+    }
+   ],
+   "latlng": [
+    37.4666517,
+    127.1380561
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 29,
+   "jibun": "경기도 성남시 수정구 창곡동 552-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-11 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-11",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 260.7,
+   "totArea": 417.52,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 260.7,
+     "totArea": 417.52,
+     "useAprDay": "20151112"
+    }
+   ],
+   "latlng": [
+    37.4667868,
+    127.1381348
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 30,
+   "jibun": "경기도 성남시 수정구 창곡동 552-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-13 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-13",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 262.2,
+   "totArea": 419.4,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택,제2종근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 262.2,
+     "totArea": 419.4,
+     "useAprDay": "20190122"
+    }
+   ],
+   "latlng": [
+    37.4669135,
+    127.1381936
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 31,
+   "jibun": "경기도 성남시 수정구 창곡동 553-5",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-14 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-14",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 252.4,
+   "totArea": 403.18,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 252.4,
+     "totArea": 403.18,
+     "useAprDay": "20151116"
+    }
+   ],
+   "latlng": [
+    37.466243,
+    127.1381443
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 32,
+   "jibun": "경기도 성남시 수정구 창곡동 553-4",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-16 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-16",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 252.9,
+   "totArea": 490.79,
+   "buildings": [
+    {
+     "name": "창곡동 위례신도시 D2-1 23-5 단독주택 (김학중)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 252.9,
+     "totArea": 490.79,
+     "useAprDay": "20160906"
+    }
+   ],
+   "latlng": [
+    37.4663723,
+    127.138226
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 33,
+   "jibun": "경기도 성남시 수정구 창곡동 553-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-18 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-18",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 252.7,
+   "totArea": 403.37,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 252.7,
+     "totArea": 403.37,
+     "useAprDay": "20150914"
+    }
+   ],
+   "latlng": [
+    37.4665036,
+    127.1383058
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 34,
+   "jibun": "경기도 성남시 수정구 창곡동 553-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-20 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-20",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 253.0,
+   "totArea": 512.54,
+   "buildings": [
+    {
+     "name": "우상빌딩",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "근린생활시설 및 단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 253.0,
+     "totArea": 512.54,
+     "useAprDay": "20161004"
+    }
+   ],
+   "latlng": [
+    37.466647,
+    127.1384046
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 35,
+   "jibun": "경기도 성남시 수정구 창곡동 553-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-22 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-22",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 253.1,
+   "totArea": 403.51,
+   "buildings": [
+    {
+     "name": "위례주택",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택(5가구)), 제2종근린생활시설(일반음식점(1호))",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 253.1,
+     "totArea": 403.51,
+     "useAprDay": "20161125"
+    }
+   ],
+   "latlng": [
+    37.4667579,
+    127.1384585
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 36,
+   "jibun": "경기도 성남시 수정구 창곡동 553",
+   "doro": "경기도 성남시 수정구 위례서일로1길 8-24 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%208-24",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 253.7,
+   "totArea": 509.71,
+   "buildings": [
+    {
+     "name": "D2-1블럭 23-1",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 253.7,
+     "totArea": 509.71,
+     "useAprDay": "20170712"
+    }
+   ],
+   "latlng": [
+    37.466916,
+    127.1384869
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 37,
+   "jibun": "경기도 성남시 수정구 창곡동 558-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 9 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%209",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 271.0,
+   "totArea": 432.61,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 271.0,
+     "totArea": 432.61,
+     "useAprDay": "20151112"
+    }
+   ],
+   "latlng": [
+    37.4666624,
+    127.13749
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 38,
+   "jibun": "경기도 성남시 수정구 창곡동 552-7",
+   "doro": "경기도 성남시 수정구 위례서일로1길 10 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2010",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 261.7,
+   "totArea": 415.08,
+   "buildings": [
+    {
+     "name": "위례신도시D2-1블럭 22-4번지 상가주택",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택), 근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 261.7,
+     "totArea": 415.08,
+     "useAprDay": "20150616"
+    }
+   ],
+   "latlng": [
+    37.4665509,
+    127.1378025
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 39,
+   "jibun": "경기도 성남시 수정구 창곡동 558-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 11 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2011",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 274.4,
+   "totArea": 437.98,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 274.4,
+     "totArea": 437.98,
+     "useAprDay": "20150708"
+    }
+   ],
+   "latlng": [
+    37.4667888,
+    127.137586
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 40,
+   "jibun": "경기도 성남시 수정구 창곡동 552-8",
+   "doro": "경기도 성남시 수정구 위례서일로1길 12 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2012",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 260.7,
+   "totArea": 415.7,
+   "buildings": [
+    {
+     "name": "U-HAUS 2112-3",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택, 근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 260.7,
+     "totArea": 415.7,
+     "useAprDay": "20161104"
+    }
+   ],
+   "latlng": [
+    37.4666851,
+    127.1378767
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 41,
+   "jibun": "경기도 성남시 수정구 창곡동 558-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 13 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2013",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 296.7,
+   "totArea": 473.45,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 296.7,
+     "totArea": 473.45,
+     "useAprDay": "20151216"
+    }
+   ],
+   "latlng": [
+    37.4669397,
+    127.1376699
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 42,
+   "jibun": "경기도 성남시 수정구 창곡동 552-9",
+   "doro": "경기도 성남시 수정구 위례서일로1길 14 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2014",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 260.3,
+   "totArea": 417.42,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 260.3,
+     "totArea": 417.42,
+     "useAprDay": "20160311"
+    }
+   ],
+   "latlng": [
+    37.4667894,
+    127.1379439
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 43,
+   "jibun": "경기도 성남시 수정구 창곡동 552",
+   "doro": "경기도 성남시 수정구 위례서일로1길 16 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2016",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 262.3,
+   "totArea": 516.93,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(근린생활시설(2호) 및 다가구주택(5가구))",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 262.3,
+     "totArea": 516.93,
+     "useAprDay": "20160629"
+    }
+   ],
+   "latlng": [
+    37.4669329,
+    127.1379957
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 44,
+   "jibun": "경기도 성남시 수정구 창곡동 556-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 16-3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2016-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 252.0,
+   "totArea": 464.26,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 252.0,
+     "totArea": 464.26,
+     "useAprDay": "20150803"
+    }
+   ],
+   "latlng": [
+    37.4671775,
+    127.1381926
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 45,
+   "jibun": "경기도 성남시 수정구 창곡동 556-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 16-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2016-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 252.0,
+   "totArea": 402.96,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설(일반음식점) 및 다가구주택(5가구)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 252.0,
+     "totArea": 402.96,
+     "useAprDay": "20160406"
+    }
+   ],
+   "latlng": [
+    37.4671682,
+    127.1383532
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 46,
+   "jibun": "경기도 성남시 수정구 창곡동 556-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 16-7 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2016-7",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 252.1,
+   "totArea": 402.08,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 252.1,
+     "totArea": 402.08,
+     "useAprDay": "20150821"
+    }
+   ],
+   "latlng": [
+    37.4671643,
+    127.1385131
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 47,
+   "jibun": "경기도 성남시 수정구 창곡동 557",
+   "doro": "경기도 성남시 수정구 위례서일로1길 17 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2017",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 283.8,
+   "totArea": 453.47,
+   "buildings": [
+    {
+     "name": "이스트스톤",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택, 근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 283.8,
+     "totArea": 453.47,
+     "useAprDay": "20161019"
+    }
+   ],
+   "latlng": [
+    37.4671758,
+    127.1377224
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 48,
+   "jibun": "경기도 성남시 수정구 창곡동 556",
+   "doro": "경기도 성남시 수정구 위례서일로1길 18 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2018",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 258.2,
+   "totArea": 436.06,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 258.2,
+     "totArea": 436.06,
+     "useAprDay": "20150903"
+    }
+   ],
+   "latlng": [
+    37.4671768,
+    127.1380247
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 49,
+   "jibun": "경기도 성남시 수정구 창곡동 537-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 19 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2019",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 394.1,
+   "totArea": 757.63,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 394.1,
+     "totArea": 757.63,
+     "useAprDay": "20150731"
+    }
+   ],
+   "latlng": [
+    37.4674506,
+    127.1377115
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 50,
+   "jibun": "경기도 성남시 수정구 창곡동 538-5",
+   "doro": "경기도 성남시 수정구 위례서일로1길 21 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2021",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 255.1,
+   "totArea": 510.62,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 255.1,
+     "totArea": 510.62,
+     "useAprDay": "20151102"
+    }
+   ],
+   "latlng": [
+    37.4676992,
+    127.1377362
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 51,
+   "jibun": "경기도 성남시 수정구 창곡동 537-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 21-3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2021-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 393.7,
+   "totArea": 628.09,
+   "buildings": [
+    {
+     "name": "위례주택",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 393.7,
+     "totArea": 628.09,
+     "useAprDay": "20160108"
+    }
+   ],
+   "latlng": [
+    37.4674515,
+    127.137451
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 52,
+   "jibun": "경기도 성남시 수정구 창곡동 538-6",
+   "doro": "경기도 성남시 수정구 위례서일로1길 21-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2021-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 255.0,
+   "totArea": 407.82,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "위례 2-2 점포주택",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 255.0,
+     "totArea": 407.82,
+     "useAprDay": "20150807"
+    }
+   ],
+   "latlng": [
+    37.4677255,
+    127.1375807
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 53,
+   "jibun": "경기도 성남시 수정구 창곡동 537",
+   "doro": "경기도 성남시 수정구 위례서일로1길 21-7 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2021-7",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 2,
+   "platArea": 780.3,
+   "totArea": 3083.74,
+   "buildings": [
+    {
+     "name": "산해빌딩",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제2종근린생활시설",
+     "floors": 5,
+     "basement": 2,
+     "ride": 2,
+     "emergency": 0,
+     "households": 14,
+     "platArea": 780.3,
+     "totArea": 3083.74,
+     "useAprDay": "20220607"
+    }
+   ],
+   "latlng": [
+    37.4677878,
+    127.137204
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 54,
+   "jibun": "경기도 성남시 수정구 창곡동 538-7",
+   "doro": "경기도 성남시 수정구 위례서일로1길 21-8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2021-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 253.0,
+   "totArea": 404.51,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 253.0,
+     "totArea": 404.51,
+     "useAprDay": "20150907"
+    }
+   ],
+   "latlng": [
+    37.4678586,
+    127.1375805
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 55,
+   "jibun": "경기도 성남시 수정구 창곡동 538-8",
+   "doro": "경기도 성남시 수정구 위례서일로1길 21-10 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2021-10",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 267.5,
+   "totArea": 518.5,
+   "buildings": [
+    {
+     "name": "U-HAUS",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 267.5,
+     "totArea": 518.5,
+     "useAprDay": "20151224"
+    }
+   ],
+   "latlng": [
+    37.4680468,
+    127.1375972
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 56,
+   "jibun": "경기도 성남시 수정구 창곡동 538-9",
+   "doro": "경기도 성남시 수정구 위례서일로1길 21-12 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2021-12",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 267.8,
+   "totArea": 428.24,
+   "buildings": [
+    {
+     "name": "하정 하우스",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 267.8,
+     "totArea": 428.24,
+     "useAprDay": "20151216"
+    }
+   ],
+   "latlng": [
+    37.4681872,
+    127.1375929
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 57,
+   "jibun": "경기도 성남시 수정구 창곡동 538",
+   "doro": "경기도 성남시 수정구 위례서일로1길 21-14 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2021-14",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 273.6,
+   "totArea": 437.88,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 273.6,
+     "totArea": 437.88,
+     "useAprDay": "20151005"
+    }
+   ],
+   "latlng": [
+    37.4683374,
+    127.1376051
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 58,
+   "jibun": "경기도 성남시 수정구 창곡동 544",
+   "doro": "경기도 성남시 수정구 위례서일로1길 22 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2022",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 254.6,
+   "totArea": 404.7,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 254.6,
+     "totArea": 404.7,
+     "useAprDay": "20150915"
+    }
+   ],
+   "latlng": [
+    37.4674435,
+    127.1380419
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 59,
+   "jibun": "경기도 성남시 수정구 창곡동 544-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 22-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2022-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 251.8,
+   "totArea": 402.3,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 251.8,
+     "totArea": 402.3,
+     "useAprDay": "20150612"
+    }
+   ],
+   "latlng": [
+    37.4674324,
+    127.1382085
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 60,
+   "jibun": "경기도 성남시 수정구 창곡동 541",
+   "doro": "경기도 성남시 수정구 위례서일로1길 22-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2022-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 1,
+   "maxBasement": 3,
+   "platArea": 1886.4,
+   "totArea": 4638.34,
+   "buildings": [
+    {
+     "name": "창곡동 541 자동차관련시설 (성남시장)",
+     "dong": "공용지하주차장",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "자동차관련시설",
+     "etcPurpose": "자동차관련시설",
+     "floors": 1,
+     "basement": 3,
+     "ride": 1,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 1886.4,
+     "totArea": 4638.34,
+     "useAprDay": "20251030"
+    }
+   ],
+   "latlng": [
+    37.4676829,
+    127.1384096
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 61,
+   "jibun": "경기도 성남시 수정구 창곡동 544-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 22-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2022-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 251.7,
+   "totArea": 481.37,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 251.7,
+     "totArea": 481.37,
+     "useAprDay": "20150908"
+    }
+   ],
+   "latlng": [
+    37.4674192,
+    127.1383759
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 62,
+   "jibun": "경기도 성남시 수정구 창곡동 544-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 22-8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2022-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 251.7,
+   "totArea": 494.97,
+   "buildings": [
+    {
+     "name": "U-HAUS",
+     "dong": "제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택, 제2종근린생활시설",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 251.7,
+     "totArea": 494.97,
+     "useAprDay": "20160303"
+    }
+   ],
+   "latlng": [
+    37.4674157,
+    127.1385303
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 63,
+   "jibun": "경기도 성남시 수정구 창곡동 538-4",
+   "doro": "경기도 성남시 수정구 위례서일로1길 23 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2023",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 262.3,
+   "totArea": 418.99,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 262.3,
+     "totArea": 418.99,
+     "useAprDay": "20150914"
+    }
+   ],
+   "latlng": [
+    37.4678542,
+    127.137755
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 64,
+   "jibun": "경기도 성남시 수정구 창곡동 540",
+   "doro": "경기도 성남시 수정구 위례서일로1길 24 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2024",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 889.0,
+   "totArea": 1416.52,
+   "buildings": [
+    {
+     "name": "은솔유치원",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "교육연구시설",
+     "etcPurpose": "교육연구시설(유치원)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 889.0,
+     "totArea": 1416.52,
+     "useAprDay": "20160226"
+    }
+   ],
+   "latlng": [
+    37.4678247,
+    127.1381585
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 65,
+   "jibun": "경기도 성남시 수정구 창곡동 538-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 25 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2025",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 267.4,
+   "totArea": 428.47,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 267.4,
+     "totArea": 428.47,
+     "useAprDay": "20150520"
+    }
+   ],
+   "latlng": [
+    37.4680298,
+    127.1377699
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 66,
+   "jibun": "경기도 성남시 수정구 창곡동 539-15",
+   "doro": "경기도 성남시 수정구 위례서일로1길 26 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2026",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 282.1,
+   "totArea": 425.42,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 282.1,
+     "totArea": 425.42,
+     "useAprDay": "20151005"
+    }
+   ],
+   "latlng": [
+    37.4681441,
+    127.1381143
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 67,
+   "jibun": "경기도 성남시 수정구 창곡동 539-14",
+   "doro": "경기도 성남시 수정구 위례서일로1길 26-1 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2026-1",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 277.5,
+   "totArea": 498.67,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 277.5,
+     "totArea": 498.67,
+     "useAprDay": "20151028"
+    }
+   ],
+   "latlng": [
+    37.468151,
+    127.1382667
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 68,
+   "jibun": "경기도 성남시 수정구 창곡동 539-13",
+   "doro": "경기도 성남시 수정구 위례서일로1길 26-3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2026-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 281.7,
+   "totArea": 450.19,
+   "buildings": [
+    {
+     "name": "창곡동 위례지구 D2-1 08-06 (최승경)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택, 근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 281.7,
+     "totArea": 450.19,
+     "useAprDay": "20170526"
+    }
+   ],
+   "latlng": [
+    37.4681593,
+    127.1384256
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 69,
+   "jibun": "경기도 성남시 수정구 창곡동 539-12",
+   "doro": "경기도 성남시 수정구 위례서일로1길 26-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2026-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 269.2,
+   "totArea": 491.93,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(근린생활시설 및 다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 269.2,
+     "totArea": 491.93,
+     "useAprDay": "20151006"
+    }
+   ],
+   "latlng": [
+    37.4681381,
+    127.1385917
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 70,
+   "jibun": "경기도 성남시 수정구 창곡동 538-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 27 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2027",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 268.0,
+   "totArea": 495.13,
+   "buildings": [
+    {
+     "name": "단독주택",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 268.0,
+     "totArea": 495.13,
+     "useAprDay": "20160624"
+    }
+   ],
+   "latlng": [
+    37.4681975,
+    127.1377695
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 71,
+   "jibun": "경기도 성남시 수정구 창곡동 539",
+   "doro": "경기도 성남시 수정구 위례서일로1길 28 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2028",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 275.0,
+   "totArea": 532.82,
+   "buildings": [
+    {
+     "name": "U-HAUS",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 275.0,
+     "totArea": 532.82,
+     "useAprDay": "20160104"
+    }
+   ],
+   "latlng": [
+    37.4683333,
+    127.1381212
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 72,
+   "jibun": "경기도 성남시 수정구 창곡동 538-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 29 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2029",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 270.0,
+   "totArea": 431.31,
+   "buildings": [
+    {
+     "name": "창곡동 위례신도시 D2-1블록 1-6로트 단독주택 (이창재)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 270.0,
+     "totArea": 431.31,
+     "useAprDay": "20160623"
+    }
+   ],
+   "latlng": [
+    37.4683567,
+    127.1377998
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 73,
+   "jibun": "경기도 성남시 수정구 창곡동 539-1",
+   "doro": "경기도 성남시 수정구 위례서일로1길 32-2 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2032-2",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 281.4,
+   "totArea": 449.2,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설 및 단독주택(다가구주택 5가구)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 281.4,
+     "totArea": 449.2,
+     "useAprDay": "20160502"
+    }
+   ],
+   "latlng": [
+    37.4683279,
+    127.1382573
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 74,
+   "jibun": "경기도 성남시 수정구 창곡동 539-2",
+   "doro": "경기도 성남시 수정구 위례서일로1길 32-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2032-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 285.2,
+   "totArea": 534.18,
+   "buildings": [
+    {
+     "name": "H&J House",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택(5가구))",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 285.2,
+     "totArea": 534.18,
+     "useAprDay": "20150622"
+    }
+   ],
+   "latlng": [
+    37.4683223,
+    127.1384433
+   ]
+  },
+  {
+   "road": "위례서일로1길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 75,
+   "jibun": "경기도 성남시 수정구 창곡동 539-3",
+   "doro": "경기도 성남시 수정구 위례서일로1길 32-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C1%EA%B8%B8%2032-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 286.1,
+   "totArea": 611.35,
+   "buildings": [
+    {
+     "name": "SHR house",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 286.1,
+     "totArea": 611.35,
+     "useAprDay": "20170621"
+    }
+   ],
+   "latlng": [
+    37.4683233,
+    127.1385971
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 1,
+   "jibun": "경기도 성남시 수정구 창곡동 550-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 1 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%201",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 307.1,
+   "totArea": 566.71,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택(5가구)및 제2종근린생활시설",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 307.1,
+     "totArea": 566.71,
+     "useAprDay": "20160516"
+    }
+   ],
+   "latlng": [
+    37.4654228,
+    127.1383108
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 2,
+   "jibun": "경기도 성남시 수정구 창곡동 547-13",
+   "doro": "경기도 성남시 수정구 위례서일로3길 2 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%202",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 374.2,
+   "totArea": 599.08,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 374.2,
+     "totArea": 599.08,
+     "useAprDay": "20150612"
+    }
+   ],
+   "latlng": [
+    37.4652918,
+    127.1386287
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 3,
+   "jibun": "경기도 성남시 수정구 창곡동 551-8",
+   "doro": "경기도 성남시 수정구 위례서일로3길 3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%203",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 231.6,
+   "totArea": 367.26,
+   "buildings": [
+    {
+     "name": "위례 26-5 근생주택",
+     "dong": "위례 26-5 근생주택",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "(다가구주택 4가구,제1종근린생활시설)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 231.6,
+     "totArea": 367.26,
+     "useAprDay": "20160525"
+    }
+   ],
+   "latlng": [
+    37.4656286,
+    127.1385004
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 4,
+   "jibun": "경기도 성남시 수정구 창곡동 550-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 3-3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%203-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 304.7,
+   "totArea": 487.56,
+   "buildings": [
+    {
+     "name": "위례서일로3길 3-3 점포겸용주택",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 304.7,
+     "totArea": 487.56,
+     "useAprDay": "20150702"
+    }
+   ],
+   "latlng": [
+    37.4654962,
+    127.1381356
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 5,
+   "jibun": "경기도 성남시 수정구 창곡동 551-9",
+   "doro": "경기도 성남시 수정구 위례서일로3길 3-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%203-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 230.4,
+   "totArea": 437.73,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제1종근린생활시설(소매점(2호)), 단독주택(다가구주택(5가구)),",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 230.4,
+     "totArea": 437.73,
+     "useAprDay": "20161124"
+    }
+   ],
+   "latlng": [
+    37.4657167,
+    127.1383745
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 6,
+   "jibun": "경기도 성남시 수정구 창곡동 550-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 3-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%203-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 304.9,
+   "totArea": 487.39,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 304.9,
+     "totArea": 487.39,
+     "useAprDay": "20150910"
+    }
+   ],
+   "latlng": [
+    37.4655668,
+    127.1379658
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 7,
+   "jibun": "경기도 성남시 수정구 창곡동 551-10",
+   "doro": "경기도 성남시 수정구 위례서일로3길 3-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%203-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 230.2,
+   "totArea": 367.54,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 230.2,
+     "totArea": 367.54,
+     "useAprDay": "20150805"
+    }
+   ],
+   "latlng": [
+    37.465764,
+    127.1382416
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 8,
+   "jibun": "경기도 성남시 수정구 창곡동 551-11",
+   "doro": "경기도 성남시 수정구 위례서일로3길 3-8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%203-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 230.2,
+   "totArea": 456.13,
+   "buildings": [
+    {
+     "name": "위례26-8",
+     "dong": "1",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 230.2,
+     "totArea": 456.13,
+     "useAprDay": "20150630"
+    }
+   ],
+   "latlng": [
+    37.4658242,
+    127.1381076
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 9,
+   "jibun": "경기도 성남시 수정구 창곡동 549-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%204",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 3,
+   "platArea": 1160.7,
+   "totArea": 6196.95,
+   "buildings": [
+    {
+     "name": "대원프라자",
+     "dong": "대원프라자",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "자동차관련시설",
+     "etcPurpose": "자동차관련시설(주차장),제1,2종근린생활시설",
+     "floors": 4,
+     "basement": 3,
+     "ride": 2,
+     "emergency": 0,
+     "households": 26,
+     "platArea": 1160.7,
+     "totArea": 6196.95,
+     "useAprDay": "20161226"
+    }
+   ],
+   "latlng": [
+    37.4655751,
+    127.1389277
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 10,
+   "jibun": "경기도 성남시 수정구 창곡동 547-12",
+   "doro": "경기도 성남시 수정구 위례서일로3길 4-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%204-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 373.0,
+   "totArea": 596.23,
+   "buildings": [
+    {
+     "name": "수경빌딩",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설 및 다가구주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 373.0,
+     "totArea": 596.23,
+     "useAprDay": "20160510"
+    }
+   ],
+   "latlng": [
+    37.4652059,
+    127.1388342
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 11,
+   "jibun": "경기도 성남시 수정구 창곡동 549-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 4-7 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%204-7",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 229.4,
+   "totArea": 463.11,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 229.4,
+     "totArea": 463.11,
+     "useAprDay": "20160111"
+    }
+   ],
+   "latlng": [
+    37.4657362,
+    127.1391514
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 12,
+   "jibun": "경기도 성남시 수정구 창곡동 549-3",
+   "doro": "경기도 성남시 수정구 위례서일로3길 4-9 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%204-9",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 230.8,
+   "totArea": 367.21,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택/근린생활시설)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 230.8,
+     "totArea": 367.21,
+     "useAprDay": "20150910"
+    }
+   ],
+   "latlng": [
+    37.4658367,
+    127.1392381
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 13,
+   "jibun": "경기도 성남시 수정구 창곡동 549-2",
+   "doro": "경기도 성남시 수정구 위례서일로3길 4-11 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%204-11",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 230.2,
+   "totArea": 367.66,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "근린생활시설, 다가구주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 230.2,
+     "totArea": 367.66,
+     "useAprDay": "20160219"
+    }
+   ],
+   "latlng": [
+    37.4659503,
+    127.1393455
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 14,
+   "jibun": "경기도 성남시 수정구 창곡동 549-1",
+   "doro": "경기도 성남시 수정구 위례서일로3길 4-13 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%204-13",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 231.7,
+   "totArea": 369.82,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 231.7,
+     "totArea": 369.82,
+     "useAprDay": "20160331"
+    }
+   ],
+   "latlng": [
+    37.4660544,
+    127.139451
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 15,
+   "jibun": "경기도 성남시 수정구 창곡동 551-7",
+   "doro": "경기도 성남시 수정구 위례서일로3길 5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%205",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 259.5,
+   "totArea": 494.39,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설, 단독주택(5가구)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 8,
+     "platArea": 259.5,
+     "totArea": 494.39,
+     "useAprDay": "20160513"
+    }
+   ],
+   "latlng": [
+    37.4657811,
+    127.1386245
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 16,
+   "jibun": "경기도 성남시 수정구 창곡동 549-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%206",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 229.9,
+   "totArea": 367.59,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 229.9,
+     "totArea": 367.59,
+     "useAprDay": "20150813"
+    }
+   ],
+   "latlng": [
+    37.4658055,
+    127.1390237
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 17,
+   "jibun": "경기도 성남시 수정구 창곡동 555-8",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 261.3,
+   "totArea": 417.37,
+   "buildings": [
+    {
+     "name": "U-HAUS",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구(5가구)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 261.3,
+     "totArea": 417.37,
+     "useAprDay": "20151110"
+    }
+   ],
+   "latlng": [
+    37.4659646,
+    127.1387718
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 18,
+   "jibun": "경기도 성남시 수정구 창곡동 551-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 229.8,
+   "totArea": 365.78,
+   "buildings": [
+    {
+     "name": "위례 26-3",
+     "dong": "위례 26-3",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 229.8,
+     "totArea": 365.78,
+     "useAprDay": "20150615"
+    }
+   ],
+   "latlng": [
+    37.4658454,
+    127.1384575
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 19,
+   "jibun": "경기도 성남시 수정구 창곡동 555-9",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 262.3,
+   "totArea": 420.01,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택(5가구),제2종근린생활시설(일반음식점)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 262.3,
+     "totArea": 420.01,
+     "useAprDay": "20160128"
+    }
+   ],
+   "latlng": [
+    37.4660581,
+    127.1386149
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 20,
+   "jibun": "경기도 성남시 수정구 창곡동 551-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 229.9,
+   "totArea": 367.92,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택 및 제1종근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 229.9,
+     "totArea": 367.92,
+     "useAprDay": "20151005"
+    }
+   ],
+   "latlng": [
+    37.465887,
+    127.1383184
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 21,
+   "jibun": "경기도 성남시 수정구 창곡동 555-10",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 263.9,
+   "totArea": 419.62,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택.근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 263.9,
+     "totArea": 419.62,
+     "useAprDay": "20181130"
+    }
+   ],
+   "latlng": [
+    37.4661688,
+    127.1387079
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 22,
+   "jibun": "경기도 성남시 수정구 창곡동 551-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-7 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-7",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 229.9,
+   "totArea": 367.88,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 229.9,
+     "totArea": 367.88,
+     "useAprDay": "20150903"
+    }
+   ],
+   "latlng": [
+    37.4659728,
+    127.1381977
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 23,
+   "jibun": "경기도 성남시 수정구 창곡동 555-11",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 265.3,
+   "totArea": 422.62,
+   "buildings": [
+    {
+     "name": "단독주택 (유희종)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 265.3,
+     "totArea": 422.62,
+     "useAprDay": "20150625"
+    }
+   ],
+   "latlng": [
+    37.4662925,
+    127.1387965
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 24,
+   "jibun": "경기도 성남시 수정구 창곡동 555-12",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-10 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-10",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 263.8,
+   "totArea": 420.55,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설(일반음식점) 및 다가구주택(5가구)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 263.8,
+     "totArea": 420.55,
+     "useAprDay": "20160222"
+    }
+   ],
+   "latlng": [
+    37.466392,
+    127.1388776
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 25,
+   "jibun": "경기도 성남시 수정구 창곡동 555-13",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-12 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-12",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 250.4,
+   "totArea": 397.69,
+   "buildings": [
+    {
+     "name": "자라크빌",
+     "dong": "자라크빌",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 250.4,
+     "totArea": 397.69,
+     "useAprDay": "20150901"
+    }
+   ],
+   "latlng": [
+    37.4665062,
+    127.1389324
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 26,
+   "jibun": "경기도 성남시 수정구 창곡동 554-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-13 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-13",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 279.7,
+   "totArea": 445.99,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택,제2종근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 279.7,
+     "totArea": 445.9926,
+     "useAprDay": "20151008"
+    }
+   ],
+   "latlng": [
+    37.4661422,
+    127.1383395
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 27,
+   "jibun": "경기도 성남시 수정구 창곡동 555-14",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-14 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-14",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 247.4,
+   "totArea": 494.12,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 247.4,
+     "totArea": 494.12,
+     "useAprDay": "20151231"
+    }
+   ],
+   "latlng": [
+    37.4666161,
+    127.1389829
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 28,
+   "jibun": "경기도 성남시 수정구 창곡동 554-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-15 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-15",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 278.9,
+   "totArea": 444.8,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설(일반음식점(1호)), 단독주택(다가구주택(5가구))",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 278.9,
+     "totArea": 444.8,
+     "useAprDay": "20161116"
+    }
+   ],
+   "latlng": [
+    37.4663169,
+    127.1384495
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 29,
+   "jibun": "경기도 성남시 수정구 창곡동 555-15",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-16 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-16",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 249.8,
+   "totArea": 399.85,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 249.8,
+     "totArea": 399.85,
+     "useAprDay": "20151023"
+    }
+   ],
+   "latlng": [
+    37.4667339,
+    127.1390134
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 30,
+   "jibun": "경기도 성남시 수정구 창곡동 554-3",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-17 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-17",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 278.5,
+   "totArea": 443.49,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설(일반음식점) 및 다가구주택(5가구)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 278.5,
+     "totArea": 443.489,
+     "useAprDay": "20160205"
+    }
+   ],
+   "latlng": [
+    37.4664567,
+    127.1385478
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 31,
+   "jibun": "경기도 성남시 수정구 창곡동 555",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-18 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-18",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 250.4,
+   "totArea": 504.81,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택), 근린생활시설(일반음식점)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 250.4,
+     "totArea": 504.81,
+     "useAprDay": "20160321"
+    }
+   ],
+   "latlng": [
+    37.4668991,
+    127.1390231
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 32,
+   "jibun": "경기도 성남시 수정구 창곡동 554-2",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-19 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-19",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 277.7,
+   "totArea": 443.39,
+   "buildings": [
+    {
+     "name": "조은공간",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설 및 단독주택(5가구)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 277.7,
+     "totArea": 443.39,
+     "useAprDay": "20160516"
+    }
+   ],
+   "latlng": [
+    37.466588,
+    127.1386291
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 33,
+   "jibun": "경기도 성남시 수정구 창곡동 554-1",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-21 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-21",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 277.6,
+   "totArea": 494.0,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "근린생활시설및다가구주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 277.6,
+     "totArea": 494.0,
+     "useAprDay": "20151006"
+    }
+   ],
+   "latlng": [
+    37.4667364,
+    127.1387018
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 34,
+   "jibun": "경기도 성남시 수정구 창곡동 554",
+   "doro": "경기도 성남시 수정구 위례서일로3길 7-23 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%207-23",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 280.3,
+   "totArea": 527.48,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설(일반음식점) 및 다가구주택(5가구)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 280.3,
+     "totArea": 527.48,
+     "useAprDay": "20160308"
+    }
+   ],
+   "latlng": [
+    37.4669033,
+    127.1387323
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 35,
+   "jibun": "경기도 성남시 수정구 창곡동 549-7",
+   "doro": "경기도 성남시 수정구 위례서일로3길 8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%208",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 229.7,
+   "totArea": 367.91,
+   "buildings": [
+    {
+     "name": "창곡동 위례지구 D2-1 29-3 단독주택 (한상훈)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 229.7,
+     "totArea": 367.91,
+     "useAprDay": "20150623"
+    }
+   ],
+   "latlng": [
+    37.4659141,
+    127.1391086
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 36,
+   "jibun": "경기도 성남시 수정구 창곡동 555-7",
+   "doro": "경기도 성남시 수정구 위례서일로3길 9 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%209",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 263.2,
+   "totArea": 559.56,
+   "buildings": [
+    {
+     "name": "보현빌리지",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 263.2,
+     "totArea": 559.56,
+     "useAprDay": "20151105"
+    }
+   ],
+   "latlng": [
+    37.4660968,
+    127.1388723
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 37,
+   "jibun": "경기도 성남시 수정구 창곡동 549-8",
+   "doro": "경기도 성남시 수정구 위례서일로3길 10 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2010",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 230.3,
+   "totArea": 435.88,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 230.3,
+     "totArea": 435.88,
+     "useAprDay": "20151116"
+    }
+   ],
+   "latlng": [
+    37.4660252,
+    127.1392006
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 38,
+   "jibun": "경기도 성남시 수정구 창곡동 555-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 11 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2011",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 255.7,
+   "totArea": 494.85,
+   "buildings": [
+    {
+     "name": ".",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택), 근린생활시설",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 255.7,
+     "totArea": 494.85,
+     "useAprDay": "20150707"
+    }
+   ],
+   "latlng": [
+    37.4662177,
+    127.138955
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 39,
+   "jibun": "경기도 성남시 수정구 창곡동 549",
+   "doro": "경기도 성남시 수정구 위례서일로3길 12 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2012",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 231.4,
+   "totArea": 449.16,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택 및 제2종근린생활시설",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 231.4,
+     "totArea": 449.16,
+     "useAprDay": "20160429"
+    }
+   ],
+   "latlng": [
+    37.4661432,
+    127.1392727
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 40,
+   "jibun": "경기도 성남시 수정구 창곡동 555-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 13 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2013",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 274.9,
+   "totArea": 511.26,
+   "buildings": [
+    {
+     "name": "U-HAUS 2125-12",
+     "dong": "U-HAUS 2125-12",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 274.9,
+     "totArea": 511.26,
+     "useAprDay": "20151216"
+    }
+   ],
+   "latlng": [
+    37.4663294,
+    127.1390588
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 41,
+   "jibun": "경기도 성남시 수정구 창곡동 548-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 14 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2014",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 250.9,
+   "totArea": 403.28,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 250.9,
+     "totArea": 403.28,
+     "useAprDay": "20150824"
+    }
+   ],
+   "latlng": [
+    37.4663011,
+    127.1394338
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 42,
+   "jibun": "경기도 성남시 수정구 창곡동 548-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 14-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2014-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 281.0,
+   "totArea": 449.4,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설(일반음식점) 및 다가구주택(4가구)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 281.0,
+     "totArea": 449.4,
+     "useAprDay": "20160205"
+    }
+   ],
+   "latlng": [
+    37.4662339,
+    127.1395953
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 43,
+   "jibun": "경기도 성남시 수정구 창곡동 548-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 14-7 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2014-7",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 280.9,
+   "totArea": 447.27,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 280.9,
+     "totArea": 447.27,
+     "useAprDay": "20151102"
+    }
+   ],
+   "latlng": [
+    37.4664393,
+    127.1396578
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 44,
+   "jibun": "경기도 성남시 수정구 창곡동 548-3",
+   "doro": "경기도 성남시 수정구 위례서일로3길 14-9 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2014-9",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 250.3,
+   "totArea": 399.69,
+   "buildings": [
+    {
+     "name": "창곡동 위례택지개발지구 D2-1 30-8 단독주택 (김한기)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "(다가구주택),제2종근린생활시설(일반음식점)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 250.3,
+     "totArea": 399.69,
+     "useAprDay": "20160520"
+    }
+   ],
+   "latlng": [
+    37.4665799,
+    127.1396658
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 45,
+   "jibun": "경기도 성남시 수정구 창곡동 548-2",
+   "doro": "경기도 성남시 수정구 위례서일로3길 14-11 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2014-11",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 250.3,
+   "totArea": 395.1,
+   "buildings": [
+    {
+     "name": "창곡동 위례신도시 D2-1 30-9 단독주택 (조주현)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "근린생활시설, 단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 250.3,
+     "totArea": 395.1,
+     "useAprDay": "20161026"
+    }
+   ],
+   "latlng": [
+    37.466724,
+    127.1396752
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 46,
+   "jibun": "경기도 성남시 수정구 창곡동 548-1",
+   "doro": "경기도 성남시 수정구 위례서일로3길 14-13 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2014-13",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 250.3,
+   "totArea": 399.06,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 250.3,
+     "totArea": 399.06,
+     "useAprDay": "20150908"
+    }
+   ],
+   "latlng": [
+    37.466865,
+    127.1396968
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 47,
+   "jibun": "경기도 성남시 수정구 창곡동 547-1",
+   "doro": "경기도 성남시 수정구 위례서일로3길 14-16 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2014-16",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 371.0,
+   "totArea": 800.13,
+   "buildings": [
+    {
+     "name": "창곡동 D2-1 13-2",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 371.0,
+     "totArea": 800.13,
+     "useAprDay": "20170426"
+    }
+   ],
+   "latlng": [
+    37.4671116,
+    127.1397988
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 48,
+   "jibun": "경기도 성남시 수정구 창곡동 547",
+   "doro": "경기도 성남시 수정구 위례서일로3길 14-18 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2014-18",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 373.8,
+   "totArea": 596.29,
+   "buildings": [
+    {
+     "name": "창곡동 위례택지개발지구 D2-1 13-1 단독주택 (박성호)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택, 근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 373.8,
+     "totArea": 596.29,
+     "useAprDay": "20170622"
+    }
+   ],
+   "latlng": [
+    37.4671244,
+    127.1395433
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 49,
+   "jibun": "경기도 성남시 수정구 창곡동 555-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 15 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2015",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 278.9,
+   "totArea": 445.21,
+   "buildings": [
+    {
+     "name": "위례25-13",
+     "dong": "1",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 278.9,
+     "totArea": 445.21,
+     "useAprDay": "20150623"
+    }
+   ],
+   "latlng": [
+    37.4664396,
+    127.1391223
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 50,
+   "jibun": "경기도 성남시 수정구 창곡동 548-7",
+   "doro": "경기도 성남시 수정구 위례서일로3길 16 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2016",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 250.4,
+   "totArea": 399.2,
+   "buildings": [
+    {
+     "name": "위례 30-4",
+     "dong": "위례 30-4",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 250.4,
+     "totArea": 399.2,
+     "useAprDay": "20150612"
+    }
+   ],
+   "latlng": [
+    37.466435,
+    127.1394909
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 51,
+   "jibun": "경기도 성남시 수정구 창곡동 555-3",
+   "doro": "경기도 성남시 수정구 위례서일로3길 17 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2017",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 274.0,
+   "totArea": 494.98,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "근린생활시설및다가구주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 274.0,
+     "totArea": 494.98,
+     "useAprDay": "20160609"
+    }
+   ],
+   "latlng": [
+    37.4665781,
+    127.1391687
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 52,
+   "jibun": "경기도 성남시 수정구 창곡동 548-8",
+   "doro": "경기도 성남시 수정구 위례서일로3길 18 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2018",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 249.7,
+   "totArea": 398.87,
+   "buildings": [
+    {
+     "name": "위례지구 D2-1 30-3 단독주택 (이용선)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택(4가구))",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 249.7,
+     "totArea": 398.87,
+     "useAprDay": "20150623"
+    }
+   ],
+   "latlng": [
+    37.4665895,
+    127.1394968
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 53,
+   "jibun": "경기도 성남시 수정구 창곡동 555-2",
+   "doro": "경기도 성남시 수정구 위례서일로3길 19 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2019",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 252.8,
+   "totArea": 403.04,
+   "buildings": [
+    {
+     "name": "노박덩굴 하우스",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택 및 제2종근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 252.8,
+     "totArea": 403.04,
+     "useAprDay": "20150917"
+    }
+   ],
+   "latlng": [
+    37.4667255,
+    127.139185
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 54,
+   "jibun": "경기도 성남시 수정구 창곡동 548-9",
+   "doro": "경기도 성남시 수정구 위례서일로3길 20 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2020",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 250.1,
+   "totArea": 399.42,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(4가구) 및 제2종근린생활시설(일반음식점)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 250.1,
+     "totArea": 399.42,
+     "useAprDay": "20160531"
+    }
+   ],
+   "latlng": [
+    37.4667241,
+    127.1395096
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 55,
+   "jibun": "경기도 성남시 수정구 창곡동 555-1",
+   "doro": "경기도 성남시 수정구 위례서일로3길 21 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2021",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 263.2,
+   "totArea": 493.19,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 263.2,
+     "totArea": 493.19,
+     "useAprDay": "20150824"
+    }
+   ],
+   "latlng": [
+    37.4668695,
+    127.1392173
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 56,
+   "jibun": "경기도 성남시 수정구 창곡동 556-7",
+   "doro": "경기도 성남시 수정구 위례서일로3길 21-2 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2021-2",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 254.8,
+   "totArea": 520.63,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "근린생활시설및다가구주택(4가구)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 254.8,
+     "totArea": 520.63,
+     "useAprDay": "20190702"
+    }
+   ],
+   "latlng": [
+    37.4671331,
+    127.1392235
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 57,
+   "jibun": "경기도 성남시 수정구 창곡동 556-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 21-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2021-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 252.2,
+   "totArea": 495.18,
+   "buildings": [
+    {
+     "name": "U-HAUS",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 252.2,
+     "totArea": 495.18,
+     "useAprDay": "20150731"
+    }
+   ],
+   "latlng": [
+    37.4671416,
+    127.1390509
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 58,
+   "jibun": "경기도 성남시 수정구 창곡동 556-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 21-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2021-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 252.3,
+   "totArea": 460.78,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "1",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 252.3,
+     "totArea": 460.78,
+     "useAprDay": "20150717"
+    }
+   ],
+   "latlng": [
+    37.467152,
+    127.1388902
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 59,
+   "jibun": "경기도 성남시 수정구 창곡동 556-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 21-8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2021-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 252.0,
+   "totArea": 402.86,
+   "buildings": [
+    {
+     "name": "위례주택",
+     "dong": "14-1",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 252.0,
+     "totArea": 402.86,
+     "useAprDay": "20151120"
+    }
+   ],
+   "latlng": [
+    37.4671471,
+    127.1387277
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 60,
+   "jibun": "경기도 성남시 수정구 창곡동 548",
+   "doro": "경기도 성남시 수정구 위례서일로3길 22 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2022",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 249.9,
+   "totArea": 399.04,
+   "buildings": [
+    {
+     "name": "창곡동 위례신도시 D2-1 30 1 제2종근린생활시설 (신건순)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구,근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 249.9,
+     "totArea": 399.04,
+     "useAprDay": "20161208"
+    }
+   ],
+   "latlng": [
+    37.4668705,
+    127.1395025
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 61,
+   "jibun": "경기도 성남시 수정구 창곡동 544-7",
+   "doro": "경기도 성남시 수정구 위례서일로3길 27 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2027",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 254.3,
+   "totArea": 486.07,
+   "buildings": [
+    {
+     "name": "위례 단독주택",
+     "dong": "5-4",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 254.3,
+     "totArea": 486.07,
+     "useAprDay": "20151117"
+    }
+   ],
+   "latlng": [
+    37.4673988,
+    127.1392448
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 62,
+   "jibun": "경기도 성남시 수정구 창곡동 544-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 27-3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2027-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 251.8,
+   "totArea": 402.3,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택(5가구),근린생활시설)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 251.8,
+     "totArea": 402.3,
+     "useAprDay": "20150513"
+    }
+   ],
+   "latlng": [
+    37.4673983,
+    127.1390663
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 63,
+   "jibun": "경기도 성남시 수정구 창곡동 543-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 27-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2027-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 250.6,
+   "totArea": 480.84,
+   "buildings": [
+    {
+     "name": "위례지구 D2-1 6-2 단독주택 (손홍달)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 250.6,
+     "totArea": 480.84,
+     "useAprDay": "20150624"
+    }
+   ],
+   "latlng": [
+    37.467669,
+    127.1390673
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 64,
+   "jibun": "경기도 성남시 수정구 창곡동 544-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 27-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2027-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 251.8,
+   "totArea": 399.74,
+   "buildings": [
+    {
+     "name": "대경",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제1종근린생활시설(소매점),단독주택(다가구주택(4가구))",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 4,
+     "platArea": 251.8,
+     "totArea": 399.735,
+     "useAprDay": "20161227"
+    }
+   ],
+   "latlng": [
+    37.467397,
+    127.1389128
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 65,
+   "jibun": "경기도 성남시 수정구 창곡동 543-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 27-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2027-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 250.9,
+   "totArea": 399.98,
+   "buildings": [
+    {
+     "name": "위례택지개발지구 D2-1 6-1 근생주택",
+     "dong": "위례 D2-1(6-1)근생주택",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택(4가구),제1종근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 250.9,
+     "totArea": 399.98,
+     "useAprDay": "20160614"
+    }
+   ],
+   "latlng": [
+    37.4676713,
+    127.1389091
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 66,
+   "jibun": "경기도 성남시 수정구 창곡동 544-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 27-7 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2027-7",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 251.8,
+   "totArea": 403.13,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 251.8,
+     "totArea": 403.13,
+     "useAprDay": "20150826"
+    }
+   ],
+   "latlng": [
+    37.4674089,
+    127.1387527
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 67,
+   "jibun": "경기도 성남시 수정구 창곡동 546-7",
+   "doro": "경기도 성남시 수정구 위례서일로3길 28 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2028",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 372.6,
+   "totArea": 596.68,
+   "buildings": [
+    {
+     "name": "청우하우스",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택,제2종근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 8,
+     "platArea": 372.6,
+     "totArea": 596.68,
+     "useAprDay": "20170302"
+    }
+   ],
+   "latlng": [
+    37.4673798,
+    127.1395575
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 68,
+   "jibun": "경기도 성남시 수정구 창곡동 546-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 28-2 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2028-2",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 369.7,
+   "totArea": 783.27,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설 및 다가구주택(5가구)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 8,
+     "platArea": 369.7,
+     "totArea": 783.27,
+     "useAprDay": "20160211"
+    }
+   ],
+   "latlng": [
+    37.4673695,
+    127.1398097
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 69,
+   "jibun": "경기도 성남시 수정구 창곡동 546-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 28-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2028-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 2,
+   "platArea": 635.5,
+   "totArea": 2494.3,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제2종근린생활시설",
+     "floors": 5,
+     "basement": 2,
+     "ride": 1,
+     "emergency": 0,
+     "households": 17,
+     "platArea": 635.5,
+     "totArea": 2494.3,
+     "useAprDay": "20151013"
+    }
+   ],
+   "latlng": [
+    37.4673988,
+    127.1400813
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 70,
+   "jibun": "경기도 성남시 수정구 창곡동 545-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 28-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2028-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 287.1,
+   "totArea": 459.33,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택, 제1종근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 287.1,
+     "totArea": 459.33,
+     "useAprDay": "20160215"
+    }
+   ],
+   "latlng": [
+    37.46762,
+    127.1397537
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 71,
+   "jibun": "경기도 성남시 수정구 창곡동 545-3",
+   "doro": "경기도 성남시 수정구 위례서일로3길 28-9 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2028-9",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 291.6,
+   "totArea": 494.75,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 291.6,
+     "totArea": 494.75,
+     "useAprDay": "20150901"
+    }
+   ],
+   "latlng": [
+    37.4680315,
+    127.1397706
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 72,
+   "jibun": "경기도 성남시 수정구 창곡동 545-1",
+   "doro": "경기도 성남시 수정구 위례서일로3길 28-17 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2028-17",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 298.5,
+   "totArea": 476.49,
+   "buildings": [
+    {
+     "name": "창곡동 위례신도시 D2-1 10-8 단독주택 (이대규)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 298.5,
+     "totArea": 476.49,
+     "useAprDay": "20170213"
+    }
+   ],
+   "latlng": [
+    37.4683799,
+    127.1397946
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 73,
+   "jibun": "경기도 성남시 수정구 창곡동 543-3",
+   "doro": "경기도 성남시 수정구 위례서일로3길 29 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2029",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 255.8,
+   "totArea": 407.38,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 255.8,
+     "totArea": 407.38,
+     "useAprDay": "20150803"
+    }
+   ],
+   "latlng": [
+    37.4676678,
+    127.1392701
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 74,
+   "jibun": "경기도 성남시 수정구 창곡동 545-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 30 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2030",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 282.9,
+   "totArea": 449.72,
+   "buildings": [
+    {
+     "name": "위례점포주택",
+     "dong": "11-1",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 282.9,
+     "totArea": 449.72,
+     "useAprDay": "20151123"
+    }
+   ],
+   "latlng": [
+    37.4676575,
+    127.1395685
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 75,
+   "jibun": "경기도 성남시 수정구 창곡동 543-2",
+   "doro": "경기도 성남시 수정구 위례서일로3길 31 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2031",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 1,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 256.2,
+   "totArea": 407.08,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 1,
+     "households": 5,
+     "platArea": 256.2,
+     "totArea": 407.08,
+     "useAprDay": "20150907"
+    }
+   ],
+   "latlng": [
+    37.4678607,
+    127.1392683
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 76,
+   "jibun": "경기도 성남시 수정구 창곡동 545-7",
+   "doro": "경기도 성남시 수정구 위례서일로3길 32 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2032",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 295.8,
+   "totArea": 471.03,
+   "buildings": [
+    {
+     "name": "위례 주택",
+     "dong": "제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 295.8,
+     "totArea": 471.03,
+     "useAprDay": "20151214"
+    }
+   ],
+   "latlng": [
+    37.4678589,
+    127.1395794
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 77,
+   "jibun": "경기도 성남시 수정구 창곡동 539-8",
+   "doro": "경기도 성남시 수정구 위례서일로3길 33 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2033",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 1,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 278.8,
+   "totArea": 445.61,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 1,
+     "households": 5,
+     "platArea": 278.8,
+     "totArea": 445.61,
+     "useAprDay": "20151026"
+    }
+   ],
+   "latlng": [
+    37.4681144,
+    127.1392951
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 78,
+   "jibun": "경기도 성남시 수정구 창곡동 539-9",
+   "doro": "경기도 성남시 수정구 위례서일로3길 33-2 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2033-2",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 288.5,
+   "totArea": 459.41,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 288.5,
+     "totArea": 459.41,
+     "useAprDay": "20150604"
+    }
+   ],
+   "latlng": [
+    37.4681594,
+    127.139126
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 79,
+   "jibun": "경기도 성남시 수정구 창곡동 543-1",
+   "doro": "경기도 성남시 수정구 위례서일로3길 33-3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2033-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 251.0,
+   "totArea": 493.56,
+   "buildings": [
+    {
+     "name": "라 블랑쉬(La Blanche)",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활 및 단독주택(다가구5가구)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 251.0,
+     "totArea": 493.56,
+     "useAprDay": "20160502"
+    }
+   ],
+   "latlng": [
+    37.4678704,
+    127.139096
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 80,
+   "jibun": "경기도 성남시 수정구 창곡동 539-10",
+   "doro": "경기도 성남시 수정구 위례서일로3길 33-4 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2033-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 284.9,
+   "totArea": 455.66,
+   "buildings": [
+    {
+     "name": "복정동 위례신도시 이주자택지 D2-1블럭 9-7호 단독주택 (윤관식)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 284.9,
+     "totArea": 455.66,
+     "useAprDay": "20160623"
+    }
+   ],
+   "latlng": [
+    37.4681563,
+    127.1389721
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 81,
+   "jibun": "경기도 성남시 수정구 창곡동 543",
+   "doro": "경기도 성남시 수정구 위례서일로3길 33-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2033-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 251.3,
+   "totArea": 495.19,
+   "buildings": [
+    {
+     "name": "U-HAUS",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택, 근린생활시설",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 251.3,
+     "totArea": 495.19,
+     "useAprDay": "20160310"
+    }
+   ],
+   "latlng": [
+    37.4678827,
+    127.1389231
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 82,
+   "jibun": "경기도 성남시 수정구 창곡동 539-11",
+   "doro": "경기도 성남시 수정구 위례서일로3길 33-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2033-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 287.8,
+   "totArea": 458.06,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 5,
+     "platArea": 287.8,
+     "totArea": 458.06,
+     "useAprDay": "20150724"
+    }
+   ],
+   "latlng": [
+    37.4681623,
+    127.138817
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 83,
+   "jibun": "경기도 성남시 수정구 창곡동 545-8",
+   "doro": "경기도 성남시 수정구 위례서일로3길 34 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2034",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 291.7,
+   "totArea": 532.24,
+   "buildings": [
+    {
+     "name": "창곡동 위례택지개발지구 D2-1 10-3 단독주택 (김은주)",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택, 근린생활시설",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 291.7,
+     "totArea": 532.24,
+     "useAprDay": "20161017"
+    }
+   ],
+   "latlng": [
+    37.4680528,
+    127.139589
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 84,
+   "jibun": "경기도 성남시 수정구 창곡동 545-9",
+   "doro": "경기도 성남시 수정구 위례서일로3길 36 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2036",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 291.8,
+   "totArea": 553.54,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 291.8,
+     "totArea": 553.54,
+     "useAprDay": "20160328"
+    }
+   ],
+   "latlng": [
+    37.4682171,
+    127.1395963
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 85,
+   "jibun": "경기도 성남시 수정구 창곡동 539-7",
+   "doro": "경기도 성남시 수정구 위례서일로3길 37 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2037",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 295.1,
+   "totArea": 562.09,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택5가구), 근린생활시설",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 295.1,
+     "totArea": 562.09,
+     "useAprDay": "20191021"
+    }
+   ],
+   "latlng": [
+    37.4683136,
+    127.1392951
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 86,
+   "jibun": "경기도 성남시 수정구 창곡동 539-6",
+   "doro": "경기도 성남시 수정구 위례서일로3길 37-1 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2037-1",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 291.0,
+   "totArea": 465.3,
+   "buildings": [
+    {
+     "name": "위례 단독주택",
+     "dong": "9-3",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 291.0,
+     "totArea": 465.3,
+     "useAprDay": "20151117"
+    }
+   ],
+   "latlng": [
+    37.4683085,
+    127.1391251
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 87,
+   "jibun": "경기도 성남시 수정구 창곡동 539-5",
+   "doro": "경기도 성남시 수정구 위례서일로3길 37-3 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2037-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 0,
+   "platArea": 287.5,
+   "totArea": 459.26,
+   "buildings": [
+    {
+     "name": "위례지구",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택 및 근린생활시설",
+     "floors": 4,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 287.5,
+     "totArea": 459.26,
+     "useAprDay": "20151228"
+    }
+   ],
+   "latlng": [
+    37.4683178,
+    127.1389755
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 88,
+   "jibun": "경기도 성남시 수정구 창곡동 539-4",
+   "doro": "경기도 성남시 수정구 위례서일로3길 37-5 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2037-5",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 277.0,
+   "totArea": 551.91,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설 및 다가구주택(4가구)",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 6,
+     "platArea": 277.0,
+     "totArea": 551.91,
+     "useAprDay": "20170721"
+    }
+   ],
+   "latlng": [
+    37.4683291,
+    127.1388155
+   ]
+  },
+  {
+   "road": "위례서일로3길",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 89,
+   "jibun": "경기도 성남시 수정구 창곡동 545",
+   "doro": "경기도 성남시 수정구 위례서일로3길 38 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C3%EA%B8%B8%2038",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 1,
+   "platArea": 284.3,
+   "totArea": 527.42,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 4,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 7,
+     "platArea": 284.3,
+     "totArea": 527.42,
+     "useAprDay": "20160225"
+    }
+   ],
+   "latlng": [
+    37.4683805,
+    127.1395953
+   ]
+  },
+  {
+   "road": "위례서로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 1,
+   "jibun": "경기도 성남시 수정구 창곡동 557-7",
+   "doro": "경기도 성남시 수정구 위례서로 12 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EB%A1%9C%2012",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 1,
+   "maxBasement": 0,
+   "platArea": 816.3,
+   "totArea": 489.36,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제2종근린생활시설(사무소)",
+     "floors": 1,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 816.3,
+     "totArea": 489.36,
+     "useAprDay": "20160108"
+    }
+   ],
+   "latlng": [
+    37.4662244,
+    127.1365738
+   ]
+  },
+  {
+   "road": "위례서로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 2,
+   "jibun": "경기도 성남시 수정구 창곡동 557-6",
+   "doro": "경기도 성남시 수정구 위례서로 16 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EB%A1%9C%2016",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 2,
+   "platArea": 836.1,
+   "totArea": 3310.53,
+   "buildings": [
+    {
+     "name": "경운프라자",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제2종근린생활시설",
+     "floors": 5,
+     "basement": 2,
+     "ride": 1,
+     "emergency": 0,
+     "households": 24,
+     "platArea": 836.1,
+     "totArea": 3310.53,
+     "useAprDay": "20160115"
+    }
+   ],
+   "latlng": [
+    37.466506,
+    127.1367616
+   ]
+  },
+  {
+   "road": "위례서로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 3,
+   "jibun": "경기도 성남시 수정구 창곡동 557-5",
+   "doro": "경기도 성남시 수정구 위례서로 18 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EB%A1%9C%2018",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 2,
+   "platArea": 632.0,
+   "totArea": 2954.83,
+   "buildings": [
+    {
+     "name": "위례 청파프라자",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제2종근린생활시설(일반음식점),제1종근린생활시설(소매점,의원)",
+     "floors": 5,
+     "basement": 2,
+     "ride": 1,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 632.0,
+     "totArea": 2954.83,
+     "useAprDay": "20170126"
+    }
+   ],
+   "latlng": [
+    37.4667612,
+    127.1369237
+   ]
+  },
+  {
+   "road": "위례서로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 4,
+   "jibun": "경기도 성남시 수정구 창곡동 557-4",
+   "doro": "경기도 성남시 수정구 위례서로 20 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EB%A1%9C%2020",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 2,
+   "maxBasement": 0,
+   "platArea": 642.3,
+   "totArea": 457.6,
+   "buildings": [
+    {
+     "name": "창곡동 557-4  근린생활시설",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제2종근린생활시설",
+     "floors": 2,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 2,
+     "platArea": 642.3,
+     "totArea": 457.6,
+     "useAprDay": "20250909"
+    }
+   ],
+   "latlng": [
+    37.4670156,
+    127.136977
+   ]
+  },
+  {
+   "road": "위례서로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 5,
+   "jibun": "경기도 성남시 수정구 창곡동 557-3",
+   "doro": "경기도 성남시 수정구 위례서로 24 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EB%A1%9C%2024",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 1,
+   "platArea": 631.0,
+   "totArea": 2422.68,
+   "buildings": [
+    {
+     "name": "행복빌딩",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제1종근린생활시설 및 제2종근린생활시설",
+     "floors": 5,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 24,
+     "platArea": 631.0,
+     "totArea": 2422.68,
+     "useAprDay": "20160427"
+    }
+   ],
+   "latlng": [
+    37.4671884,
+    127.137102
+   ]
+  },
+  {
+   "road": "위례서로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 6,
+   "jibun": "경기도 성남시 수정구 창곡동 536",
+   "doro": "경기도 성남시 수정구 위례서로 34 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EB%A1%9C%2034",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 3,
+   "emergency": 0,
+   "maxFloors": 11,
+   "maxBasement": 0,
+   "platArea": 1244.2,
+   "totArea": 9355.33,
+   "buildings": [
+    {
+     "name": "위례리버스토리",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "자동차관련시설",
+     "etcPurpose": "자동차관련시설(주차장), 근린생활시설, 업무시설(오피스텔)",
+     "floors": 11,
+     "basement": 0,
+     "ride": 3,
+     "emergency": 0,
+     "households": 80,
+     "platArea": 1244.2,
+     "totArea": 9355.33,
+     "useAprDay": "20171013"
+    }
+   ],
+   "latlng": [
+    37.468236,
+    127.1372063
+   ]
+  },
+  {
+   "road": "위례서일로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 1,
+   "jibun": "경기도 성남시 수정구 창곡동 559",
+   "doro": "경기도 성남시 수정구 위례서일로 2 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C%202",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 2,
+   "maxBasement": 0,
+   "platArea": 1613.5,
+   "totArea": 1219.02,
+   "buildings": [
+    {
+     "name": "근상1 1-1 판매시설",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "판매시설",
+     "etcPurpose": "판매시설(상점),제2종근린생활시설(일반음식점)",
+     "floors": 2,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 1613.5,
+     "totArea": 1219.02,
+     "useAprDay": "20161219"
+    }
+   ],
+   "latlng": [
+    37.4657064,
+    127.1363875
+   ]
+  },
+  {
+   "road": "위례서일로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 2,
+   "jibun": "경기도 성남시 수정구 창곡동 559-4",
+   "doro": "경기도 성남시 수정구 위례서일로 18 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C%2018",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 4,
+   "emergency": 0,
+   "maxFloors": 11,
+   "maxBasement": 4,
+   "platArea": 1930.5,
+   "totArea": 17154.94,
+   "buildings": [
+    {
+     "name": "더존엠타워",
+     "dong": "더존엠타워",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "의료시설",
+     "etcPurpose": "의료시설, 제1,2종근린생활시설",
+     "floors": 11,
+     "basement": 4,
+     "ride": 4,
+     "emergency": 0,
+     "households": 73,
+     "platArea": 1930.5,
+     "totArea": 17154.94,
+     "useAprDay": "20170901"
+    }
+   ],
+   "latlng": [
+    37.4651339,
+    127.1378253
+   ]
+  },
+  {
+   "road": "위례서일로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 3,
+   "jibun": "경기도 성남시 수정구 창곡동 559-5",
+   "doro": "경기도 성남시 수정구 위례서일로 22 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C%2022",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 0,
+   "maxFloors": 10,
+   "maxBasement": 4,
+   "platArea": 1930.7,
+   "totArea": 18203.79,
+   "buildings": [
+    {
+     "name": "이너매스우남",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제1,2종근린생활시설, 교육연구시설(학원), 노유자시설(노인복지시설)",
+     "floors": 10,
+     "basement": 4,
+     "ride": 2,
+     "emergency": 0,
+     "households": 157,
+     "platArea": 1930.7,
+     "totArea": 18203.79,
+     "useAprDay": "20170324"
+    }
+   ],
+   "latlng": [
+    37.4649105,
+    127.1382437
+   ]
+  },
+  {
+   "road": "위례서일로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 4,
+   "jibun": "경기도 성남시 수정구 창곡동 559-6",
+   "doro": "경기도 성남시 수정구 위례서일로 26 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C%2026",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 1,
+   "maxFloors": 11,
+   "maxBasement": 5,
+   "platArea": 1926.9,
+   "totArea": 19299.75,
+   "buildings": [
+    {
+     "name": "창곡동 559-6번지",
+     "dong": "라크리움",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제1,2종 근린생활시설, 운동시설, 노유자시설",
+     "floors": 11,
+     "basement": 5,
+     "ride": 2,
+     "emergency": 1,
+     "households": 146,
+     "platArea": 1926.9,
+     "totArea": 19299.75,
+     "useAprDay": "20171109"
+    }
+   ],
+   "latlng": [
+    37.4647383,
+    127.1386734
+   ]
+  },
+  {
+   "road": "위례서일로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 5,
+   "jibun": "경기도 성남시 수정구 창곡동 559-7",
+   "doro": "경기도 성남시 수정구 위례서일로 30 (창곡동)",
+   "zip": "13646",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EC%84%9C%EC%9D%BC%EB%A1%9C%2030",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 4,
+   "emergency": 1,
+   "maxFloors": 13,
+   "maxBasement": 8,
+   "platArea": 1892.8,
+   "totArea": 24490.84,
+   "buildings": [
+    {
+     "name": "위례 헤리움",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "업무시설",
+     "etcPurpose": "업무시설(오피스텔), 제1,2종근린생활시설",
+     "floors": 13,
+     "basement": 8,
+     "ride": 4,
+     "emergency": 1,
+     "households": 256,
+     "platArea": 1892.8,
+     "totArea": 24490.84,
+     "useAprDay": "20181026"
+    }
+   ],
+   "latlng": [
+    37.4645196,
+    127.1391167
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 1,
+   "jibun": "경기도 성남시 수정구 창곡동 547-5",
+   "doro": "경기도 성남시 수정구 위례광장로 21 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2021",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 2,
+   "platArea": 648.7,
+   "totArea": 2710.05,
+   "buildings": [
+    {
+     "name": "가하빌딩",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제1종근린생활시설 및 제2종근린생활시설",
+     "floors": 5,
+     "basement": 2,
+     "ride": 1,
+     "emergency": 0,
+     "households": 21,
+     "platArea": 648.7,
+     "totArea": 2710.05,
+     "useAprDay": "20160321"
+    }
+   ],
+   "latlng": [
+    37.4663096,
+    127.1400195
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 2,
+   "jibun": "경기도 성남시 수정구 창곡동 547-6",
+   "doro": "경기도 성남시 수정구 위례광장로 21-6 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2021-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 3,
+   "platArea": 1279.0,
+   "totArea": 6655.98,
+   "buildings": [
+    {
+     "name": "정프라자",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제1,2종근린생활시설",
+     "floors": 5,
+     "basement": 3,
+     "ride": 2,
+     "emergency": 0,
+     "households": 40,
+     "platArea": 1279.0,
+     "totArea": 6655.98,
+     "useAprDay": "20171122"
+    }
+   ],
+   "latlng": [
+    37.4659991,
+    127.1398791
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 3,
+   "jibun": "경기도 성남시 수정구 창곡동 547-8",
+   "doro": "경기도 성남시 수정구 위례광장로 21-8 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2021-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 1,
+   "platArea": 644.2,
+   "totArea": 2234.94,
+   "buildings": [
+    {
+     "name": "새움빌딩",
+     "dong": "새움빌딩",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제1종근린생활시설",
+     "floors": 5,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 644.2,
+     "totArea": 2234.94,
+     "useAprDay": "20151215"
+    }
+   ],
+   "latlng": [
+    37.4657436,
+    127.1396661
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 4,
+   "jibun": "경기도 성남시 수정구 창곡동 547-9",
+   "doro": "경기도 성남시 수정구 위례광장로 21-10 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2021-10",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 3,
+   "platArea": 644.6,
+   "totArea": 2966.45,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제1종근린생활시설(제2종근린생활시설)",
+     "floors": 5,
+     "basement": 3,
+     "ride": 1,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 644.6,
+     "totArea": 2966.45,
+     "useAprDay": "20160121"
+    }
+   ],
+   "latlng": [
+    37.4655761,
+    127.1395225
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 5,
+   "jibun": "경기도 성남시 수정구 창곡동 547-10",
+   "doro": "경기도 성남시 수정구 위례광장로 21-12 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2021-12",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 3,
+   "platArea": 1510.2,
+   "totArea": 8085.32,
+   "buildings": [
+    {
+     "name": "위례드림시티",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제2종근린생활시설",
+     "floors": 5,
+     "basement": 3,
+     "ride": 2,
+     "emergency": 0,
+     "households": 67,
+     "platArea": 1510.2,
+     "totArea": 8085.32,
+     "useAprDay": "20160713"
+    }
+   ],
+   "latlng": [
+    37.4652695,
+    127.1392078
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 6,
+   "jibun": "경기도 성남시 수정구 창곡동 562-2",
+   "doro": "경기도 성남시 수정구 위례광장로 21-13 (창곡동)",
+   "zip": "13646",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2021-13",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 0,
+   "maxFloors": 6,
+   "maxBasement": 1,
+   "platArea": 2628.7,
+   "totArea": 12195.03,
+   "buildings": [
+    {
+     "name": "힘찬프라자",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "자동차관련시설",
+     "etcPurpose": "자동차관련시설, 근린생활시설",
+     "floors": 6,
+     "basement": 1,
+     "ride": 2,
+     "emergency": 0,
+     "households": 53,
+     "platArea": 2628.7,
+     "totArea": 12195.03,
+     "useAprDay": "20160603"
+    }
+   ],
+   "latlng": [
+    37.4649813,
+    127.1398379
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 7,
+   "jibun": "경기도 성남시 수정구 창곡동 547-4",
+   "doro": "경기도 성남시 수정구 위례광장로 25 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2025",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 2,
+   "platArea": 710.2,
+   "totArea": 2994.98,
+   "buildings": [
+    {
+     "name": "성산타워",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제1종근린생활시설",
+     "floors": 5,
+     "basement": 2,
+     "ride": 1,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 710.2,
+     "totArea": 2994.98,
+     "useAprDay": "20151211"
+    }
+   ],
+   "latlng": [
+    37.4665739,
+    127.1400764
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 8,
+   "jibun": "경기도 성남시 수정구 창곡동 547-2",
+   "doro": "경기도 성남시 수정구 위례광장로 27 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2027",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 1,
+   "platArea": 1450.0,
+   "totArea": 5627.85,
+   "buildings": [
+    {
+     "name": "으뜸프라자",
+     "dong": "주건축물제1동",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제2종근린생활시설",
+     "floors": 5,
+     "basement": 1,
+     "ride": 2,
+     "emergency": 0,
+     "households": 39,
+     "platArea": 1450.0,
+     "totArea": 5627.85,
+     "useAprDay": "20160113"
+    }
+   ],
+   "latlng": [
+    37.4669448,
+    127.1400978
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 9,
+   "jibun": "경기도 성남시 수정구 창곡동 546-4",
+   "doro": "경기도 성남시 수정구 위례광장로 37 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2037",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 2,
+   "platArea": 530.5,
+   "totArea": 1960.54,
+   "buildings": [
+    {
+     "name": "위례 SG프라자2",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제2종근린생활시설",
+     "floors": 5,
+     "basement": 2,
+     "ride": 1,
+     "emergency": 0,
+     "households": 13,
+     "platArea": 530.5,
+     "totArea": 1960.54,
+     "useAprDay": "20160114"
+    }
+   ],
+   "latlng": [
+    37.4676255,
+    127.1401155
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 10,
+   "jibun": "경기도 성남시 수정구 창곡동 546-2",
+   "doro": "경기도 성남시 수정구 위례광장로 41 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2041",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 1,
+   "platArea": 1200.4,
+   "totArea": 4691.0,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제1종근린생활시설 및 제2종근린생활시설",
+     "floors": 5,
+     "basement": 1,
+     "ride": 2,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 1200.4,
+     "totArea": 4691.004,
+     "useAprDay": "20160202"
+    }
+   ],
+   "latlng": [
+    37.4679408,
+    127.1401525
+   ]
+  },
+  {
+   "road": "위례광장로",
+   "group": "위례 위례서일로1·3길 일대",
+   "no": 11,
+   "jibun": "경기도 성남시 수정구 창곡동 546",
+   "doro": "경기도 성남시 수정구 위례광장로 45 (창곡동)",
+   "zip": "13647",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EA%B4%91%EC%9E%A5%EB%A1%9C%2045",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 2,
+   "emergency": 0,
+   "maxFloors": 5,
+   "maxBasement": 2,
+   "platArea": 1197.1,
+   "totArea": 5530.72,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제2종근린생활시설",
+     "etcPurpose": "제1종 근린생활시설 및 제2종근린생활시설",
+     "floors": 5,
+     "basement": 2,
+     "ride": 2,
+     "emergency": 0,
+     "households": 36,
+     "platArea": 1197.1,
+     "totArea": 5530.72,
+     "useAprDay": "20160202"
+    }
+   ],
+   "latlng": [
+    37.4683668,
+    127.1401845
+   ]
   }
  ]
 }

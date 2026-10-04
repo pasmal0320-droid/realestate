@@ -105,9 +105,20 @@ AREAS = [{
     "exclude": ["안골로 24"],
     "note": "서현로237~257번길, 새마을로1·7번길, 안골로11번길 전체와 큰길의 서현로 241~251(북쪽), 새마을로 5~31, "
             "안골로 1~25를 포함했다. 화면 동쪽 밖인 안골로 24·27, 새마을로 35·37, 새마을로51번길, 안골로48번길은 제외했다.",
+}, {
+    "title": "수정구 창곡동 위례서일로1·3길 일대",
+    "group": "위례 위례서일로1·3길 일대",
+    "sigunguCd": "41131",  # 수정구
+    "bjdongCd": "10800",   # 창곡동
+    "roads": {
+        "위례서일로1길": None, "위례서일로3길": None,
+        "위례서로": (12, 34), "위례서일로": (2, 30), "위례광장로": (21, 45, "odd"),
+    },
+    "note": "위례서일로1·3길(남북 두 블록) 전체와 둘레의 위례서로 12~34(도로 동쪽), 위례서일로 2~30, 위례광장로 21~45 "
+            "홀수(도로 서쪽)를 포함했다. 위례광장로 동쪽 건너편(푸르지오 4~6단지, 아이페리온 등)과 위례서일로 46은 제외했다.",
 }]
 
-ROAD_RE = re.compile(r"분당구 (\S+) (지하)?(\d+)(?:-(\d+))?")
+ROAD_RE = re.compile(r"\S+구 (\S+) (지하)?(\d+)(?:-(\d+))?")  # 시·구 다음의 도로명과 건물번호
 
 
 def dong_items(AREA):
@@ -156,7 +167,7 @@ def add_area(AREA):
             continue
         if rng and len(rng) > 2 and (no % 2 == 1) != (rng[2] == "odd"):
             continue
-        if fe.norm_addr(doro).replace("경기도 성남시 분당구 ", "") in AREA.get("exclude", []):
+        if re.sub(r"^\S+ \S+시 \S+구 ", "", fe.norm_addr(doro)) in AREA.get("exclude", []):
             continue
         jibun = re.sub(r"번지$", "", (i.get("platPlc") or "").strip())
         key = (doro, jibun)
