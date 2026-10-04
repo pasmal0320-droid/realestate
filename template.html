@@ -220,6 +220,8 @@ const shortAddr = s => String(s).replace(/^경기도 성남시 분당구 /, "");
 const fmtArea = v => v ? `${Number(v).toLocaleString("ko-KR", { maximumFractionDigits: 1 })}㎡` : "-";
 const fmtDay = d => d && d.length === 8 ? `${d.slice(0, 4)}.${d.slice(4, 6)}.${d.slice(6)}` : "";
 const isWarn = r => r.status === "no" && r.maxFloors >= 6;
+// 한 도로명주소가 여러 필지에 걸친 경우가 있어 도로명주소+지번으로 구분
+const rid = r => r.doro + "|" + r.jibun;
 const known = r => r.status === "yes" || r.status === "no";
 const hasBasement = r => known(r) && r.maxBasement > 0;
 
@@ -279,7 +281,7 @@ function renderList() {
     html += `<section><h2>${esc(road)} <small>${rows[0].group} · ${rows.length}건 · 있음 ${yes}</small></h2>
     <table class="list"><thead><tr><th>상태</th><th>도로명주소</th><th>건물명 · 용도</th><th class="num">층수</th><th class="num">대지 / 연면적</th><th class="num">승강기</th><th class="num">사용승인</th><th>지번</th></tr></thead><tbody>`;
     for (const r of rows) {
-      const t = title(r), id = r.doro;
+      const t = title(r), id = rid(r);
       const lift = ["yes", "no"].includes(r.status) ? `${r.ride + r.emergency}대${r.emergency ? ` <span class="muted">(비상 ${r.emergency})</span>` : ""}` : "-";
       const day = (r.buildings || []).map(b => b.useAprDay).filter(Boolean).sort()[0];
       html += `<tr class="main" data-id="${esc(id)}" aria-expanded="${state.open.has(id)}">
@@ -390,8 +392,8 @@ function initMap() {
         : `<div class="pin ${r.status}">${r.maxFloors || "?"}</div>` }),
       title: shortAddr(r.doro),
     }).bindPopup(() => popupHtml(r));
-    m.on("click", () => focusRow(r.doro, false));
-    markers.set(r.doro, m);
+    m.on("click", () => focusRow(rid(r), false));
+    markers.set(rid(r), m);
   }
   map.fitBounds(L.latLngBounds(rows.map(r => r.latlng)), { padding: [30, 30] });
   const syncZoom = () => document.getElementById("map").classList.toggle("compact", map.getZoom() < 18);
@@ -402,7 +404,7 @@ function initMap() {
 function renderMarkers() {
   if (!map) return;
   for (const r of DATA.rows) {
-    const m = markers.get(r.doro);
+    const m = markers.get(rid(r));
     if (!m) continue;
     const show = matches(r);
     if (show && !map.hasLayer(m)) m.addTo(map);
