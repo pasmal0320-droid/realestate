@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>성남 엘리베이터 지도</title>
+<title>부동산 현황</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
@@ -35,15 +35,6 @@ body {
 .wrap { max-width: 1440px; margin: 0 auto; padding: 28px 16px 60px; }
 h1 { font-size: 24px; margin: 0 0 4px; letter-spacing: -0.02em; }
 .sub { color: var(--muted); font-size: 13px; margin: 0 0 22px; }
-.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 18px; }
-.stat {
-  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-  padding: 12px 14px; cursor: pointer; text-align: left; color: inherit; font: inherit;
-}
-.stat[aria-pressed="true"] { outline: 2px solid var(--accent); outline-offset: -1px; }
-.stat .n { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
-.stat .l { font-size: 13px; color: var(--muted); }
-.stat.yes .n { color: var(--yes); } .stat.no .n { color: var(--no); } .stat.unknown .n { color: var(--unk); }
 .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
 .controls input, .controls select {
   font: inherit; color: var(--text); background: var(--surface);
@@ -109,6 +100,15 @@ footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.
   background: var(--surface-2); border: 1px solid var(--border); border-radius: 6px; padding: 0 4px;
 }
 .zoombox span { font-size: 13px; color: var(--muted); padding-right: 4px; }
+.favs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.fav {
+  font: inherit; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+  background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 999px; padding: 6px 14px;
+}
+.fav::before { content: "★"; color: #e0a100; }
+.fav:hover { background: var(--surface-2); }
+.fav[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+.fav small { color: var(--muted); font-size: 12px; }
 .legend {
   position: absolute; z-index: 500; left: 10px; bottom: 22px; background: var(--surface); color: var(--text);
   border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: 12px; display: flex; flex-wrap: wrap; gap: 4px 10px; max-width: calc(100% - 20px);
@@ -144,7 +144,6 @@ footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.
 #map.compact .pin.star { width: 17px; height: 17px; }
 #map.compact .pin.star svg path { stroke-width: 2.2; }
 .badge.basement { color: var(--accent); background: var(--surface-2); margin-left: 4px; }
-.stat.basement .n { color: var(--accent); }
 .legend .star { color: var(--muted); font-size: 13px; }
 .pin.active { outline: 3px solid #2457c5; outline-offset: 1px; }
 #map.compact .pin:not(.star) { font-size: 0; padding: 0; width: 12px; height: 12px; border-width: 1.5px; }
@@ -162,8 +161,6 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
   #mapBox { position: relative; top: 0; height: 52vh; min-height: 320px; margin-bottom: 18px; }
 }
 @media (max-width: 720px) {
-  .stats { grid-template-columns: repeat(2, 1fr); }
-  .stat.basement { grid-column: span 2; }
   table.list > thead { display: none; }
   table.list, table.list > tbody, table.list > tbody > tr, table.list > tbody > tr > td { display: block; width: 100%; }
   table.list > tbody.entry { padding: 10px 12px; border-bottom: 1px solid var(--border); }
@@ -178,10 +175,10 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
 </head>
 <body>
 <div class="wrap">
-  <h1>성남 단독주택가 엘리베이터 현황 <small class="muted" style="font-size:14px;font-weight:400">분당구 백현동·판교동·운중동·정자동·서현동 · 수정구 창곡동(위례)</small></h1>
+  <h1>부동산 현황</h1>
   <p class="sub" id="sub"></p>
 
-  <div class="stats" id="stats"></div>
+  <div class="favs" id="favs" aria-label="구역 즐겨찾기"></div>
 
   <div class="controls">
     <input id="q" type="search" placeholder="도로명·지번·건물명·용도 검색">
@@ -260,13 +257,7 @@ function matches(r) {
   return true;
 }
 
-function renderStats() {
-  const rows = DATA.rows;
-  const c = s => rows.filter(r => s === "unknown" ? ["unknown", "error"].includes(r.status) : r.status === s).length;
-  const items = [["", "전체 주소", rows.length], ["yes", "엘리베이터 있음", c("yes")], ["no", "엘리베이터 없음", c("no")], ["unknown", "확인 불가", c("unknown")]];
-  document.getElementById("stats").innerHTML = items.map(([k, l, n]) =>
-    `<button class="stat ${k}" data-s="${k}" aria-pressed="${k ? state.status === k : !state.status && !state.basement}"><div class="n">${n}</div><div class="l">${l}</div></button>`).join("")
-    + `<button class="stat basement" data-b="yes" aria-pressed="${state.basement === "yes"}"><div class="n">★ ${rows.filter(hasBasement).length}</div><div class="l">지하 있음</div></button>`;
+function syncControls() {
   document.getElementById("elevSel").value = state.status;
   document.getElementById("baseSel").value = state.basement;
 }
@@ -293,7 +284,7 @@ function renderList() {
   for (const [key, rows] of roads) {
     const road = rows[0].road;
     const yes = rows.filter(r => r.status === "yes").length;
-    html += `<section><h2>${esc(road)} <small>${rows[0].group} · ${rows.length}건 · 있음 ${yes}</small></h2>
+    html += `<section data-group="${esc(rows[0].group)}"><h2>${esc(road)} <small>${rows[0].group} · ${rows.length}건 · 있음 ${yes}</small></h2>
     <table class="list"><thead><tr><th class="num">층수</th><th class="num">대지 / 연면적</th><th class="num">승강기 (사용승인)</th></tr></thead>`;
     for (const r of rows) {
       const t = title(r), id = rid(r);
@@ -458,16 +449,44 @@ function focusRow(id, moveMap) {
   }
 }
 
-function render() { renderStats(); renderList(); renderMarkers(); }
-
-document.getElementById("sub").textContent = `${DATA.source} · 조회일 ${DATA.generated} · 주소 ${DATA.rows.length}건`;
-document.getElementById("stats").addEventListener("click", e => {
-  const b = e.target.closest(".stat"); if (!b) return;
-  if (b.dataset.b) state.basement = state.basement === b.dataset.b ? "" : b.dataset.b;
-  else if (b.dataset.s) state.status = state.status === b.dataset.s ? "" : b.dataset.s;
-  else { state.status = ""; state.basement = ""; }
-  render();
+// 구역 즐겨찾기: 주소록 구분(group)을 구역 단위로 묶어 버튼으로 표시
+const FAV_LABELS = {
+  "주변 4개 도로": "백현동 561", "확장 4개 도로": "백현동 561", "백현동 기타": "백현동 561",
+  "판교공원로 일대": "판교 판교공원로", "운중로113·125번길 일대": "운중 113·125번길",
+  "운중로126·138번길 일대": "운중 126·138번길", "정자동 단독주택 일대": "정자 느티로",
+  "정자동 내정로7번길·불정로 일대": "정자 불정로", "서현동 서현로237번길·안골로 일대": "서현 안골로",
+  "위례 위례서일로1·3길 일대": "위례",
+};
+const favLabel = g => FAV_LABELS[g] || g.replace(/ 일대$/, "");
+const FAVS = [];
+DATA.rows.forEach(r => {
+  const label = favLabel(r.group);
+  let f = FAVS.find(x => x.label === label);
+  if (!f) FAVS.push(f = { label, groups: new Set(), rows: [] });
+  f.groups.add(r.group); f.rows.push(r);
 });
+
+function renderFavs() {
+  document.getElementById("favs").innerHTML = FAVS.map((f, i) =>
+    `<button type="button" class="fav" data-i="${i}">${esc(f.label)} <small>${f.rows.length}</small></button>`).join("");
+}
+
+function goFav(i) {
+  const f = FAVS[i];
+  document.querySelectorAll(".fav").forEach(b => b.setAttribute("aria-pressed", b.dataset.i === String(i)));
+  if (map) {
+    const pts = f.rows.filter(r => r.latlng).map(r => r.latlng);
+    if (pts.length) map.fitBounds(L.latLngBounds(pts), { padding: [30, 30], maxZoom: 18 });
+    if (window.innerWidth <= 1000) document.getElementById("mapBox").scrollIntoView({ behavior: "smooth" });
+  }
+  // 목록에서 해당 구역의 첫 도로 묶음으로 이동 (필터로 숨겨져 있으면 이동하지 않음)
+  const sec = [...document.querySelectorAll("#list section")].find(x => f.groups.has(x.dataset.group));
+  if (sec && window.innerWidth > 1000) sec.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function render() { syncControls(); renderList(); renderMarkers(); }
+
+document.getElementById("sub").textContent = `${DATA.source} · 조회일 ${DATA.generated}`;
 document.getElementById("elevSel").addEventListener("change", e => { state.status = e.target.value; render(); });
 document.getElementById("baseSel").addEventListener("change", e => { state.basement = e.target.value; render();
 });
@@ -490,11 +509,13 @@ document.getElementById("list").addEventListener("click", e => {
   else focusRow(id, true);
 });
 document.getElementById("resetBtn").addEventListener("click", resetFilters);
+document.getElementById("favs").addEventListener("click", e => { const b = e.target.closest(".fav"); if (b) goFav(+b.dataset.i); });
 // 새로고침 시 브라우저가 이전 입력값을 복원해도 화면 상태와 어긋나지 않도록 초기화
 document.getElementById("q").value = "";
 groupSel.value = "";
 document.getElementById("warnOnly").checked = false;
 initMap();
+renderFavs();
 render();
 </script>
 </body>
