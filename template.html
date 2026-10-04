@@ -144,6 +144,8 @@ footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.
 #map.compact .pin.star { width: 17px; height: 17px; }
 #map.compact .pin.star svg path { stroke-width: 2.2; }
 .badge.basement { color: var(--accent); background: var(--surface-2); margin-left: 4px; }
+.badge.lift-later, .badge.lift-unrec, .badge.lift-added { color: var(--yes); background: transparent; border: 1px solid var(--yes); padding: 1px 8px; }
+.badge.lift-stopped, .badge.lift-missing { color: var(--warn); background: var(--warn-bg); }
 .legend .star { color: var(--muted); font-size: 13px; }
 .pin.active { outline: 3px solid #2457c5; outline-offset: 1px; }
 #map.compact .pin:not(.star) { font-size: 0; padding: 0; width: 12px; height: 12px; border-width: 1.5px; }
@@ -155,6 +157,8 @@ footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.
 }
 .leaflet-popup-content { font: 13px/1.5 "Malgun Gothic", system-ui, sans-serif; margin: 10px 12px; }
 .pop { cursor: pointer; }
+.pop-lift { margin-top: 4px; padding-top: 4px; border-top: 1px dashed #d0d4da; }
+.pop-lift .badge { margin-left: 2px; }
 .pop-deal { margin-top: 4px; padding-top: 4px; border-top: 1px dashed #d0d4da; }
 .pop-more { margin-top: 6px; color: #2457c5; font-weight: 600; font-size: 12px; }
 .pop:hover .pop-more { text-decoration: underline; }
@@ -194,6 +198,8 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
       <option value="yes">엘리베이터 있음</option>
       <option value="no">엘리베이터 없음</option>
       <option value="unknown">엘리베이터 확인 불가</option>
+      <option value="regdiff">대장 0대 · 등록 승강기 있음</option>
+      <option value="later">추후 설치만</option>
     </select>
     <select id="baseSel" aria-label="지하 유무">
       <option value="">지하: 전체</option>
@@ -222,6 +228,7 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
     판정 기준: 건축물대장 표제부의 승용 승강기 수 + 비상용 승강기 수가 1 이상이면 ‘있음’, 0이면 ‘없음’, 대장이 조회되지 않으면 ‘확인 불가’.<br>
     한 주소에 여러 동이 있으면 합산했다. 도로명주소가 대장과 일치하지 않으면 같은 지번의 대장 전체를 사용했다(‘지번 기준’ 표시).<br>
     건축물대장은 사용승인 당시 기준이므로 이후 증설·철거된 승강기는 반영되지 않을 수 있다. 행을 누르면 동별 상세가 열리고 지도가 해당 건물로 이동한다. 지도에서 건물을 누르면 정보 박스가 뜨고, 정보 박스를 누르면 목록의 상세로 이동한다.<br>
+    등록 승강기: 한국승강기안전공단 승강기정보(사람이 타는 승강기만, 에스컬레이터·자동차용·덤웨이터·휠체어리프트 제외)를 도로명주소로 연결했다. 대장 0대인데 운행중 승강기가 있으면 ‘있음’으로 표시하고, 설치일이 사용승인보다 1년 넘게 늦으면 ‘추후 설치’, 준공 무렵부터 있었으면 ‘대장 누락’으로 구분했다. ‘증설·교체’는 대장에도 승강기가 있으나 사용승인 1년 이후 설치된 승강기가 있는 경우다.<br>
     실거래: 국토교통부 단독/다가구 매매 실거래가(최근 10년, 해제 거래 제외). 공개 자료는 지번이 일부 가려져 있어 법정동·지번 앞자리·대지면적·연면적이 일치하는 건물에 연결했다. 면적이 정확히 일치하지 않고 근사한 경우는 후보가 한 곳일 때만 연결하고 ‘≈’로 표시했다. 상가·아파트 거래는 포함하지 않는다.<br>
     대지면적은 필지 기준(집합건물은 총괄표제부), 연면적은 해당 주소 모든 동의 합계다. 공원·학교 부지 안의 건물은 대지면적이 매우 크게 나올 수 있다.<br>
     지하 유무: 주건축물 중 지하 층수가 1 이상인 동이 있으면 ‘지하 있음’(★). 대장이 없는 곳은 지하 필터에서 제외된다.<br>
@@ -251,7 +258,10 @@ const fmtDay = d => d && d.length === 8 ? `${d.slice(0, 4)}.${d.slice(4, 6)}.${d
 const isWarn = r => r.status === "no" && r.maxFloors >= 6;
 // 한 도로명주소가 여러 필지에 걸친 경우가 있어 도로명주소+지번으로 구분
 const rid = r => r.doro + "|" + r.jibun;
-const known = r => r.status === "yes" || r.status === "no";
+const known = r => (r.status === "yes" || r.status === "no") && (r.buildings || []).length > 0;
+const LIFT_NOTE = { later: "추후 설치", unrec: "대장 누락", added: "증설·교체", stopped: "운행 중지", missing: "등록 미확인" };
+const liftBadge = r => r.liftNote ? `<span class="badge lift-${r.liftNote}" title="한국승강기안전공단 등록정보 기준">${LIFT_NOTE[r.liftNote]}</span>` : "";
+const regOnly = r => r.liftNote === "later" || r.liftNote === "unrec";  // 대장엔 없고 등록정보로 확인
 const hasBasement = r => known(r) && r.maxBasement > 0;
 
 function title(r) {
@@ -262,7 +272,9 @@ function title(r) {
 }
 
 function matches(r) {
-  if (state.status && (state.status === "unknown" ? !["unknown", "error"].includes(r.status) : r.status !== state.status)) return false;
+  if (state.status === "later" || state.status === "regdiff") {
+    if (state.status === "later" ? r.liftNote !== "later" : !["later", "unrec"].includes(r.liftNote)) return false;
+  } else if (state.status && (state.status === "unknown" ? !["unknown", "error"].includes(r.status) : r.status !== state.status)) return false;
   if (state.deal) {
     const last = r.deals && r.deals[0];
     if (!last || (state.deal !== "any" && last.date < sinceYears(state.deal === "1y" ? 1 : 3))) return false;
@@ -295,6 +307,9 @@ function detailRow(r) {
   return `<tr class="detail"><td colspan="4">
     <div class="muted" style="margin-bottom:4px">대장 매칭: ${esc(r.match)} · 지번 ${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))} · <a href="${esc(r.link)}" target="_blank" rel="noopener">주소 상세</a></div>
     ${rows ? `<table><thead><tr><th>동</th><th>용도</th><th class="num">지상/지하</th><th class="num">승용</th><th class="num">비상용</th><th class="num">연면적</th><th class="num">사용승인</th></tr></thead><tbody>${rows}</tbody></table>` : ""}
+    ${(r.lifts || []).length ? `<div class="muted" style="margin:8px 0 4px">등록 승강기 (한국승강기안전공단, ${r.lifts.length}대)${r.liftNote ? " · " + LIFT_NOTE[r.liftNote] : ""}</div>
+    <table><thead><tr><th>승강기번호</th><th>종류</th><th>상태</th><th class="num">설치일</th><th class="num">최근 검사</th><th>결과</th><th>설치장소</th></tr></thead><tbody>
+    ${r.lifts.map(l => `<tr><td>${esc(l.no)}</td><td>${esc(l.kind)}</td><td>${esc(l.stts)}</td><td class="num">${esc(l.inst)}</td><td class="num">${esc(l.last)}</td><td>${esc(l.result)}</td><td class="muted">${esc(l.place)}</td></tr>`).join("")}</tbody></table>` : ""}
     ${r.deals && r.deals.length ? `<div class="muted" style="margin:8px 0 4px">매매 실거래 (최근 10년, ${r.deals.length}건)</div>
     <table><thead><tr><th>계약일</th><th class="num">거래금액</th><th>유형</th><th class="num">대지 / 연면적</th><th class="num">건축년도</th><th>거래 방식</th><th>비고</th></tr></thead><tbody>
     ${r.deals.map(d => `<tr><td>${d.date}</td><td class="num"><b>${fmtWon(d.amount)}</b></td><td>${esc(d.type)}</td>
@@ -315,13 +330,14 @@ function renderList() {
     <table class="list"><thead><tr><th class="num">층수</th><th class="num">대지 / 연면적</th><th class="num">승강기 (사용승인)</th><th class="num">최근 거래</th></tr></thead>`;
     for (const r of rows) {
       const t = title(r), id = rid(r);
-      const lift = ["yes", "no"].includes(r.status) ? `${r.ride + r.emergency}대${r.emergency ? ` <span class="muted">· 비상 ${r.emergency}</span>` : ""}` : "-";
+      const lift = regOnly(r) ? `${r.liftActive}대 <span class="muted">· 등록</span>`
+        : known(r) ? `${r.ride + r.emergency}대${r.emergency ? ` <span class="muted">· 비상 ${r.emergency}</span>` : ""}` : "-";
       const day = (r.buildings || []).map(b => b.useAprDay).filter(Boolean).sort()[0];
       const nm = parenName(r) || t.name;
       const bld = [nm ? `<b>${esc(nm)}</b>` : "", esc(t.purpose), t.dongs > 1 ? `${t.dongs}개 동` : ""].filter(Boolean).join(" · ");
       html += `<tbody class="entry" data-id="${esc(id)}" aria-expanded="${state.open.has(id)}">
         <tr class="addr"><td colspan="4"><div class="addr-line">
-          <span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? '<span class="badge basement">★ 지하</span>' : ""}${isWarn(r) ? '<span class="badge warn">확인 권장</span>' : ""}
+          <span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? '<span class="badge basement">★ 지하</span>' : ""}${liftBadge(r)}${isWarn(r) ? '<span class="badge warn">확인 권장</span>' : ""}
           <span class="addr-name">${esc(roadOnly(r))} <span class="addr-jibun">(${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))})</span></span>
           ${bld ? `<span class="addr-bld">${bld}</span>` : ""}
         </div></td></tr>
@@ -344,13 +360,19 @@ const markers = new Map();
 
 function popupHtml(r) {
   const t = title(r);
-  const lift = ["yes", "no"].includes(r.status) ? `승강기 ${r.ride + r.emergency}대 (승용 ${r.ride} · 비상 ${r.emergency})` : "건축물대장 없음";
-  return `<div class="pop" role="button" tabindex="0" title="눌러서 목록에서 상세 보기"><span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? `<span class="badge basement">★ 지하 ${r.maxBasement}층</span>` : ""}
+  const lift = known(r) ? `대장 승강기 ${r.ride + r.emergency}대 (승용 ${r.ride} · 비상 ${r.emergency})` : "건축물대장 없음";
+  const act = (r.lifts || []).filter(l => l.stts === "운행중");
+  const lastChk = (r.lifts || []).map(l => l.last).filter(Boolean).sort().pop();
+  const liftLine = (r.lifts || []).length
+    ? `<div class="pop-lift">등록 승강기 <b>${act.length}대 운행중</b>${r.lifts.length > act.length ? ` · ${r.lifts.length - act.length}대 중지` : ""} · 설치 ${[...new Set(r.lifts.map(l => l.inst).filter(Boolean))].sort().join(", ")}${lastChk ? ` · 최근 검사 ${lastChk} ${(r.lifts.find(l => l.last === lastChk) || {}).result || ""}` : ""}${r.liftNote && !regOnly(r) ? ` ${liftBadge(r)}` : ""}</div>`
+    : (r.liftNote === "missing" ? `<div class="pop-lift">등록 승강기 없음 ${liftBadge(r)}</div>` : "");
+  return `<div class="pop" role="button" tabindex="0" title="눌러서 목록에서 상세 보기"><span class="badge ${r.status}">${LABEL[r.status]}</span>${regOnly(r) ? liftBadge(r) : ""}${hasBasement(r) ? `<span class="badge basement">★ 지하 ${r.maxBasement}층</span>` : ""}
     <div><b>${esc(roadOnly(r))}</b> <span class="muted">(${esc(r.jibun.replace(/^경기도 성남시 \S+구 /, ""))})</span></div>
     <div>${esc([parenName(r) || t.name, t.purpose].filter(Boolean).join(" · "))}</div>
     ${known(r) ? `<div>대지 ${fmtArea(r.platArea)} · 연면적 ${fmtArea(r.totArea)}</div>` : ""}
     <div>${r.maxFloors ? `지상 ${r.maxFloors}층${r.maxBasement ? ` / 지하 ${r.maxBasement}층` : ""} · ` : ""}${lift}</div>
     ${r.deals && r.deals.length ? `<div class="pop-deal">최근 거래 <b>${fmtWon(r.deals[0].amount)}</b> · ${r.deals[0].date}${r.deals.length > 1 ? ` <span class="muted">(10년간 ${r.deals.length}건)</span>` : ""}${dealNote(r.deals[0]) ? ` <span class="muted">· ${dealNote(r.deals[0])}</span>` : ""}</div>` : ""}
+    ${liftLine}
     <div class="pop-more">목록에서 상세 보기 ›</div></div>`;
 }
 

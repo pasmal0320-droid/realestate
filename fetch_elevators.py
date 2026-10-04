@@ -5,6 +5,7 @@
   - 조회 결과는 cache/ 에 지번별로 저장되어 재실행 시 API를 다시 부르지 않는다
     (새로 조회하려면 cache/ 폴더를 지우고 실행).
   - 실거래가(단독/다가구 매매, 최근 10년)는 deals.py 로 받아 건물에 연결한다 (cache/rtms/).
+  - 승강기 등록정보(한국승강기안전공단)는 lifts.py 로 받아 추후 설치 여부를 판정한다 (cache/lifts/).
   - 결과: elevator_data.json, 엘리베이터_현황.html, index.html(GitHub Pages용 동일본)
 """
 import json
@@ -266,8 +267,18 @@ def main():
         for r in rows:
             r.setdefault("deals", [])
 
+    print("승강기 등록정보 조회(한국승강기안전공단)")
+    lift_stats = None
+    try:
+        import lifts
+        lift_stats = lifts.attach(rows, key, CACHE_DIR / "lifts")
+        print(f"  등록 승강기 연결 건물 {lift_stats['matched']}곳 · 추후 설치 {lift_stats["later"]} · 대장 누락 {lift_stats["unrec"]} · 증설 {lift_stats['added']}"
+              f" · 운행중지 {lift_stats['stopped']} · 등록 미확인 {lift_stats['missing']}")
+    except RuntimeError as e:
+        print(f"  승강기 조회 실패 -> 등록정보 없이 생성: {e}")
+
     payload = {"generated": date.today().isoformat(), "source": "국토교통부 건축HUB 건축물대장정보 서비스(표제부)",
-               "deals": deal_stats, "center": center, "rows": rows}
+               "deals": deal_stats, "lifts": lift_stats, "center": center, "rows": rows}
     OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     data = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
     html = TEMPLATE.read_text(encoding="utf-8").replace("/*__DATA__*/null", data)
