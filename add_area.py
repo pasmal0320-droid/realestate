@@ -20,7 +20,8 @@ AREAS = [{
     "group": "판교공원로 일대",
     "sigunguCd": "41135",
     "bjdongCd": "10800",  # 판교동
-    # 도로명 -> 포함할 건물번호(본번) 범위. None 이면 전부
+    # 도로명 -> 포함할 건물번호(본번) 범위. None 이면 전부,
+    # "edge" 이면 둘레 큰길: 나머지 도로 건물들이 이루는 영역에서 edge_buffer_m(기본 25m) 이내인 건물만
     "roads": {
         "판교공원로1길": None,
         "판교공원로2길": None,
@@ -116,6 +117,22 @@ AREAS = [{
     },
     "note": "위례서일로1·3길(남북 두 블록) 전체와 둘레의 위례서로 12~34(도로 동쪽), 위례서일로 2~30, 위례광장로 21~45 "
             "홀수(도로 서쪽)를 포함했다. 위례광장로 동쪽 건너편(푸르지오 4~6단지, 아이페리온 등)과 위례서일로 46은 제외했다.",
+}, {
+    "title": "서울 송파구 방이동 올림픽로32길 일대",
+    "group": "방이동 올림픽로32길 일대",
+    "sigunguCd": "11710",  # 서울 송파구
+    "bjdongCd": "11100",   # 방이동
+    "roads": {
+        "올림픽로30길": None, "올림픽로32길": None, "올림픽로34길": None,
+        "오금로11길": None, "오금로13길": None, "오금로15길": None, "오금로17길": None,
+        "위례성대로2길": None, "백제고분로51길": None,
+        # 둘레 큰길은 블록 쪽 면만 (모서리 건물 포함)
+        "올림픽로": (336, 380, "even"), "오금로": (87, 153, "odd"),
+        "백제고분로": (449, 497, "odd"), "위례성대로": (2, 18, "even"),
+    },
+    "note": "올림픽로·오금로·위례성대로·백제고분로로 둘러싸인 블록의 골목(올림픽로30·32·34길, 오금로11·13·15·17길, "
+            "위례성대로2길, 백제고분로51길) 전체와, 둘레 큰길의 블록 쪽 면(올림픽로 336~380 짝수, 오금로 87~153 홀수, "
+            "백제고분로 449~497 홀수, 위례성대로 2~18 짝수)을 포함했다. 오금로 남쪽(송파동)과 백제고분로 동쪽은 제외했다.",
 }]
 
 ROAD_RE = re.compile(r"\S+구 (\S+) (지하)?(\d+)(?:-(\d+))?")  # 시·구 다음의 도로명과 건물번호
@@ -145,6 +162,45 @@ def zip_code(kakao_key, addr):
     return (road or {}).get("zone_no", "")
 
 
+def _xy(ll):
+    """위경도 → 대략적인 미터 좌표 (위도 37.5° 기준)"""
+    return (ll[1] * 88300.0, ll[0] * 111000.0)
+
+
+def _hull(pts):
+    """볼록 껍질 (monotone chain), 반시계 방향"""
+    pts = sorted(set(pts))
+    if len(pts) < 3:
+        return pts
+    cross = lambda o, a, b: (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])
+    lower, upper = [], []
+    for p in pts:
+        while len(lower) >= 2 and cross(lower[-2], lower[-1], p) <= 0:
+            lower.pop()
+        lower.append(p)
+    for p in reversed(pts):
+        while len(upper) >= 2 and cross(upper[-2], upper[-1], p) <= 0:
+            upper.pop()
+        upper.append(p)
+    return lower[:-1] + upper[:-1]
+
+
+def _near_hull(p, hull, buf):
+    """p 가 껍질 안이거나 경계에서 buf(m) 이내인지"""
+    n = len(hull)
+    inside = all((hull[(i + 1) % n][0] - hull[i][0]) * (p[1] - hull[i][1]) -
+                 (hull[(i + 1) % n][1] - hull[i][1]) * (p[0] - hull[i][0]) >= 0 for i in range(n))
+    if inside:
+        return True
+    for i in range(n):
+        (ax, ay), (bx, by) = hull[i], hull[(i + 1) % n]
+        dx, dy = bx - ax, by - ay
+        t = max(0.0, min(1.0, ((p[0] - ax) * dx + (p[1] - ay) * dy) / ((dx * dx + dy * dy) or 1)))
+        if ((p[0] - ax - t * dx) ** 2 + (p[1] - ay - t * dy) ** 2) ** 0.5 <= buf:
+            return True
+    return False
+
+
 def main():
     for area in AREAS:
         if f"\n# {area['title']}\n" in fe.SOURCE_MD.read_text(encoding="utf-8"):
@@ -163,15 +219,28 @@ def add_area(AREA):
         if not m or m.group(1) not in AREA["roads"]:
             continue
         rng, no = AREA["roads"][m.group(1)], int(m.group(3))
-        if rng and not rng[0] <= no <= rng[1]:
+        if rng == "edge":  # 둘레 큰길: 아래에서 안쪽 블록에 붙은 건물만 남긴다
+            rng = None
+        elif rng and not rng[0] <= no <= rng[1]:
             continue
         if rng and len(rng) > 2 and (no % 2 == 1) != (rng[2] == "odd"):
             continue
-        if re.sub(r"^\S+ \S+시 \S+구 ", "", fe.norm_addr(doro)) in AREA.get("exclude", []):
+        if re.sub(r"^\S+?(?:도|특별시|광역시) (?:\S+시 )?\S+구 ", "", fe.norm_addr(doro)) in AREA.get("exclude", []):
             continue
         jibun = re.sub(r"번지$", "", (i.get("platPlc") or "").strip())
         key = (doro, jibun)
         found[key] = found.get(key, 0) + 1
+    edge_roads = {r for r, v in AREA["roads"].items() if v == "edge"}
+    if edge_roads:
+        kakao_key = fe.load_key("KAKAO_REST_KEY")
+        road_of = lambda k: ROAD_RE.search(k[0]).group(1)
+        inner = [fe.geocode(kakao_key, fe.norm_addr(k[0])) for k in found if road_of(k) not in edge_roads]
+        hull = _hull([_xy(ll) for ll in inner if ll])
+        buf = AREA.get("edge_buffer_m", 25)
+        for k in [k for k in found if road_of(k) in edge_roads]:
+            ll = fe.geocode(kakao_key, fe.norm_addr(k[0]))
+            if not ll or not _near_hull(_xy(ll), hull, buf):
+                del found[k]
     for jibun, doro in AREA.get("extras", []):
         found.setdefault((doro, jibun), 0)
 

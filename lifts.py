@@ -62,7 +62,7 @@ def fetch_all(key, sido, sigungu, cache_dir):
 def norm(addr):
     """'경기도 성남시 분당구 판교역로2번길 2 (백현동)' → '판교역로2번길2'"""
     a = re.sub(r"\s*\(.*\)\s*$", "", addr or "")
-    a = re.sub(r"^\S+도\s+\S+시\s+\S+구\s+", "", a.strip())
+    a = re.sub(r"^\S+?(?:도|특별시|광역시)\s+(?:\S+시\s+)?\S+구\s+", "", a.strip())
     return re.sub(r"\s+", "", a)
 
 
@@ -72,7 +72,7 @@ def _d(v):
 
 
 def attach(rows, key, cache_dir):
-    areas = sorted({m.groups() for r in rows for m in [re.match(r"^(\S+도)\s+(\S+시\s+\S+구)\s", r["doro"])] if m})
+    areas = sorted({m.groups() for r in rows for m in [re.match(r"^(\S+?(?:도|특별시|광역시))\s+((?:\S+시\s+)?\S+구)\s", r["doro"])] if m})
     index = {}
     for sido, sigungu in areas:
         for it in fetch_all(key, sido, sigungu, cache_dir):
