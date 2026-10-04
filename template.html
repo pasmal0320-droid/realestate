@@ -170,8 +170,6 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
   table.list > tbody.entry:last-child { border-bottom: 0; }
   table.list > tbody.entry > tr > td, table.list > tbody.entry > tr:last-child > td { border: 0; padding: 2px 0; text-align: left; }
   table.list > tbody.entry > tr.addr > td { padding-bottom: 4px; }
-  table.list > tbody.entry > tr.info > td.area .muted { display: inline; }
-  table.list > tbody.entry > tr.info > td.area .muted::before { content: " / "; }
   table.list > tbody.entry > tr.info > td[data-l]::before { content: attr(data-l) " · "; color: var(--muted); font-size: 12px; }
   tr.detail > td { overflow-x: auto; }
   tr.detail table { min-width: 560px; }
@@ -311,7 +309,7 @@ function renderList() {
         </div></td></tr>
         <tr class="info">
         <td class="num" data-l="층수">${r.maxFloors ? `${r.maxFloors}층${r.maxBasement ? ` / B${r.maxBasement}` : ""}` : "-"}</td>
-        <td class="num area" data-l="대지 / 연면적">${known(r) ? `${fmtArea(r.platArea)}<div class="muted">${fmtArea(r.totArea)}</div>` : "-"}</td>
+        <td class="num area" data-l="대지 / 연면적">${known(r) ? `${fmtArea(r.platArea)} <span class="muted">/</span> ${fmtArea(r.totArea)}` : "-"}</td>
         <td class="num" data-l="승강기">${lift}</td>
         <td class="num" data-l="사용승인">${fmtDay(day) || "-"}</td></tr>
         ${state.open.has(id) ? detailRow(r) : ""}</tbody>`;
