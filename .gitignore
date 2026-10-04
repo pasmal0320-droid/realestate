@@ -1,0 +1,11 @@
+# API 인증키 — 절대 커밋 금지
+*.env
+.env*
+
+# API 원본 응답 캐시 (재실행 시 다시 생성)
+cache/
+
+# 로컬 도구 설정
+.claude/
+__pycache__/
+*.pyc

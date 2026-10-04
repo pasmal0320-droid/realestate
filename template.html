@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>분당 엘리베이터 지도</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --surface-2: #f0f2f5; --border: #e1e4e8;
+  --text: #1c2026; --muted: #5f6772; --accent: #2457c5;
+  --yes: #1a7f4b; --yes-bg: #e3f4ea; --no: #b4372f; --no-bg: #fbe7e5;
+  --unk: #6b6f76; --unk-bg: #eceef1; --warn: #9a6200; --warn-bg: #fff3d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14171b; --surface: #1c2026; --surface-2: #242930; --border: #323840;
+    --text: #e8eaed; --muted: #9aa2ad; --accent: #7aa2f7;
+    --yes: #5cc98d; --yes-bg: #173827; --no: #f08a80; --no-bg: #3d1f1c;
+    --unk: #a3a8b0; --unk-bg: #2a2f36; --warn: #f0b850; --warn-bg: #3a2e14;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14171b; --surface: #1c2026; --surface-2: #242930; --border: #323840;
+  --text: #e8eaed; --muted: #9aa2ad; --accent: #7aa2f7;
+  --yes: #5cc98d; --yes-bg: #173827; --no: #f08a80; --no-bg: #3d1f1c;
+  --unk: #a3a8b0; --unk-bg: #2a2f36; --warn: #f0b850; --warn-bg: #3a2e14;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.5 "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
+.wrap { max-width: 1440px; margin: 0 auto; padding: 28px 16px 60px; }
+h1 { font-size: 24px; margin: 0 0 4px; letter-spacing: -0.02em; }
+.sub { color: var(--muted); font-size: 13px; margin: 0 0 22px; }
+.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 18px; }
+.stat {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 12px 14px; cursor: pointer; text-align: left; color: inherit; font: inherit;
+}
+.stat[aria-pressed="true"] { outline: 2px solid var(--accent); outline-offset: -1px; }
+.stat .n { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.stat .l { font-size: 13px; color: var(--muted); }
+.stat.yes .n { color: var(--yes); } .stat.no .n { color: var(--no); } .stat.unknown .n { color: var(--unk); }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.controls input, .controls select {
+  font: inherit; color: var(--text); background: var(--surface);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
+}
+.controls input[type="search"] { flex: 1 1 240px; min-width: 0; }
+.controls input[type="checkbox"] { padding: 0; margin: 0; }
+.controls label { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); }
+section { margin-bottom: 22px; }
+section h2 { font-size: 16px; margin: 0 0 8px; display: flex; gap: 8px; align-items: baseline; }
+section h2 small { color: var(--muted); font-weight: 400; font-size: 13px; }
+table {
+  width: 100%; border-collapse: collapse; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 10px; overflow: hidden;
+}
+th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+th { background: var(--surface-2); font-size: 12px; color: var(--muted); font-weight: 600; }
+tr:last-child td { border-bottom: 0; }
+tbody tr.main { cursor: pointer; }
+tbody tr.main:hover { background: var(--surface-2); }
+.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.muted { color: var(--muted); font-size: 13px; }
+.badge {
+  display: inline-block; padding: 2px 9px; border-radius: 999px;
+  font-size: 12px; font-weight: 600; white-space: nowrap;
+}
+.badge.yes { color: var(--yes); background: var(--yes-bg); }
+.badge.no { color: var(--no); background: var(--no-bg); }
+.badge.unknown, .badge.error { color: var(--unk); background: var(--unk-bg); }
+.badge.warn { color: var(--warn); background: var(--warn-bg); margin-left: 4px; }
+tr.detail td { background: var(--surface-2); font-size: 13px; }
+tr.detail table { border-radius: 8px; margin: 4px 0; }
+tr.detail th, tr.detail td { padding: 6px 10px; }
+a { color: var(--accent); }
+.empty { padding: 40px; text-align: center; color: var(--muted); }
+footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.7; }
+.layout { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.nomap .layout { display: block; }
+#mapBox { position: sticky; top: 16px; height: calc(100vh - 32px); min-height: 420px; }
+#map { height: 100%; border-radius: 10px; border: 1px solid var(--border); background: var(--surface-2); }
+.zoombox {
+  display: flex; align-items: center; gap: 2px; background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 3px; box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+.zoombox button {
+  width: 30px; height: 30px; border: 0; border-radius: 6px; background: transparent; color: var(--text);
+  font: 700 18px/1 system-ui, sans-serif; cursor: pointer;
+}
+.zoombox button:hover { background: var(--surface-2); }
+.zoombox input {
+  width: 58px; height: 30px; text-align: right; font: 600 14px/1 system-ui, sans-serif; color: var(--text);
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: 6px; padding: 0 4px;
+}
+.zoombox span { font-size: 13px; color: var(--muted); padding-right: 4px; }
+.legend {
+  position: absolute; z-index: 500; left: 10px; bottom: 22px; background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: 12px; display: flex; gap: 10px;
+}
+.filterbar {
+  position: absolute; z-index: 500; top: 10px; left: 50%; transform: translateX(-50%); white-space: nowrap; background: var(--warn-bg); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px 6px 10px; font-size: 13px;
+  display: flex; gap: 8px; align-items: center; box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+.filterbar[hidden] { display: none; }
+.filterbar button {
+  font: inherit; font-size: 12px; cursor: pointer; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--surface); color: var(--text); padding: 3px 8px;
+}
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+.pin {
+  transform: translate(-50%, -50%); display: inline-block; white-space: nowrap; cursor: pointer;
+  font: 700 11px/1 system-ui, sans-serif; color: #fff; padding: 4px 6px; border-radius: 999px;
+  border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.35);
+}
+.pin.yes { background: #1a8f52; } .pin.no { background: #c8443a; } .pin.unknown, .pin.error { background: #7a7f87; }
+/* 지하 있는 건물: 별 모양(색은 엘리베이터 유무) */
+.pin.star {
+  background: none !important; border: 0; box-shadow: none; padding: 0; border-radius: 0;
+  position: relative; width: 30px; height: 30px; display: grid; place-items: center;
+}
+.pin.star svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 1px 1.5px rgba(0,0,0,.45)); }
+.pin.star svg path { stroke: #fff; stroke-width: 1.6; stroke-linejoin: round; }
+.pin.star.yes path { fill: #1a8f52; } .pin.star.no path { fill: #c8443a; } .pin.star.unknown path, .pin.star.error path { fill: #7a7f87; }
+.pin.star svg { z-index: 0; }
+.pin.star b { position: relative; z-index: 1; top: 1px; font-size: 10px; color: #fff; }
+#map.compact .pin.star { width: 17px; height: 17px; }
+#map.compact .pin.star svg path { stroke-width: 2.2; }
+.badge.basement { color: var(--accent); background: var(--surface-2); margin-left: 4px; }
+.stat.basement .n { color: var(--accent); }
+.legend .star { color: var(--muted); font-size: 13px; }
+.pin.active { outline: 3px solid #2457c5; outline-offset: 1px; }
+#map.compact .pin:not(.star) { font-size: 0; padding: 0; width: 12px; height: 12px; border-width: 1.5px; }
+#map.compact .pin.star b { display: none; }
+.legend .yes { background: #1a8f52; } .legend .no { background: #c8443a; } .legend .unknown { background: #7a7f87; }
+.pin-center {
+  transform: translate(-50%, -100%); white-space: nowrap; font: 700 12px/1 system-ui, sans-serif;
+  background: #2457c5; color: #fff; padding: 6px 8px; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,.4);
+}
+.leaflet-popup-content { font: 13px/1.5 "Malgun Gothic", system-ui, sans-serif; margin: 10px 12px; }
+.leaflet-popup-content b { font-size: 14px; }
+tr.main.flash { background: var(--warn-bg) !important; }
+@media (max-width: 1000px) {
+  .layout { display: block; }
+  #mapBox { position: relative; top: 0; height: 52vh; min-height: 320px; margin-bottom: 18px; }
+}
+@media (max-width: 720px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stat.basement { grid-column: span 2; }
+  table.list > thead { display: none; }
+  table.list, table.list > tbody, table.list > tbody > tr, table.list > tbody > tr > td { display: block; width: 100%; }
+  table.list > tbody > tr.main { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  table.list > tbody > tr.main > td { border: 0; padding: 2px 0; text-align: left; }
+  table.list > tbody > tr.main > td.area .muted { display: inline; }
+  table.list > tbody > tr.main > td.area .muted::before { content: " / "; }
+  table.list > tbody > tr.main > td[data-l]::before { content: attr(data-l) " · "; color: var(--muted); font-size: 12px; }
+  tr.detail > td { overflow-x: auto; }
+  tr.detail table { min-width: 560px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>분당 단독주택가 엘리베이터 현황 <small class="muted" style="font-size:14px;font-weight:400">백현동·판교동·운중동·정자동·서현동</small></h1>
+  <p class="sub" id="sub"></p>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="도로명·지번·건물명·용도 검색">
+    <select id="group" aria-label="구역">
+      <option value="">모든 구역</option>
+    </select>
+    <select id="elevSel" aria-label="엘리베이터 유무">
+      <option value="">엘리베이터: 전체</option>
+      <option value="yes">엘리베이터 있음</option>
+      <option value="no">엘리베이터 없음</option>
+      <option value="unknown">엘리베이터 확인 불가</option>
+    </select>
+    <select id="baseSel" aria-label="지하 유무">
+      <option value="">지하: 전체</option>
+      <option value="yes">지하 있음 ★</option>
+      <option value="no">지하 없음</option>
+    </select>
+    <label><input type="checkbox" id="warnOnly"> 6층 이상인데 승강기 0대만</label>
+  </div>
+
+  <div class="layout">
+    <div id="mapBox">
+      <div id="map"></div>
+      <div class="filterbar" id="filterbar" hidden>필터 적용 중 · <b id="fcount"></b>곳 표시 <button type="button" id="resetBtn">전체 보기</button></div>
+      <div class="legend"><span><i class="yes"></i>있음</span><span><i class="no"></i>없음</span><span><i class="unknown"></i>확인 불가</span><span class="star">★ 지하 있음</span><span class="muted">숫자 = 지상 층수</span></div>
+    </div>
+    <div id="list"></div>
+  </div>
+
+  <footer>
+    판정 기준: 건축물대장 표제부의 승용 승강기 수 + 비상용 승강기 수가 1 이상이면 ‘있음’, 0이면 ‘없음’, 대장이 조회되지 않으면 ‘확인 불가’.<br>
+    한 주소에 여러 동이 있으면 합산했다. 도로명주소가 대장과 일치하지 않으면 같은 지번의 대장 전체를 사용했다(‘지번 기준’ 표시).<br>
+    건축물대장은 사용승인 당시 기준이므로 이후 증설·철거된 승강기는 반영되지 않을 수 있다. 행을 누르면 동별 상세가 열리고 지도가 해당 건물로 이동한다.<br>
+    대지면적은 필지 기준(집합건물은 총괄표제부), 연면적은 해당 주소 모든 동의 합계다. 공원·학교 부지 안의 건물은 대지면적이 매우 크게 나올 수 있다.<br>
+    지하 유무: 주건축물 중 지하 층수가 1 이상인 동이 있으면 ‘지하 있음’(★). 대장이 없는 곳은 지하 필터에서 제외된다.<br>
+    좌표: 카카오 로컬 API(주소 검색) · 배경 지도: © OpenStreetMap contributors (타일 OSM France), 위성 © Esri
+  </footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const LABEL = { yes: "있음", no: "없음", unknown: "확인 불가", error: "조회 오류" };
+const state = { status: "", basement: "", q: "", group: "", warnOnly: false, open: new Set() };
+const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8l3.1 6.6 7.2.9-5.3 5 1.4 7.1L12 17.9l-6.4 3.5 1.4-7.1-5.3-5 7.2-.9z"/></svg>';
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const shortAddr = s => String(s).replace(/^경기도 성남시 분당구 /, "");
+const fmtArea = v => v ? `${Number(v).toLocaleString("ko-KR", { maximumFractionDigits: 1 })}㎡` : "-";
+const fmtDay = d => d && d.length === 8 ? `${d.slice(0, 4)}.${d.slice(4, 6)}.${d.slice(6)}` : "";
+const isWarn = r => r.status === "no" && r.maxFloors >= 6;
+const known = r => r.status === "yes" || r.status === "no";
+const hasBasement = r => known(r) && r.maxBasement > 0;
+
+function title(r) {
+  const b = r.buildings || [];
+  const name = b.map(x => x.name).find(Boolean) || "";
+  const purpose = [...new Set(b.filter(x => x.main !== "부속건축물").map(x => x.purpose).filter(Boolean))].join(", ");
+  return { name, purpose, dongs: b.filter(x => x.main !== "부속건축물").length };
+}
+
+function matches(r) {
+  if (state.status && (state.status === "unknown" ? !["unknown", "error"].includes(r.status) : r.status !== state.status)) return false;
+  if (state.basement && (!known(r) || hasBasement(r) !== (state.basement === "yes"))) return false;
+  if (state.group && r.group !== state.group) return false;
+  if (state.warnOnly && !isWarn(r)) return false;
+  if (state.q) {
+    const t = title(r);
+    const hay = [r.doro, r.jibun, t.name, t.purpose, ...(r.buildings || []).map(b => b.etcPurpose)].join(" ").toLowerCase();
+    if (!hay.includes(state.q.toLowerCase())) return false;
+  }
+  return true;
+}
+
+function renderStats() {
+  const rows = DATA.rows;
+  const c = s => rows.filter(r => s === "unknown" ? ["unknown", "error"].includes(r.status) : r.status === s).length;
+  const items = [["", "전체 주소", rows.length], ["yes", "엘리베이터 있음", c("yes")], ["no", "엘리베이터 없음", c("no")], ["unknown", "확인 불가", c("unknown")]];
+  document.getElementById("stats").innerHTML = items.map(([k, l, n]) =>
+    `<button class="stat ${k}" data-s="${k}" aria-pressed="${k ? state.status === k : !state.status && !state.basement}"><div class="n">${n}</div><div class="l">${l}</div></button>`).join("")
+    + `<button class="stat basement" data-b="yes" aria-pressed="${state.basement === "yes"}"><div class="n">★ ${rows.filter(hasBasement).length}</div><div class="l">지하 있음</div></button>`;
+  document.getElementById("elevSel").value = state.status;
+  document.getElementById("baseSel").value = state.basement;
+}
+
+function detailRow(r) {
+  const rows = (r.buildings || []).map(b => `<tr>
+      <td>${esc(b.dong || b.name || "-")}${b.main === "부속건축물" ? ' <span class="muted">(부속)</span>' : ""}</td>
+      <td>${esc(b.purpose)}${b.etcPurpose && b.etcPurpose !== b.purpose ? `<div class="muted">${esc(b.etcPurpose)}</div>` : ""}</td>
+      <td class="num">${b.floors} / B${b.basement}</td>
+      <td class="num">${b.ride}</td><td class="num">${b.emergency}</td>
+      <td class="num">${Number(b.totArea).toLocaleString()}㎡</td>
+      <td class="num">${fmtDay(b.useAprDay)}</td></tr>`).join("");
+  return `<tr class="detail"><td colspan="8">
+    <div class="muted" style="margin-bottom:4px">대장 매칭: ${esc(r.match)} · 지번 ${esc(r.jibun.replace(/^경기도 성남시 분당구 /, ""))} · <a href="${esc(r.link)}" target="_blank" rel="noopener">주소 상세</a></div>
+    ${rows ? `<table><thead><tr><th>동</th><th>용도</th><th class="num">지상/지하</th><th class="num">승용</th><th class="num">비상용</th><th class="num">연면적</th><th class="num">사용승인</th></tr></thead><tbody>${rows}</tbody></table>` : ""}
+  </td></tr>`;
+}
+
+function renderList() {
+  const roads = new Map();
+  DATA.rows.filter(matches).forEach(r => { const k = r.group + "|" + r.road; if (!roads.has(k)) roads.set(k, []); roads.get(k).push(r); });
+  if (!roads.size) { document.getElementById("list").innerHTML = '<div class="empty">조건에 맞는 주소가 없습니다.</div>'; return; }
+  let html = "";
+  for (const [key, rows] of roads) {
+    const road = rows[0].road;
+    const yes = rows.filter(r => r.status === "yes").length;
+    html += `<section><h2>${esc(road)} <small>${rows[0].group} · ${rows.length}건 · 있음 ${yes}</small></h2>
+    <table class="list"><thead><tr><th>상태</th><th>도로명주소</th><th>건물명 · 용도</th><th class="num">층수</th><th class="num">대지 / 연면적</th><th class="num">승강기</th><th class="num">사용승인</th><th>지번</th></tr></thead><tbody>`;
+    for (const r of rows) {
+      const t = title(r), id = r.doro;
+      const lift = ["yes", "no"].includes(r.status) ? `${r.ride + r.emergency}대${r.emergency ? ` <span class="muted">(비상 ${r.emergency})</span>` : ""}` : "-";
+      const day = (r.buildings || []).map(b => b.useAprDay).filter(Boolean).sort()[0];
+      html += `<tr class="main" data-id="${esc(id)}" aria-expanded="${state.open.has(id)}">
+        <td><span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? '<span class="badge basement">★ 지하</span>' : ""}${isWarn(r) ? '<span class="badge warn">확인 권장</span>' : ""}</td>
+        <td>${esc(shortAddr(r.doro).replace(/ \([가-힣]+동\)$/, ""))}</td>
+        <td data-l="건물">${esc(t.name || (t.purpose ? "" : "-"))}<div class="muted">${esc(t.purpose)}${t.dongs > 1 ? ` · ${t.dongs}개 동` : ""}</div></td>
+        <td class="num" data-l="층수">${r.maxFloors ? `${r.maxFloors}층${r.maxBasement ? ` / B${r.maxBasement}` : ""}` : "-"}</td>
+        <td class="num area" data-l="대지 / 연면적">${known(r) ? `${fmtArea(r.platArea)}<div class="muted">${fmtArea(r.totArea)}</div>` : "-"}</td>
+        <td class="num" data-l="승강기">${lift}</td>
+        <td class="num" data-l="사용승인">${fmtDay(day) || "-"}</td>
+        <td class="muted" data-l="지번">${esc(r.jibun.replace(/^경기도 성남시 분당구 /, ""))}</td></tr>`;
+      if (state.open.has(id)) html += detailRow(r);
+    }
+    html += "</tbody></table></section>";
+  }
+  document.getElementById("list").innerHTML = html;
+}
+
+let map = null;
+const markers = new Map();
+
+function popupHtml(r) {
+  const t = title(r);
+  const lift = ["yes", "no"].includes(r.status) ? `승강기 ${r.ride + r.emergency}대 (승용 ${r.ride} · 비상 ${r.emergency})` : "건축물대장 없음";
+  return `<span class="badge ${r.status}">${LABEL[r.status]}</span>${hasBasement(r) ? `<span class="badge basement">★ 지하 ${r.maxBasement}층</span>` : ""}
+    <div><b>${esc(shortAddr(r.doro).replace(/ \([가-힣]+동\)$/, ""))}</b></div>
+    <div>${esc([t.name, t.purpose].filter(Boolean).join(" · "))}</div>
+    ${known(r) ? `<div>대지 ${fmtArea(r.platArea)} · 연면적 ${fmtArea(r.totArea)}</div>` : ""}
+    <div>${r.maxFloors ? `지상 ${r.maxFloors}층${r.maxBasement ? ` / 지하 ${r.maxBasement}층` : ""} · ` : ""}${lift}</div>
+    <div class="muted">${esc(r.jibun.replace(/^경기도 성남시 분당구 /, ""))}</div>`;
+}
+
+// 확대 비율(%): 줌 17 = 100%. 한 단계(줌 +1)마다 2배.
+const ZOOM_BASE = 17, ZOOM_PRESETS = [25, 50, 75, 100, 150, 200, 300, 400, 600, 800];
+const pctOf = z => 100 * Math.pow(2, z - ZOOM_BASE);
+const zoomOf = p => ZOOM_BASE + Math.log2(p / 100);
+
+function addZoomControl() {
+  const ctl = L.control({ position: "topleft" });
+  ctl.onAdd = () => {
+    const box = L.DomUtil.create("div", "zoombox");
+    box.innerHTML = `<button type="button" data-step="-1" title="축소">−</button>
+      <input id="zoomPct" list="zoomPresets" inputmode="numeric" title="확대 비율 입력 후 Enter" aria-label="확대 비율(%)">
+      <span>%</span><button type="button" data-step="1" title="확대">+</button>
+      <datalist id="zoomPresets">${ZOOM_PRESETS.map(p => `<option value="${p}">`).join("")}</datalist>`;
+    L.DomEvent.disableClickPropagation(box);
+    L.DomEvent.disableScrollPropagation(box);
+    const input = box.querySelector("input");
+    const apply = () => {
+      const p = parseFloat(input.value);
+      if (!isFinite(p) || p <= 0) { sync(); return; }
+      map.setZoom(Math.min(Math.max(zoomOf(p), map.getMinZoom()), map.getMaxZoom()));
+    };
+    const sync = () => { if (document.activeElement !== input) input.value = Math.round(pctOf(map.getZoom())); };
+    input.addEventListener("keydown", e => { if (e.key === "Enter") { apply(); input.blur(); } });
+    input.addEventListener("change", apply);
+    input.addEventListener("focus", () => input.select());
+    input.addEventListener("blur", sync);
+    box.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
+      // 현재 비율 기준으로 다음/이전 프리셋으로 이동
+      const cur = pctOf(map.getZoom()), up = b.dataset.step === "1";
+      const next = up ? ZOOM_PRESETS.find(p => p > cur + 0.5) : [...ZOOM_PRESETS].reverse().find(p => p < cur - 0.5);
+      map.setZoom(next ? zoomOf(next) : map.getZoom() + (up ? 1 : -1));
+    }));
+    map.on("zoom zoomend", sync);
+    map.whenReady(sync);
+    return box;
+  };
+  ctl.addTo(map);
+}
+
+function initMap() {
+  const rows = DATA.rows.filter(r => r.latlng);
+  if (!window.L || !rows.length) { document.body.classList.add("nomap"); document.getElementById("mapBox").remove(); return; }
+  map = L.map("map", { zoomControl: false, zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 120 });
+  addZoomControl();
+  // OSM 공식 타일(tile.openstreetmap.org)과 CARTO는 Referer 없는 요청(file:// 로 연 HTML)을 차단·제한하므로
+  // Referer 없이도 동작하는 OpenStreetMap France 서버(HOT: 한글 표기)를 기본으로 쓴다.
+  // 타일 오류가 이어지면 다음 배경으로 자동 전환한다.
+  const OSM_ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  const bases = {
+    "기본 (한글)": L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
+      subdomains: "abc", maxZoom: 20, attribution: OSM_ATTR + ", 타일 OSM France",
+    }),
+    "OSM France": L.tileLayer("https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png", {
+      subdomains: "abc", maxZoom: 20, attribution: OSM_ATTR + ", 타일 OSM France",
+    }),
+    "위성 (Esri)": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+      maxZoom: 19, attribution: "Tiles &copy; Esri",
+    }),
+  };
+  const order = Object.values(bases);
+  let current = order[0], errors = 0;
+  current.addTo(map);
+  order.forEach((layer, i) => layer.on("tileerror", () => {
+    if (layer !== current || ++errors < 6 || i + 1 >= order.length) return;
+    map.removeLayer(layer); current = order[i + 1]; errors = 0; current.addTo(map);
+  }));
+  map.on("baselayerchange", e => { current = e.layer; errors = 0; });
+  L.control.layers(bases, null, { position: "topright" }).addTo(map);
+  if (DATA.center) {
+    L.marker(DATA.center, { icon: L.divIcon({ className: "", html: '<div class="pin-center">백현동 561</div>', iconSize: null }), zIndexOffset: 1000 }).addTo(map);
+  }
+  for (const r of rows) {
+    const m = L.marker(r.latlng, {
+      icon: L.divIcon({ className: "", iconSize: null, html: hasBasement(r)
+        ? `<div class="pin star ${r.status}">${STAR}<b>${r.maxFloors}</b></div>`
+        : `<div class="pin ${r.status}">${r.maxFloors || "?"}</div>` }),
+      title: shortAddr(r.doro),
+    }).bindPopup(() => popupHtml(r));
+    m.on("click", () => focusRow(r.doro, false));
+    markers.set(r.doro, m);
+  }
+  map.fitBounds(L.latLngBounds(rows.map(r => r.latlng)), { padding: [30, 30] });
+  const syncZoom = () => document.getElementById("map").classList.toggle("compact", map.getZoom() < 18);
+  map.on("zoomend", syncZoom);
+  syncZoom();
+}
+
+function renderMarkers() {
+  if (!map) return;
+  for (const r of DATA.rows) {
+    const m = markers.get(r.doro);
+    if (!m) continue;
+    const show = matches(r);
+    if (show && !map.hasLayer(m)) m.addTo(map);
+    if (!show && map.hasLayer(m)) m.remove();
+  }
+  const filtered = state.status || state.basement || state.q || state.group || state.warnOnly;
+  document.getElementById("filterbar").hidden = !filtered;
+  document.getElementById("fcount").textContent = DATA.rows.filter(r => r.latlng && matches(r)).length;
+}
+
+function resetFilters() {
+  Object.assign(state, { status: "", basement: "", q: "", group: "", warnOnly: false });
+  document.getElementById("q").value = "";
+  document.getElementById("group").value = "";
+  document.getElementById("warnOnly").checked = false;
+  render();
+  if (map) map.fitBounds(L.latLngBounds(DATA.rows.filter(r => r.latlng).map(r => r.latlng)), { padding: [30, 30] });
+}
+
+function focusRow(id, moveMap) {
+  state.open.add(id);
+  renderList();
+  const tr = [...document.querySelectorAll("tr.main")].find(t => t.dataset.id === id);
+  if (tr) {
+    tr.scrollIntoView({ block: "center", behavior: "smooth" });
+    tr.classList.add("flash");
+    setTimeout(() => tr.classList.remove("flash"), 1200);
+  }
+  const m = markers.get(id);
+  if (moveMap && m && map.hasLayer(m)) {
+    map.setView(m.getLatLng(), Math.max(map.getZoom(), 18));
+    m.openPopup();
+    if (window.innerWidth <= 1000) document.getElementById("mapBox").scrollIntoView({ behavior: "smooth" });
+  }
+}
+
+function render() { renderStats(); renderList(); renderMarkers(); }
+
+document.getElementById("sub").textContent = `${DATA.source} · 조회일 ${DATA.generated} · 주소 ${DATA.rows.length}건`;
+document.getElementById("stats").addEventListener("click", e => {
+  const b = e.target.closest(".stat"); if (!b) return;
+  if (b.dataset.b) state.basement = state.basement === b.dataset.b ? "" : b.dataset.b;
+  else if (b.dataset.s) state.status = state.status === b.dataset.s ? "" : b.dataset.s;
+  else { state.status = ""; state.basement = ""; }
+  render();
+});
+document.getElementById("elevSel").addEventListener("change", e => { state.status = e.target.value; render(); });
+document.getElementById("baseSel").addEventListener("change", e => { state.basement = e.target.value; render();
+});
+document.getElementById("q").addEventListener("input", e => { state.q = e.target.value.trim(); renderList(); renderMarkers(); });
+const groupSel = document.getElementById("group");
+[...new Set(DATA.rows.map(r => r.group))].forEach(g => groupSel.add(new Option(g, g)));
+groupSel.addEventListener("change", e => {
+  state.group = e.target.value; renderList(); renderMarkers();
+  if (map) {
+    const pts = DATA.rows.filter(r => r.latlng && matches(r)).map(r => r.latlng);
+    if (pts.length) map.fitBounds(L.latLngBounds(pts), { padding: [30, 30], maxZoom: 18 });
+  }
+});
+document.getElementById("warnOnly").addEventListener("change", e => { state.warnOnly = e.target.checked; renderList(); renderMarkers(); });
+document.getElementById("list").addEventListener("click", e => {
+  if (e.target.closest("a")) return;
+  const tr = e.target.closest("tr.main"); if (!tr) return;
+  const id = tr.dataset.id;
+  if (state.open.has(id)) { state.open.delete(id); renderList(); }
+  else focusRow(id, true);
+});
+document.getElementById("resetBtn").addEventListener("click", resetFilters);
+// 새로고침 시 브라우저가 이전 입력값을 복원해도 화면 상태와 어긋나지 않도록 초기화
+document.getElementById("q").value = "";
+groupSel.value = "";
+document.getElementById("warnOnly").checked = false;
+initMap();
+render();
+</script>
+</body>
+</html>

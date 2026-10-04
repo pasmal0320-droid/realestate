@@ -1,0 +1,38 @@
+# 분당 단독주택가 엘리베이터 현황
+
+성남시 분당구 백현동·판교동·운중동·정자동·서현동 단독주택가 건물의 엘리베이터 유무, 지하 유무, 층수, 대지/연면적을 지도와 목록으로 보여주는 페이지입니다.
+
+페이지: https://pasmal0320-droid.github.io/realestate/
+
+## 데이터
+
+- 건물 정보: 국토교통부 건축HUB 건축물대장정보 서비스(표제부·총괄표제부)
+- 좌표: 카카오 로컬 API(주소 검색)
+- 배경 지도: © OpenStreetMap contributors (타일 OSM France), 위성 © Esri
+
+엘리베이터는 건축물대장의 승용·비상용 승강기 수 기준이며, 사용승인 이후 증설·철거는 반영되지 않을 수 있습니다.
+
+## 파일
+
+| 파일 | 설명 |
+|---|---|
+| `index.html` / `엘리베이터_현황.html` | 결과 페이지 (데이터 내장, 동일본) |
+| `백현동561_주변_전체주소록.md` | 조사 대상 주소록 |
+| `elevator_data.json` | 조회 결과 데이터 |
+| `fetch_elevators.py` | 주소록 → 건축물대장·좌표 조회 → HTML 생성 |
+| `add_area.py` | 법정동 건축물대장에서 지정 도로의 주소를 뽑아 주소록에 구역 추가 |
+| `template.html` | 페이지 템플릿 |
+
+## 다시 생성하기
+
+`Key_Open API.env` 파일에 인증키를 넣습니다(저장소에는 포함되지 않음).
+
+```
+DATA_GO_KR_KEY=공공데이터포털_인증키
+KAKAO_REST_KEY=카카오_REST_API_키
+```
+
+```bash
+python add_area.py        # (선택) add_area.py 의 AREAS 에 새 지역을 추가한 경우
+python fetch_elevators.py
+```
