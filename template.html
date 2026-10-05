@@ -153,6 +153,27 @@ footer { color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.
 .pin.active { outline: 3px solid #2457c5; outline-offset: 1px; }
 #map.compact .pin:not(.star) { font-size: 0; padding: 0; width: 12px; height: 12px; border-width: 1.5px; }
 #map.compact .pin.star b { display: none; }
+/* 10년 내 실거래: 금색 테두리 (진한 금색 = 최근 3년, 옅은 금색 = 3~10년) */
+.pin.deal3:not(.star) { border: 3px solid #e0a100; }
+.pin.deal10:not(.star) { border: 3px solid #f3d98b; }
+.pin.star.deal3 svg path { stroke: #e0a100; stroke-width: 2.8; }
+.pin.star.deal10 svg path { stroke: #f3d98b; stroke-width: 2.8; }
+#map.compact .pin.deal3:not(.star), #map.compact .pin.deal10:not(.star) { width: 14px; height: 14px; border-width: 3px; }
+#map.compact .pin.star.deal3 svg path, #map.compact .pin.star.deal10 svg path { stroke-width: 3.4; }
+/* 거래가 모드: 거래 없는 건물은 흐리게 */
+#map.dealmode .pin.nodeal { opacity: .28; }
+#map.dealmode .pin.nodeal:hover { opacity: .8; }
+.legend .ring { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 2px; vertical-align: -1px; background: #fff; }
+.legend .ring.r3 { border: 3px solid #e0a100; } .legend .ring.r10 { border: 3px solid #f3d98b; margin-left: 4px; }
+.modebox {
+  display: flex; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 3px; gap: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+.modebox button {
+  font: 600 13px/1 system-ui, sans-serif; border: 0; border-radius: 6px; padding: 7px 10px; cursor: pointer;
+  background: transparent; color: var(--muted);
+}
+.modebox button[aria-pressed="true"] { background: var(--accent); color: #fff; }
 .legend .yes { background: #1a8f52; } .legend .no { background: #c8443a; } .legend .unknown { background: #7a7f87; }
 .pin-center {
   transform: translate(-50%, -100%); white-space: nowrap; font: 700 12px/1 system-ui, sans-serif;
@@ -230,7 +251,7 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
     <div id="mapBox">
       <div id="map"></div>
       <div class="filterbar" id="filterbar" hidden>필터 적용 중 · <b id="fcount"></b>곳 표시 <button type="button" id="resetBtn">전체 보기</button></div>
-      <div class="legend"><span><i class="yes"></i>있음</span><span><i class="no"></i>없음</span><span><i class="unknown"></i>확인 불가</span><span class="star">★ 지하 있음</span><span class="muted">숫자 = 지상 층수</span></div>
+      <div class="legend"><span><i class="yes"></i>있음</span><span><i class="no"></i>없음</span><span><i class="unknown"></i>확인 불가</span><span class="star">★ 지하 있음</span><span title="금색 테두리: 10년 내 매매 실거래 (진한 금색 = 최근 3년)"><i class="ring r3"></i><i class="ring r10"></i> 10년 내 거래</span><span class="muted" id="legendNum">숫자 = 지상 층수</span></div>
     </div>
     <div id="list"></div>
   </div>
@@ -243,6 +264,7 @@ tbody.entry.flash > tr:not(.detail) { background: var(--warn-bg) !important; }
     등록 승강기: 한국승강기안전공단 승강기정보(사람이 타는 승강기만, 에스컬레이터·자동차용·덤웨이터·휠체어리프트 제외)를 도로명주소로 연결했다. 대장 0대인데 운행중 승강기가 있으면 ‘있음’으로 표시하고, 설치일이 사용승인보다 1년 넘게 늦으면 ‘추후 설치’, 준공 무렵부터 있었으면 ‘대장 누락’으로 구분했다. ‘증설·교체’는 대장에도 승강기가 있으나 사용승인 1년 이후 설치된 승강기가 있는 경우다.<br>
     실거래: 국토교통부 단독/다가구 매매 실거래가(최근 10년, 해제 거래 제외). 공개 자료는 지번이 일부 가려져 있어 법정동·지번 앞자리·대지면적·연면적이 일치하는 건물에 연결했다. 면적이 정확히 일치하지 않고 근사한 경우는 후보가 한 곳일 때만 연결하고 ‘≈’로 표시했다. 상가·아파트 거래는 포함하지 않는다.<br>
     대지면적은 필지 기준(집합건물은 총괄표제부), 연면적은 해당 주소 모든 동의 합계다. 공원·학교 부지 안의 건물은 대지면적이 매우 크게 나올 수 있다.<br>
+    지도 마커의 금색 테두리는 최근 10년 내 매매 실거래가 연결된 건물이다(진한 금색 = 최근 3년 이내). ‘거래가’ 모드에서는 마커 숫자가 최근 거래가(억)로 바뀌고 거래 없는 건물은 흐리게 표시된다.<br>
     지하 유무: 주건축물 중 지하 층수가 1 이상인 동이 있으면 ‘지하 있음’(★). 대장이 없는 곳은 지하 필터에서 제외된다.<br>
     좌표: 카카오 로컬 API(주소 검색) · 배경 지도: © OpenStreetMap contributors (타일 OSM France), 위성 © Esri
   </footer>
@@ -401,6 +423,39 @@ const ZOOM_BASE = 17, ZOOM_PRESETS = [25, 50, 75, 100, 150, 200, 300, 400, 600, 
 const pctOf = z => 100 * Math.pow(2, z - ZOOM_BASE);
 const zoomOf = p => ZOOM_BASE + Math.log2(p / 100);
 
+// 지도 숫자 모드: floors(지상 층수) / price(최근 거래가, 억)
+let mapMode = "floors";
+const dealClass = r => { const d = r.deals && r.deals[0]; return !d ? "nodeal" : d.date >= sinceYears(3) ? "deal3" : "deal10"; };
+function pinLabel(r) {
+  if (mapMode === "price") { const d = r.deals && r.deals[0]; return d ? (d.amount / 10000).toFixed(1) : ""; }
+  return r.maxFloors || (hasBasement(r) ? "" : "?");
+}
+function makeIcon(r) {
+  const cls = `${r.status} ${dealClass(r)}`;
+  return L.divIcon({ className: "", iconSize: null, html: hasBasement(r)
+    ? `<div class="pin star ${cls}">${STAR}<b>${pinLabel(r)}</b></div>`
+    : `<div class="pin ${cls}">${pinLabel(r)}</div>` });
+}
+function setMapMode(mode) {
+  mapMode = mode;
+  document.getElementById("map").classList.toggle("dealmode", mode === "price");
+  document.querySelectorAll(".modebox button").forEach(b => b.setAttribute("aria-pressed", b.dataset.m === mode));
+  document.getElementById("legendNum").textContent = mode === "price" ? "숫자 = 최근 거래가(억)" : "숫자 = 지상 층수";
+  for (const r of DATA.rows) { const m = markers.get(rid(r)); if (m) m.setIcon(makeIcon(r)); }
+}
+function addModeControl() {
+  const ctl = L.control({ position: "topleft" });
+  ctl.onAdd = () => {
+    const box = L.DomUtil.create("div", "modebox");
+    box.innerHTML = `<button type="button" data-m="floors" aria-pressed="true" title="마커 숫자: 지상 층수">층수</button>
+      <button type="button" data-m="price" aria-pressed="false" title="마커 숫자: 최근 거래가(억), 거래 없는 건물은 흐리게">거래가</button>`;
+    L.DomEvent.disableClickPropagation(box);
+    box.addEventListener("click", e => { const b = e.target.closest("button"); if (b) setMapMode(b.dataset.m); });
+    return box;
+  };
+  ctl.addTo(map);
+}
+
 function addZoomControl() {
   const ctl = L.control({ position: "topleft" });
   ctl.onAdd = () => {
@@ -440,6 +495,7 @@ function initMap() {
   if (!window.L || !rows.length) { document.body.classList.add("nomap"); document.getElementById("mapBox").remove(); return; }
   map = L.map("map", { zoomControl: false, zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 120 });
   addZoomControl();
+  addModeControl();
   // OSM 공식 타일(tile.openstreetmap.org)과 CARTO는 Referer 없는 요청(file:// 로 연 HTML)을 차단·제한하므로
   // Referer 없이도 동작하는 OpenStreetMap France 서버(HOT: 한글 표기)를 기본으로 쓴다.
   // 타일 오류가 이어지면 다음 배경으로 자동 전환한다.
@@ -469,9 +525,7 @@ function initMap() {
   }
   for (const r of rows) {
     const m = L.marker(r.latlng, {
-      icon: L.divIcon({ className: "", iconSize: null, html: hasBasement(r)
-        ? `<div class="pin star ${r.status}">${STAR}<b>${r.maxFloors}</b></div>`
-        : `<div class="pin ${r.status}">${r.maxFloors || "?"}</div>` }),
+      icon: makeIcon(r),
       title: shortAddr(r.doro),
     }).bindPopup(() => popupHtml(r));
     m.on("popupopen", e => {
