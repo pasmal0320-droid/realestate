@@ -133,6 +133,17 @@ AREAS = [{
     "note": "올림픽로·오금로·위례성대로·백제고분로로 둘러싸인 블록의 골목(올림픽로30·32·34길, 오금로11·13·15·17길, "
             "위례성대로2길, 백제고분로51길) 전체와, 둘레 큰길의 블록 쪽 면(올림픽로 336~380 짝수, 오금로 87~153 홀수, "
             "백제고분로 449~497 홀수, 위례성대로 2~18 짝수)을 포함했다. 오금로 남쪽(송파동)과 백제고분로 동쪽은 제외했다.",
+}, {
+    "title": "판교동 서판교로44·58·66번길 일대",
+    "group": "판교동 서판교로44·58·66번길 일대",
+    "sigunguCd": "41135",
+    "bjdongCd": "10800",  # 판교동
+    "roads": {"서판교로44번길": None, "서판교로58번길": None, "서판교로66번길": None},
+    # 지도 화면 범위: 아래 44번길 홀수 줄 ~ 위 66번길 2~14 줄, 서판교로 ~ 동쪽 세로 골목
+    "bbox": (37.3907, 37.3927, 127.0975, 127.0997),
+    "note": "서판교로44·58·66번길 중 지도 화면 범위(아래쪽 44번길 1~17-11 홀수 줄부터 위쪽 66번길 2~14 줄까지, "
+            "서판교로에서 동쪽 세로 골목까지)의 건물만 좌표로 골라 포함했다. 44번길 짝수·19번 이후, 66번길 3·5·7·9·13·15·19 "
+            "계열은 화면 밖이라 제외했다.",
 }]
 
 ROAD_RE = re.compile(r"\S+구 (\S+) (지하)?(\d+)(?:-(\d+))?")  # 시·구 다음의 도로명과 건물번호
@@ -230,6 +241,13 @@ def add_area(AREA):
         jibun = re.sub(r"번지$", "", (i.get("platPlc") or "").strip())
         key = (doro, jibun)
         found[key] = found.get(key, 0) + 1
+    if AREA.get("bbox"):  # (위도 최소, 위도 최대, 경도 최소, 경도 최대) 밖의 주소 제외
+        la0, la1, lo0, lo1 = AREA["bbox"]
+        kakao_key = fe.load_key("KAKAO_REST_KEY")
+        for k in list(found):
+            ll = fe.geocode(kakao_key, fe.norm_addr(k[0]))
+            if not ll or not (la0 <= ll[0] <= la1 and lo0 <= ll[1] <= lo1):
+                del found[k]
     edge_roads = {r for r, v in AREA["roads"].items() if v == "edge"}
     if edge_roads:
         kakao_key = fe.load_key("KAKAO_REST_KEY")
