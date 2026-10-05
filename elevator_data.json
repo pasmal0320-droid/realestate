@@ -3,18 +3,18 @@
  "source": "국토교통부 건축HUB 건축물대장정보 서비스(표제부)",
  "deals": {
   "deals": 832,
-  "matched": 285,
+  "matched": 290,
   "ambiguous": 1,
-  "approx": 36,
+  "approx": 27,
   "months": 120,
   "range": "2016.11~2026.10"
  },
  "lifts": {
   "lifts": 25133,
-  "matched": 756,
+  "matched": 770,
   "later": 37,
   "unrec": 40,
-  "added": 84,
+  "added": 85,
   "stopped": 6,
   "missing": 5
  },
@@ -257875,41 +257875,7 @@
     37.3897621,
     127.0841777
    ],
-   "deals": [
-    {
-     "date": "2024.03.15",
-     "amount": 295000,
-     "type": "다가구",
-     "how": "중개거래",
-     "plot": 265.0,
-     "floor": 371.2,
-     "year": 2011,
-     "cand": 1,
-     "approx": true
-    },
-    {
-     "date": "2018.10.25",
-     "amount": 265000,
-     "type": "다가구",
-     "how": "",
-     "plot": 265.0,
-     "floor": 371.2,
-     "year": 2011,
-     "cand": 1,
-     "approx": true
-    },
-    {
-     "date": "2018.10.25",
-     "amount": 265000,
-     "type": "다가구",
-     "how": "",
-     "plot": 265.0,
-     "floor": 371.2,
-     "year": 2011,
-     "cand": 1,
-     "approx": true
-    }
-   ],
+   "deals": [],
    "lifts": [],
    "liftActive": 0,
    "liftNote": ""
@@ -258437,63 +258403,7 @@
     37.3898346,
     127.0840405
    ],
-   "deals": [
-    {
-     "date": "2024.11.11",
-     "amount": 293000,
-     "type": "다가구",
-     "how": "중개거래",
-     "plot": 263.8,
-     "floor": 429.43,
-     "year": 2013,
-     "cand": 1,
-     "approx": true
-    },
-    {
-     "date": "2020.05.04",
-     "amount": 264000,
-     "type": "다가구",
-     "how": "",
-     "plot": 263.8,
-     "floor": 429.43,
-     "year": 2013,
-     "cand": 1,
-     "approx": true
-    },
-    {
-     "date": "2019.11.16",
-     "amount": 236000,
-     "type": "다가구",
-     "how": "",
-     "plot": 264.8,
-     "floor": 430.06,
-     "year": 2012,
-     "cand": 1,
-     "approx": true
-    },
-    {
-     "date": "2017.08.17",
-     "amount": 245000,
-     "type": "단독",
-     "how": "",
-     "plot": 263.8,
-     "floor": 429.43,
-     "year": 2013,
-     "cand": 1,
-     "approx": true
-    },
-    {
-     "date": "2017.04.17",
-     "amount": 216000,
-     "type": "단독",
-     "how": "",
-     "plot": 264.8,
-     "floor": 430.06,
-     "year": 2012,
-     "cand": 1,
-     "approx": true
-    }
-   ],
+   "deals": [],
    "lifts": [],
    "liftActive": 0,
    "liftNote": ""
@@ -258646,17 +258556,6 @@
     127.0839121
    ],
    "deals": [
-    {
-     "date": "2017.08.03",
-     "amount": 270000,
-     "type": "단독",
-     "how": "",
-     "plot": 301.2,
-     "floor": 446.28,
-     "year": 2011,
-     "cand": 1,
-     "approx": true
-    },
     {
      "date": "2017.05.13",
      "amount": 208000,
@@ -260729,6 +260628,4036 @@
     }
    ],
    "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 1,
+   "jibun": "경기도 성남시 분당구 운중동 1018-1",
+   "doro": "경기도 성남시 분당구 운중로 170 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C%20170",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 2,
+   "platArea": 681.2,
+   "totArea": 2597.99,
+   "buildings": [
+    {
+     "name": "다우빌딩",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제1종근린생활시설",
+     "floors": 4,
+     "basement": 2,
+     "ride": 1,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 681.2,
+     "totArea": 2597.99,
+     "useAprDay": "20130916"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B2",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 476.3
+    },
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 496.3
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 406.3
+    },
+    {
+     "f": "2F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 406.3
+    },
+    {
+     "f": "3F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 406.3
+    },
+    {
+     "f": "4F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 406.3
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "소매점",
+     "area": 49.1
+    }
+   ],
+   "floorSummary": "B2~4F 상가",
+   "btypeBy": "층별",
+   "btype": "상가",
+   "latlng": [
+    37.39105,
+    127.0820288
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2146021",
+     "kind": "장애인용",
+     "stts": "운행중",
+     "inst": "2013.04.30",
+     "last": "2026.05.06",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 2,
+   "jibun": "경기도 성남시 분당구 운중동 1018-2",
+   "doro": "경기도 성남시 분당구 운중로 172 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C%20172",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 4,
+   "maxBasement": 2,
+   "platArea": 686.4,
+   "totArea": 2621.89,
+   "buildings": [
+    {
+     "name": "트윈플라자 -Ⅰ",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "표제부",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제1종근린생활시설,제2종근린생활시설",
+     "floors": 4,
+     "basement": 2,
+     "ride": 1,
+     "emergency": 0,
+     "households": 15,
+     "platArea": 686.4,
+     "totArea": 2621.89,
+     "useAprDay": "20101025"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B2",
+     "kind": "shop",
+     "use": "기타제1종근린생활시설",
+     "area": 518.7
+    },
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "기타제1종근린생활시설",
+     "area": 489.1
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "휴게음식점",
+     "area": 402.3
+    },
+    {
+     "f": "2F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 403.9
+    },
+    {
+     "f": "3F",
+     "kind": "shop",
+     "use": "의원",
+     "area": 403.9
+    },
+    {
+     "f": "4F",
+     "kind": "shop",
+     "use": "의원",
+     "area": 403.9
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "기타제1종근린생활시설",
+     "area": 47.1
+    }
+   ],
+   "floorSummary": "B2~4F 상가",
+   "btypeBy": "층별",
+   "btype": "상가",
+   "latlng": [
+    37.3910112,
+    127.082305
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2115093",
+     "kind": "장애인용",
+     "stts": "운행중",
+     "inst": "2010.09.28",
+     "last": "2025.09.25",
+     "result": "조건부합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 1,
+   "jibun": "경기도 성남시 분당구 운중동 1020-4",
+   "doro": "경기도 성남시 분당구 운중로146번길 11 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2011",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 282.4,
+   "totArea": 481.82,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 2,
+     "platArea": 282.4,
+     "totArea": 481.82,
+     "useAprDay": "20110404"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 85.2
+    },
+    {
+     "f": "1F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 57.7
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 101.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 118.7
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 118.7
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 14.1
+    }
+   ],
+   "floorSummary": "B1 상가 · 1F 주택+상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3907155,
+    127.0799341
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 2,
+   "jibun": "경기도 성남시 분당구 운중동 1020",
+   "doro": "경기도 성남시 분당구 운중로146번길 11-4 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2011-4",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 282.0,
+   "totArea": 459.87,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 282.0,
+     "totArea": 459.87,
+     "useAprDay": "20091105"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 49.9
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 128.9
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 140.5
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 140.5
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3909249,
+    127.0799637
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 3,
+   "jibun": "경기도 성남시 분당구 운중동 1020-3",
+   "doro": "경기도 성남시 분당구 운중로146번길 13 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2013",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 271.0,
+   "totArea": 373.59,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택), 제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 271.0,
+     "totArea": 373.59,
+     "useAprDay": "20100219"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "기타제2종근린생활시설",
+     "area": 124.4
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 123.6
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 125.6
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3906428,
+    127.080116
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 4,
+   "jibun": "경기도 성남시 분당구 운중동 1021-4",
+   "doro": "경기도 성남시 분당구 운중로146번길 15 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2015",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 269.8,
+   "totArea": 389.84,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 269.8,
+     "totArea": 389.84,
+     "useAprDay": "20110113"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 133.4
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 128.2
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 128.2
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 14.6
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3905877,
+    127.0803769
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 5,
+   "jibun": "경기도 성남시 분당구 운중동 1020-2",
+   "doro": "경기도 성남시 분당구 운중로146번길 15-3 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2015-3",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 267.4,
+   "totArea": 391.86,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택 및 근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 267.4,
+     "totArea": 391.86,
+     "useAprDay": "20120509"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 129.1
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.4
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.4
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3907931,
+    127.0801441
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 6,
+   "jibun": "경기도 성남시 분당구 운중동 1021-5",
+   "doro": "경기도 성남시 분당구 운중로146번길 15-4 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2015-4",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 263.8,
+   "totArea": 429.43,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(3가구),제2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 263.8,
+     "totArea": 429.43,
+     "useAprDay": "20130116"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "사무소",
+     "area": 54.4
+    },
+    {
+     "f": "1F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 8.8
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 116.0
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 124.6
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 125.6
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 13.0
+    }
+   ],
+   "floorSummary": "B1 상가 · 1F 주택+상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3907689,
+    127.0803979
+   ],
+   "deals": [
+    {
+     "date": "2024.11.11",
+     "amount": 293000,
+     "type": "다가구",
+     "how": "중개거래",
+     "plot": 263.8,
+     "floor": 429.43,
+     "year": 2013,
+     "cand": 1,
+     "approx": false
+    },
+    {
+     "date": "2020.05.04",
+     "amount": 264000,
+     "type": "다가구",
+     "how": "",
+     "plot": 263.8,
+     "floor": 429.43,
+     "year": 2013,
+     "cand": 1,
+     "approx": false
+    },
+    {
+     "date": "2017.08.17",
+     "amount": 245000,
+     "type": "단독",
+     "how": "",
+     "plot": 263.8,
+     "floor": 429.43,
+     "year": 2013,
+     "cand": 1,
+     "approx": false
+    }
+   ],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 7,
+   "jibun": "경기도 성남시 분당구 운중동 1020-1",
+   "doro": "경기도 성남시 분당구 운중로146번길 15-5 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2015-5",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 268.29,
+   "totArea": 373.01,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 268.29,
+     "totArea": 373.01,
+     "useAprDay": "20110621"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 131.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 123.8
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 117.7
+    },
+    {
+     "f": "옥탑4",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 14.1
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3909349,
+    127.0801573
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 8,
+   "jibun": "경기도 성남시 분당구 운중동 1021",
+   "doro": "경기도 성남시 분당구 운중로146번길 15-6 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2015-6",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 264.8,
+   "totArea": 430.06,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 264.8,
+     "totArea": 430.06,
+     "useAprDay": "20120110"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "사무소",
+     "area": 51.7
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 127.9
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.7
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 118.7
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "단독주택",
+     "area": 13.8
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3908975,
+    127.0804283
+   ],
+   "deals": [
+    {
+     "date": "2019.11.16",
+     "amount": 236000,
+     "type": "다가구",
+     "how": "",
+     "plot": 264.8,
+     "floor": 430.06,
+     "year": 2012,
+     "cand": 1,
+     "approx": false
+    },
+    {
+     "date": "2017.04.17",
+     "amount": 216000,
+     "type": "단독",
+     "how": "",
+     "plot": 264.8,
+     "floor": 430.06,
+     "year": 2012,
+     "cand": 1,
+     "approx": false
+    }
+   ],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 9,
+   "jibun": "경기도 성남시 분당구 운중동 1021-3",
+   "doro": "경기도 성남시 분당구 운중로146번길 19 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2019",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 270.8,
+   "totArea": 385.09,
+   "buildings": [
+    {
+     "name": "운천빌딩",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 270.8,
+     "totArea": 385.09,
+     "useAprDay": "20100423"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "사무소",
+     "area": 133.9
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 129.1
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 122.0
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 10.8
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3905496,
+    127.0805611
+   ],
+   "deals": [
+    {
+     "date": "2025.05.07",
+     "amount": 320000,
+     "type": "다가구",
+     "how": "중개거래",
+     "plot": 270.8,
+     "floor": 385.09,
+     "year": 2010,
+     "cand": 1,
+     "approx": false
+    }
+   ],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 10,
+   "jibun": "경기도 성남시 분당구 운중동 1022-5",
+   "doro": "경기도 성남시 분당구 운중로146번길 19-2 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2019-2",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 265.0,
+   "totArea": 380.72,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.0,
+     "totArea": 380.72,
+     "useAprDay": "20101007"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 126.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 128.2
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 126.0
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 16.4
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3906297,
+    127.0808368
+   ],
+   "deals": [
+    {
+     "date": "2024.11.30",
+     "amount": 325000,
+     "type": "다가구",
+     "how": "중개거래",
+     "plot": 265.0,
+     "floor": 380.72,
+     "year": 2010,
+     "cand": 1,
+     "approx": false
+    }
+   ],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 11,
+   "jibun": "경기도 성남시 분당구 운중동 1021-2",
+   "doro": "경기도 성남시 분당구 운중로146번길 19-3 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2019-3",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 263.8,
+   "totArea": 388.24,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 263.8,
+     "totArea": 388.24,
+     "useAprDay": "20100507"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 131.0
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.0
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 126.3
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3907432,
+    127.0805898
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 12,
+   "jibun": "경기도 성남시 분당구 운중동 1022-6",
+   "doro": "경기도 성남시 분당구 운중로146번길 19-4 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2019-4",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 265.0,
+   "totArea": 378.83,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.0,
+     "totArea": 378.83,
+     "useAprDay": "20101007"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 126.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 128.2
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 126.0
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 16.4
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3907672,
+    127.0808595
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 13,
+   "jibun": "경기도 성남시 분당구 운중동 1021-1",
+   "doro": "경기도 성남시 분당구 운중로146번길 19-5 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2019-5",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 263.8,
+   "totArea": 392.33,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 263.8,
+     "totArea": 392.33,
+     "useAprDay": "20111213"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 130.4
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.4
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "단독주택",
+     "area": 131.5
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "단독주택",
+     "area": 15.2
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.390878,
+    127.0806067
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 14,
+   "jibun": "경기도 성남시 분당구 운중동 1022-4",
+   "doro": "경기도 성남시 분당구 운중로146번길 21 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2021",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 275.0,
+   "totArea": 434.53,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 275.0,
+     "totArea": 434.53,
+     "useAprDay": "20111230"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 56.9
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 116.6
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.5
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.5
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 16.8
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3904794,
+    127.0808296
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2143004",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2011.11.18",
+     "last": "2026.03.20",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 15,
+   "jibun": "경기도 성남시 분당구 운중동 1022-3",
+   "doro": "경기도 성남시 분당구 운중로146번길 23-1 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2023-1",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 274.0,
+   "totArea": 433.05,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택), 제2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 274.0,
+     "totArea": 433.05,
+     "useAprDay": "20100810"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 47.2
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 124.7
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 136.3
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 124.7
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 13.3
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3904603,
+    127.081002
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 16,
+   "jibun": "경기도 성남시 분당구 운중동 1022-2",
+   "doro": "경기도 성남시 분당구 운중로146번길 23-3 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2023-3",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 264.0,
+   "totArea": 443.12,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 264.0,
+     "totArea": 443.12,
+     "useAprDay": "20101221"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 55.0
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "휴게음식점",
+     "area": 131.2
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.2
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 126.8
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 16.1
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3906629,
+    127.0810327
+   ],
+   "deals": [
+    {
+     "date": "2021.11.05",
+     "amount": 286000,
+     "type": "다가구",
+     "how": "중개거래",
+     "plot": 264.0,
+     "floor": 443.12,
+     "year": 2010,
+     "cand": 1,
+     "approx": false
+    }
+   ],
+   "lifts": [
+    {
+     "no": "2226990",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2010.11.08",
+     "last": "2026.07.31",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 17,
+   "jibun": "경기도 성남시 분당구 운중동 1025-3",
+   "doro": "경기도 성남시 분당구 운중로146번길 29 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2029",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 270.1,
+   "totArea": 430.21,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 270.1,
+     "totArea": 430.21,
+     "useAprDay": "20101109"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 38.5
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 133.3
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 133.3
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 125.0
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 14.3
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3902817,
+    127.0817708
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 18,
+   "jibun": "경기도 성남시 분당구 운중동 1025",
+   "doro": "경기도 성남시 분당구 운중로146번길 29-4 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2029-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 270.2,
+   "totArea": 385.61,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 3,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 270.2,
+     "totArea": 385.61,
+     "useAprDay": "20091216"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 122.4
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.6
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.6
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 13.4
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.390512,
+    127.0818166
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2249630",
+     "kind": "장애인용",
+     "stts": "운행중",
+     "inst": "2021.11.16",
+     "last": "2025.11.10",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": "added"
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 19,
+   "jibun": "경기도 성남시 분당구 운중동 1025-1",
+   "doro": "경기도 성남시 분당구 운중로146번길 29-8 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2029-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 273.2,
+   "totArea": 499.42,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 273.2,
+     "totArea": 499.42,
+     "useAprDay": "20110613"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "사무소",
+     "area": 127.3
+    },
+    {
+     "f": "1F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 53.5
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "사무소",
+     "area": 69.4
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 127.8
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 121.3
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 16.9
+    },
+    {
+     "f": "옥탑2",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 16.9
+    }
+   ],
+   "floorSummary": "B1 상가 · 1F 주택+상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3904898,
+    127.0819706
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2024663",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2011.05.02",
+     "last": "2026.09.02",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 20,
+   "jibun": "경기도 성남시 분당구 운중동 1025-2",
+   "doro": "경기도 성남시 분당구 운중로146번길 31 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2031",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 301.2,
+   "totArea": 446.28,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 301.2,
+     "totArea": 446.28,
+     "useAprDay": "20110208"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 147.4
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 149.4
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 149.4
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 14.3
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3902496,
+    127.0819224
+   ],
+   "deals": [
+    {
+     "date": "2017.08.03",
+     "amount": 270000,
+     "type": "단독",
+     "how": "",
+     "plot": 301.2,
+     "floor": 446.28,
+     "year": 2011,
+     "cand": 1,
+     "approx": false
+    }
+   ],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 21,
+   "jibun": "경기도 성남시 분당구 운중동 1026-5",
+   "doro": "경기도 성남시 분당구 운중로146번길 31-2 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2031-2",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 263.1,
+   "totArea": 412.21,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 263.1,
+     "totArea": 412.21,
+     "useAprDay": "20111227"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 39.0
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 124.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 124.2
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 124.5
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3902096,
+    127.0821474
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 22,
+   "jibun": "경기도 성남시 분당구 운중동 1026-6",
+   "doro": "경기도 성남시 분당구 운중로146번길 31-4 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2031-4",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 262.2,
+   "totArea": 414.32,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1,2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 262.2,
+     "totArea": 414.32,
+     "useAprDay": "20100927"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "골프연습장",
+     "area": 43.8
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 121.9
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 124.8
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 123.8
+    },
+    {
+     "f": "옥탑4",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 12.5
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.390412,
+    127.0821818
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 23,
+   "jibun": "경기도 성남시 분당구 운중동 1026-7",
+   "doro": "경기도 성남시 분당구 운중로146번길 31-6 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2031-6",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 262.1,
+   "totArea": 386.62,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 262.1,
+     "totArea": 386.62,
+     "useAprDay": "20100506"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 129.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.7
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 126.5
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 14.3
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.390547,
+    127.0822147
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 24,
+   "jibun": "경기도 성남시 분당구 운중동 1026",
+   "doro": "경기도 성남시 분당구 운중로146번길 31-8 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2031-8",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 262.0,
+   "totArea": 378.0,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 262.0,
+     "totArea": 378.0,
+     "useAprDay": "20101007"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 124.1
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 129.2
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 124.6
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 15.6
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3907532,
+    127.0822567
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 25,
+   "jibun": "경기도 성남시 분당구 운중동 1027-3",
+   "doro": "경기도 성남시 분당구 운중로146번길 35 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2035",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 288.0,
+   "totArea": 407.52,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택, 제1종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 288.0,
+     "totArea": 407.52,
+     "useAprDay": "20091223"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "기타제1종근린생활시설",
+     "area": 134.1
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 136.7
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 136.7
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 11.2
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3901081,
+    127.0824982
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 26,
+   "jibun": "경기도 성남시 분당구 운중동 1026-4",
+   "doro": "경기도 성남시 분당구 운중로146번길 35-1 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2035-1",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 263.2,
+   "totArea": 458.96,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 263.2,
+     "totArea": 458.96,
+     "useAprDay": "20111102"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "기타제1종근린생활시설",
+     "area": 74.0
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 122.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.2
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.2
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 15.9
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3901792,
+    127.0822834
+   ],
+   "deals": [
+    {
+     "date": "2018.05.29",
+     "amount": 299000,
+     "type": "단독",
+     "how": "",
+     "plot": 263.2,
+     "floor": 458.96,
+     "year": 2011,
+     "cand": 1,
+     "approx": false
+    }
+   ],
+   "lifts": [
+    {
+     "no": "2115610",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2011.10.05",
+     "last": "2025.10.27",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 27,
+   "jibun": "경기도 성남시 분당구 운중동 1027-1",
+   "doro": "경기도 성남시 분당구 운중로146번길 35-6 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2035-6",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 263.9,
+   "totArea": 390.48,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 3,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 263.9,
+     "totArea": 390.48,
+     "useAprDay": "20131031"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 130.2
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.2
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.2
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 15.2
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3904796,
+    127.0825996
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2126829",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2013.09.11",
+     "last": "2026.09.16",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 28,
+   "jibun": "경기도 성남시 분당구 운중동 1026-1",
+   "doro": "경기도 성남시 분당구 운중로146번길 35-7 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2035-7",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 263.0,
+   "totArea": 433.45,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택)",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 263.0,
+     "totArea": 433.45,
+     "useAprDay": "20091126"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 49.8
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 123.3
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.1
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.2
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 13.7
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3907301,
+    127.0824113
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로146번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 29,
+   "jibun": "경기도 성남시 분당구 운중동 1027",
+   "doro": "경기도 성남시 분당구 운중로146번길 35-8 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C146%EB%B2%88%EA%B8%B8%2035-8",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 286.9,
+   "totArea": 428.4,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 286.9,
+     "totArea": 428.4,
+     "useAprDay": "20101224"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 142.8
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "단독주택",
+     "area": 142.8
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "단독주택",
+     "area": 142.8
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "단독주택",
+     "area": 13.0
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.390696,
+    127.0826608
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 1,
+   "jibun": "경기도 성남시 분당구 운중동 1018",
+   "doro": "경기도 성남시 분당구 운중로166번길 1 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%201",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 2,
+   "maxBasement": 1,
+   "platArea": 681.2,
+   "totArea": 776.1,
+   "buildings": [
+    {
+     "name": "노브랜드 판교운중점",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "제1종근린생활시설",
+     "etcPurpose": "제1종근린생활시설(소매점)",
+     "floors": 2,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 0,
+     "platArea": 681.2,
+     "totArea": 776.1,
+     "useAprDay": "20170515"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 46.2
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 393.1
+    },
+    {
+     "f": "2F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 383.0
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "소매점",
+     "area": 47.1
+    }
+   ],
+   "floorSummary": "B1~2F 상가",
+   "btypeBy": "층별",
+   "btype": "상가",
+   "latlng": [
+    37.3911011,
+    127.0817415
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2181368",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2017.04.25",
+     "last": "2026.05.11",
+     "result": "조건부합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 2,
+   "jibun": "경기도 성남시 분당구 운중동 1019-9",
+   "doro": "경기도 성남시 분당구 운중로166번길 4 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 290.0,
+   "totArea": 488.04,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제1종근린생활시설 및 단독주택(다가구주택(3가구))",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 290.0,
+     "totArea": 488.04,
+     "useAprDay": "20130114"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 60.9
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 140.0
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 143.6
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 143.5
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 16.2
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3910733,
+    127.0813523
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 3,
+   "jibun": "경기도 성남시 분당구 운중동 1019-8",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-2 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-2",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 265.1,
+   "totArea": 440.19,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.1,
+     "totArea": 440.19,
+     "useAprDay": "20110725"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "사무소",
+     "area": 42.7
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 132.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 132.5
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 132.5
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 16.5
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3910852,
+    127.0811755
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2024948",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2011.06.20",
+     "last": "2026.03.10",
+     "result": "조건부합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 4,
+   "jibun": "경기도 성남시 분당구 운중동 1022-1",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-3 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-3",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 265.0,
+   "totArea": 378.84,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.0,
+     "totArea": 378.84,
+     "useAprDay": "20100205"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 121.7
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.7
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 125.4
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3908522,
+    127.0810678
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 5,
+   "jibun": "경기도 성남시 분당구 운중동 1019-7",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-4 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-4",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 265.1,
+   "totArea": 427.07,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.1,
+     "totArea": 427.07,
+     "useAprDay": "20111021"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 49.7
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "사무소",
+     "area": 115.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.4
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.4
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 13.2
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3910921,
+    127.0810036
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2056150",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2011.08.31",
+     "last": "2026.09.16",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 6,
+   "jibun": "경기도 성남시 분당구 운중동 1022",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-5 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-5",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 264.9,
+   "totArea": 383.04,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 264.9,
+     "totArea": 383.04,
+     "useAprDay": "20101214"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 131.3
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 127.3
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 124.5
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 12.2
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.390889,
+    127.0808691
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 7,
+   "jibun": "경기도 성남시 분당구 운중동 1019-6",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-6 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-6",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 265.0,
+   "totArea": 382.0,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택), 제1종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.0,
+     "totArea": 382.0,
+     "useAprDay": "20111212"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "휴게음식점",
+     "area": 127.6
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 131.7
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 122.7
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3911056,
+    127.0808492
+   ],
+   "deals": [
+    {
+     "date": "2016.11.08",
+     "amount": 205500,
+     "type": "다가구",
+     "how": "",
+     "plot": 265.0,
+     "floor": 382.0,
+     "year": 2011,
+     "cand": 1,
+     "approx": false
+    }
+   ],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 8,
+   "jibun": "경기도 성남시 분당구 운중동 1019-5",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-8 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-8",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 265.1,
+   "totArea": 391.1,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.1,
+     "totArea": 391.1,
+     "useAprDay": "20111114"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 127.0
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 132.1
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 132.1
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 14.1
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3911145,
+    127.0806898
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2117024",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2011.09.08",
+     "last": "2026.09.16",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 9,
+   "jibun": "경기도 성남시 분당구 운중동 1019-4",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-10 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-10",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 265.1,
+   "totArea": 378.3,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "제2종근린생활시설 및 단독주택(3가구)",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.1,
+     "totArea": 378.3,
+     "useAprDay": "20121127"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 123.9
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 126.3
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 128.0
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 11.0
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.391127,
+    127.0805536
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 10,
+   "jibun": "경기도 성남시 분당구 운중동 1019-3",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-12 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-12",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 265.0,
+   "totArea": 422.95,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.0,
+     "totArea": 422.95,
+     "useAprDay": "20100323"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 55.3
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점, 골프연습장",
+     "area": 114.0
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 126.8
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 126.8
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 12.7
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3911559,
+    127.0803602
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 11,
+   "jibun": "경기도 성남시 분당구 운중동 1019-2",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-14 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-14",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 265.1,
+   "totArea": 364.1,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.1,
+     "totArea": 364.1,
+     "useAprDay": "20111021"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 124.1
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 120.5
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 119.5
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 11.3
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3911576,
+    127.0802089
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 12,
+   "jibun": "경기도 성남시 분당구 운중동 1019-1",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-16 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-16",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 265.1,
+   "totArea": 375.64,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.1,
+     "totArea": 375.64,
+     "useAprDay": "20110614"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "학원",
+     "area": 123.3
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 130.2
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 122.2
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 15.1
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3911759,
+    127.0800451
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 13,
+   "jibun": "경기도 성남시 분당구 운중동 1019",
+   "doro": "경기도 성남시 분당구 운중로166번길 4-18 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%204-18",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 265.0,
+   "totArea": 371.2,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 265.0,
+     "totArea": 371.2,
+     "useAprDay": "20110126"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "이(미)용원",
+     "area": 131.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 114.7
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 125.0
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 16.4
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.391165,
+    127.0798866
+   ],
+   "deals": [
+    {
+     "date": "2024.03.15",
+     "amount": 295000,
+     "type": "다가구",
+     "how": "중개거래",
+     "plot": 265.0,
+     "floor": 371.2,
+     "year": 2011,
+     "cand": 1,
+     "approx": false
+    },
+    {
+     "date": "2018.10.25",
+     "amount": 265000,
+     "type": "다가구",
+     "how": "",
+     "plot": 265.0,
+     "floor": 371.2,
+     "year": 2011,
+     "cand": 1,
+     "approx": false
+    },
+    {
+     "date": "2018.10.25",
+     "amount": 265000,
+     "type": "다가구",
+     "how": "",
+     "plot": 265.0,
+     "floor": 371.2,
+     "year": 2011,
+     "cand": 1,
+     "approx": false
+    }
+   ],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 14,
+   "jibun": "경기도 성남시 분당구 운중동 1023",
+   "doro": "경기도 성남시 분당구 운중로166번길 6 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%206",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 290.5,
+   "totArea": 475.31,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 290.5,
+     "totArea": 475.31,
+     "useAprDay": "20100414"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "일반음식점",
+     "area": 46.9
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "부동산중개사무소, 소매점",
+     "area": 138.9
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 144.8
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 144.8
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3908337,
+    127.0813046
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2022938",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2010.01.27",
+     "last": "2026.01.28",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 15,
+   "jibun": "경기도 성남시 분당구 운중동 1024-1",
+   "doro": "경기도 성남시 분당구 운중로166번길 7 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%207",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 320.4,
+   "totArea": 527.23,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "다가구주택(3가구) 및 근생",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 320.4,
+     "totArea": 527.23,
+     "useAprDay": "20160603"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "휴게음식점",
+     "area": 58.9
+    },
+    {
+     "f": "1F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 13.4
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "휴게음식점",
+     "area": 149.6
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 150.9
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 141.2
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 13.4
+    }
+   ],
+   "floorSummary": "B1 상가 · 1F 주택+상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3905995,
+    127.0815807
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 16,
+   "jibun": "경기도 성남시 분당구 운중동 1023-1",
+   "doro": "경기도 성남시 분당구 운중로166번길 8 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%208",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 0,
+   "platArea": 289.5,
+   "totArea": 385.76,
+   "buildings": [
+    {
+     "name": ".",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제2종근린생활시설",
+     "floors": 3,
+     "basement": 0,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 289.5,
+     "totArea": 385.76,
+     "useAprDay": "20101007"
+    }
+   ],
+   "floors": [
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "부동산중개사무소",
+     "area": 144.6
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 114.5
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 126.6
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 12.2
+    }
+   ],
+   "floorSummary": "1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3906714,
+    127.0812925
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 17,
+   "jibun": "경기도 성남시 분당구 운중동 1024-2",
+   "doro": "경기도 성남시 분당구 운중로166번길 9 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%209",
+   "status": "yes",
+   "match": "도로명 일치",
+   "ride": 1,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 320.5,
+   "totArea": 625.97,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 1,
+     "emergency": 0,
+     "households": 2,
+     "platArea": 320.5,
+     "totArea": 625.97,
+     "useAprDay": "20101004"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 146.0
+    },
+    {
+     "f": "1F",
+     "kind": "house",
+     "use": "단독주택",
+     "area": 55.7
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 104.3
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "단독주택",
+     "area": 160.0
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "단독주택",
+     "area": 160.0
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 17.7
+    }
+   ],
+   "floorSummary": "B1 상가 · 1F 주택+상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3903718,
+    127.0815375
+   ],
+   "deals": [],
+   "lifts": [
+    {
+     "no": "2069655",
+     "kind": "승객용",
+     "stts": "운행중",
+     "inst": "2010.09.06",
+     "last": "2025.10.22",
+     "result": "합격",
+     "place": "1-1"
+    }
+   ],
+   "liftActive": 1,
+   "liftNote": ""
+  },
+  {
+   "road": "운중로166번길",
+   "group": "운중동 운중로146·166번길 일대",
+   "no": 18,
+   "jibun": "경기도 성남시 분당구 운중동 1023-2",
+   "doro": "경기도 성남시 분당구 운중로166번길 10 (운중동)",
+   "zip": "13467",
+   "entries": 1,
+   "link": "https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9A%B4%EC%A4%91%EB%A1%9C166%EB%B2%88%EA%B8%B8%2010",
+   "status": "no",
+   "match": "도로명 일치",
+   "ride": 0,
+   "emergency": 0,
+   "maxFloors": 3,
+   "maxBasement": 1,
+   "platArea": 290.4,
+   "totArea": 481.35,
+   "buildings": [
+    {
+     "name": "",
+     "dong": "",
+     "main": "주건축물",
+     "kind": "일반건축물",
+     "purpose": "단독주택",
+     "etcPurpose": "단독주택(다가구주택),제1종근린생활시설",
+     "floors": 3,
+     "basement": 1,
+     "ride": 0,
+     "emergency": 0,
+     "households": 3,
+     "platArea": 290.4,
+     "totArea": 481.35,
+     "useAprDay": "20100507"
+    }
+   ],
+   "floors": [
+    {
+     "f": "B1",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 47.9
+    },
+    {
+     "f": "1F",
+     "kind": "shop",
+     "use": "소매점",
+     "area": 144.5
+    },
+    {
+     "f": "2F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 144.5
+    },
+    {
+     "f": "3F",
+     "kind": "house",
+     "use": "다가구주택",
+     "area": 144.5
+    },
+    {
+     "f": "옥탑1",
+     "kind": "support",
+     "use": "다가구주택",
+     "area": 13.3
+    }
+   ],
+   "floorSummary": "B1~1F 상가 · 2~3F 주택",
+   "btypeBy": "층별",
+   "btype": "상가주택",
+   "latlng": [
+    37.3904105,
+    127.0812462
+   ],
+   "deals": [],
+   "lifts": [],
+   "liftActive": 0,
    "liftNote": ""
   }
  ]
