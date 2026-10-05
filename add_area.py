@@ -144,6 +144,17 @@ AREAS = [{
     "note": "서판교로44·58·66번길 중 지도 화면 범위(아래쪽 44번길 1~17-11 홀수 줄부터 위쪽 66번길 2~14 줄까지, "
             "서판교로에서 동쪽 세로 골목까지)의 건물만 좌표로 골라 포함했다. 44번길 짝수·19번 이후, 66번길 3·5·7·9·13·15·19 "
             "계열은 화면 밖이라 제외했다.",
+}, {
+    "title": "야탑동 장미로·야탑로 사이 일대",
+    "group": "야탑동 장미로·야탑로 일대",
+    "sigunguCd": "41135",
+    "bjdongCd": "10700",  # 야탑동
+    "roads": None,  # 골목이 많아 도로 대신 좌표 범위로 선택
+    "bbox": (37.4099, 37.4137, 127.1288, 127.1340),
+    # 단지 중심 좌표가 범위 경계 바로 밖이지만 화면 안에 있는 아파트
+    "extras": [("경기도 성남시 분당구 야탑동 391", "경기도 성남시 분당구 야탑로 125 (야탑동, 아이파크)")],
+    "note": "성남대로(서)·장미로(북)·매화로(동)·야탑로(남) 사이, 지도 화면 범위 안의 야탑동 건물 전체를 좌표로 골라 포함했다. "
+            "아이파크(야탑로 125)는 단지 중심 좌표가 범위 경계 밖이라 직접 추가했다.",
 }]
 
 ROAD_RE = re.compile(r"\S+구 (\S+) (지하)?(\d+)(?:-(\d+))?")  # 시·구 다음의 도로명과 건물번호
@@ -227,9 +238,10 @@ def add_area(AREA):
     for i in dong_items(AREA):
         doro = (i.get("newPlatPlc") or "").strip()
         m = ROAD_RE.search(doro)
-        if not m or m.group(1) not in AREA["roads"]:
+        any_road = AREA["roads"] is None  # 도로 지정 없음: bbox 안의 모든 도로
+        if not m or (not any_road and m.group(1) not in AREA["roads"]):
             continue
-        rng, no = AREA["roads"][m.group(1)], int(m.group(3))
+        rng, no = (None if any_road else AREA["roads"][m.group(1)]), int(m.group(3))
         if rng == "edge":  # 둘레 큰길: 아래에서 안쪽 블록에 붙은 건물만 남긴다
             rng = None
         elif rng and not rng[0] <= no <= rng[1]:
@@ -248,7 +260,7 @@ def add_area(AREA):
             ll = fe.geocode(kakao_key, fe.norm_addr(k[0]))
             if not ll or not (la0 <= ll[0] <= la1 and lo0 <= ll[1] <= lo1):
                 del found[k]
-    edge_roads = {r for r, v in AREA["roads"].items() if v == "edge"}
+    edge_roads = {r for r, v in (AREA["roads"] or {}).items() if v == "edge"}
     if edge_roads:
         kakao_key = fe.load_key("KAKAO_REST_KEY")
         road_of = lambda k: ROAD_RE.search(k[0]).group(1)
@@ -264,7 +276,8 @@ def add_area(AREA):
 
     def sort_key(k):
         m = ROAD_RE.search(k[0])
-        return (list(AREA["roads"]).index(m.group(1)), int(m.group(3)), int(m.group(4) or 0))
+        order = list(AREA["roads"]) if AREA["roads"] else sorted({ROAD_RE.search(x[0]).group(1) for x in found})
+        return (order.index(m.group(1)), int(m.group(3)), int(m.group(4) or 0))
 
     by_road = defaultdict(list)
     kakao_key = fe.load_key("KAKAO_REST_KEY", required=False)
