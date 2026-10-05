@@ -15,6 +15,8 @@ import time
 import urllib.parse
 import urllib.error
 import urllib.request
+
+import btype
 from datetime import date
 from pathlib import Path
 
@@ -29,6 +31,7 @@ OUT_INDEX = BASE / "index.html"  # GitHub Pages 진입 페이지 (내용 동일)
 
 API_URL = "https://apis.data.go.kr/1613000/BldRgstHubService/getBrTitleInfo"
 RECAP_URL = API_URL.replace("getBrTitleInfo", "getBrRecapTitleInfo")
+FLOOR_URL = API_URL.replace("getBrTitleInfo", "getBrFlrOulnInfo")
 KAKAO_URL = "https://dapi.kakao.com/v2/local/search/address.json"
 CENTER_ADDR = "경기도 성남시 분당구 백현동 561"
 
@@ -126,14 +129,14 @@ def call_api(key, params, retries=3, url_base=API_URL):
         page += 1
 
 
-def fetch_lot(key, row, recap=False):
+def fetch_lot(key, row, recap=False, floor=False):
     """지번별 표제부(recap=True 이면 총괄표제부)를 조회한다. 결과는 cache/ 에 저장."""
     params = {k: row[k] for k in ("sigunguCd", "bjdongCd", "platGbCd", "bun", "ji")}
-    name = ("recap_" if recap else "") + "{sigunguCd}_{bjdongCd}_{platGbCd}_{bun}_{ji}.json".format(**params)
+    name = ("recap_" if recap else "flr_" if floor else "") + "{sigunguCd}_{bjdongCd}_{platGbCd}_{bun}_{ji}.json".format(**params)
     cache = CACHE_DIR / name
     if cache.exists():
         return json.loads(cache.read_text(encoding="utf-8"))
-    items = call_api(key, params, url_base=RECAP_URL if recap else API_URL)
+    items = call_api(key, params, url_base=RECAP_URL if recap else FLOOR_URL if floor else API_URL)
     cache.write_text(json.dumps(items, ensure_ascii=False), encoding="utf-8")
     time.sleep(0.1)
     return items
@@ -239,6 +242,8 @@ def main():
             if row["status"] in ("yes", "no") and not row["platArea"]:
                 recap = fetch_lot(key, row, recap=True)
                 row["platArea"] = round(max([float(i.get("platArea") or 0) for i in recap] or [0]), 2)
+            # 건물 유형(단독주택·상가주택 등)과 층별 구성
+            btype.classify(row, fetch_lot(key, row, floor=True) if row["status"] in ("yes", "no") else [])
         except RuntimeError as e:
             errors += 1
             row.update({"status": "error", "match": str(e)[:200], "buildings": []})
